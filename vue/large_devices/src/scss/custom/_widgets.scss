@@ -1,0 +1,54 @@
+
+/*
+section{
+
+  small{
+    &.section-description{
+      @extend %muted-small;
+    }
+  }
+
+  header{
+    &.section-header{
+      p{
+
+        &:first-of-type{
+
+          font-size: 1.0625rem;
+        }
+
+
+         font-size:$font-size-base;
+
+      }
+    }
+  }
+
+
+
+
+  &.fwidget{
+
+
+    header{
+      &.section-header{
+        p{
+          font-size:$font-size-base;
+        }
+      }
+    }
+
+    .widget-list{
+      li{
+        a{
+          @extend %small-text;
+        }
+      }
+    }
+
+
+  }
+}
+
+
+*/

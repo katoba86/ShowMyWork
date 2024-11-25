@@ -1,0 +1,109 @@
+$icon-offset:48px;
+
+.flipped{
+  transform: scaleX(-1);
+}
+
+.caret-right{
+  background-image:url(../js/main/images/svg/baseline-chevron_right-24px.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.timeline-item .mt-icon{
+  padding-left:0;
+  position:relative;
+  width:24px;
+  height:24px;
+  display:block;
+  &:before{
+    margin-left:-14px;
+  }
+
+}
+
+.mt-icon{
+  padding-left: $icon-offset;
+  &:before{
+    display:block;
+    width:24px;
+    height:24px;
+    content:' ';
+    opacity:.5;
+    position:absolute;
+    margin-left:$icon-offset*-.75;
+    background-size:24px;
+  }
+
+  &.mt-favourite{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_favorite_black_24dp.png);
+    }
+  }
+  &.mt-train{
+    &:before{
+      background-image:url('../js/main/images/icons/ic_train_black_24dp.png');
+    }
+  }
+  &.mt-home{
+    &:before{
+      background-image:url('../js/main/images/svg/home.svg');
+    }
+  }
+  &.mt-caret{
+    &:before{
+      background-image:url('../js/main/images/baseline-chevron_right-24px.svg');
+    }
+  }
+  &.mt-hst{
+    &:before{
+      background-image:url('../js/main/images/icons/ic_schedule_black_24dp.png');
+    }
+  }
+  &.mt-faq{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_help_black_24dp.png);
+    }
+  }
+  &.mt-map{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_room_black_24dp.png);
+    }
+  }
+  &.mt-info{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_info_outline_black_24dp.png);
+    }
+  }
+  &.mt-plan{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_today_black_24dp.png);
+    }
+  }
+  &.mt-alt_route{
+    &:before{
+      background-image:url(/mobile/images/svg/alt_route-24px.svg);
+    }
+  }
+  &.mt-map2{
+    &:before{
+      background-image:url(/mobile/images/svg/map-24px.svg);
+    }
+  }
+  &.mt-start{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_directions_black_24dp.png);
+    }
+  }
+  &.mt-schedule{
+    &:before{
+      background-image:url(/mobile/images/svg/schedule-24px.svg);
+    }
+  }
+  &.mt-bus{
+    &:before{
+      background-image:url(../js/main/images/icons/ic_directions_bus_black_24dp.png);
+    }
+  }
+
+}

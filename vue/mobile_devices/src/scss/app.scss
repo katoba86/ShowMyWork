@@ -1,0 +1,184 @@
+@charset 'UTF-8';
+
+//--------------------------------------------------------------------------
+// Theme
+//--------------------------------------------------------------------------
+//
+// Override default variables of TheSaaS and personalize the font and colors
+// for your own project.
+//
+@import "theme";
+
+
+
+
+
+//--------------------------------------------------------------------------
+// Core
+//--------------------------------------------------------------------------
+//
+// Include core functionality of the template, including Bootstrap. This
+// file is required.
+//
+@import "./plugin/thesaas/scss/loaders/core";
+
+
+//--------------------------------------------------------------------------
+// Vendors
+//--------------------------------------------------------------------------
+//
+// Load style of some plugins and icon fonts. If you don't need any
+// of the following plugins, simply comment the line.
+//
+// The minified size of each module has stated for your reference. So you'd
+// know how much KB you can save by removing a vendor.
+//
+//@import "./plugin/thesaas/scss/vendor/aos";            // 34 kb
+//@import "./plugin/thesaas/scss/vendor/constellation";  // ~0 kb
+//@import "./plugin/thesaas/scss/vendor/countdown";      // 01 kb
+//@import "./plugin/thesaas/scss/vendor/countup";        // ~0 kb
+//@import "./plugin/thesaas/scss/vendor/fontawesome";    // 30 kb
+//@import "./plugin/thesaas/scss/vendor/fontawesome5";   // 35 kb
+//@import "./plugin/thesaas/scss/vendor/et-line-icon";   // 06 kb
+//@import "./plugin/thesaas/scss/vendor/themify-icons";  // 13 kb
+//@import "./plugin/thesaas/scss/vendor/jarallax";       // ~0 kb
+//@import "./plugin/thesaas/scss/vendor/slick";          // 08 kb
+//@import "./plugin/thesaas/scss/vendor/lity";           // 03 kb
+//@import "./plugin/thesaas/scss/vendor/photoswipe";     // 11 kb
+//@import "./plugin/thesaas/scss/vendor/typedjs";        // ~0 kb
+
+
+//--------------------------------------------------------------------------
+// Partials
+//--------------------------------------------------------------------------
+//
+// Split the application code to several files. It includes most of the
+// functionalities that you see in demo. This file is required.
+//
+@import "./plugin/thesaas/scss/loaders/partials";
+
+
+//@import "./custom/loader";
+@import "./rewrite/loader";
+
+
+input.styled{
+
+  border:0;
+  box-shadow:4px 2px 4px rgba(0,0,0,.5);
+  padding:8px;
+  border-radius:1em;
+  &::-webkit-calendar-picker-indicator{
+    background:gray;
+    mask: url(../js/main/images/svg/time.svg) no-repeat 70% 70%;
+    mask-size: cover;
+  }
+  &::placeholder{
+    color:red;
+  }
+
+}
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -30px, 0) scaleY(1.1);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -15px, 0) scaleY(1.05);
+  }
+
+  80% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0) scaleY(0.95);
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0) scaleY(1.02);
+  }
+}
+
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-timing-function: ease-in-out;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: .5s;
+}
+
+.bounce{
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.blocked{
+  overflow-y:hidden!important;
+}
+
+.rubberBand{
+  animation-name: rubberBand;
+}
+
+.shake{
+  @extend .animated;
+  @extend .rubberBand;
+  animation-timing-function: ease-in-out;
+}

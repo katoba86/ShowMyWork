@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>City</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/static/images/favicon-32x32.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#3198a3">
+    <meta name="msapplication-navbutton-color" content="#3198a3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3198a3">
+
+
+
+
+    <meta name="description" content="Erfahre wann und wo dein Zug oder Bus kommt. Frage Strecken und optimierte Routen ab! Und das Beste: Kostenlos!">
+    <link crossorigin rel="preload"  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link crossorigin rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <script>var input = {"origin":{"name":"Hamm","type":"C","id":4191},"destination":{"name":"Berlin","type":"C","id":893},"date":"2020-12-13T16:49:36+01:00","ts":1607874576,"end":null,"way":true,"travelers":"child|0,baby|0,adult|1"};</script>
+    <script>var mon = 0;
+    var md = 0;
+    var mob = 1;
+    var user_near = [{"id":4510,"name":"Herdecke","type":"city","station":8002769,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.3994,"lng":7.43159},"distance":5213.809},{"id":2179,"name":"Dortmund","type":"city","station":8000080,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.5139,"lng":7.46465},"distance":7808.147},{"id":10057,"name":"Schwerte","type":"city","station":8000037,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.45,"lng":7.567},"distance":7842.632},{"id":11942,"name":"Wetter","type":"city","station":8006386,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.3859,"lng":7.38806},"distance":7950.632},{"id":12175,"name":"Witten","type":"city","station":8000251,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.44,"lng":7.33738},"distance":8162.277},{"id":4118,"name":"Hagen","type":"city","station":8000142,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.3587,"lng":7.46903},"distance":9543.141},{"id":4877,"name":"Holzwickede","type":"city","station":8000392,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.5001,"lng":7.62261},"distance":13237.635},{"id":1719,"name":"Castrop-Rauxel","type":"city","station":8001327,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.5487,"lng":7.30934},"distance":15409.52},{"id":3361,"name":"Gevelsberg","type":"city","station":8002267,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.3237,"lng":7.33757},"distance":15668.795},{"id":2607,"name":"Ennepetal","type":"city","station":8001795,"bundesland":{"bundesland_id":1,"name":"NRW"},"location":{"lat":51.3064,"lng":7.38792},"distance":15997.353}];</script>
+
+
+</head>
+<body id="body" class="mobile ">
+
+
+
+
+
+
+<main class="main-content">
+
+
+    <header class="dtc-header dtc-header-app default" id="header-app">
+        <div id="app"></div>
+    </header>
+    <div class="header-cta">
+        <h1>Bus und Bahn-Verbindungen</h1>
+        <h2>Erhalte deinen Fahrplan, deine Streckeninfos direkt und unkompliziert! Vergleiche Bus & Bahn.</h2>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card card-shadow mt-5" id="haltestellen">
+                    <div class="card-body">
+                        <h5 class="card-title">Haltestellen in Hamm</h5>
+                        <p class="card-text">Suchen Sie innerhalb von Hamm nach Ihrer Haltestelle. Zur Zeit
+                            unterstützt unsere Suche sowohl Haltestellen für Linienbusse als auch
+                            U-Bahn-Stationen.
+                            Erfahren Sie die Abfahrt &amp; Ankunft von nahezu jedem Linienbus bzw. Bus
+                            in Hamm in dem Sie Ihre passende Haltestelle auswählen. So
+                            einfach kann es sein seinen Fahrplan für Ihre Verkehrsmittel
+                            in Hamm zu erhalten.
+                        </p>
+                    </div>
+
+                    <div class="w-100 text-center">
+                        <a href="#" class="btn btn-danger btn-round btn-shadow w-80p">Suche nach Haltestelle</a>
+                    </div>
+
+                    <div class="list-group list-group-flush scrollable h-500 my-4">
+
+                        <div class="list-group-title">Einige Haltestellen in Hamm</div>
+
+                        <a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/ostwennemar_sumpstrasse_hamm_westf-410024d" title="Stadt Ostwennemar Sumpstraße, Hamm (Westf)">Ostwennemar Sumpstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/alte_synagoge_markt_hamm_westf-410116f" title="Stadt Alte Synagoge/Markt, Hamm (Westf)">Alte Synagoge/Markt, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/bradfordstrasse_hamm_westf-4102552" title="Stadt Bradfordstraße, Hamm (Westf)">Bradfordstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/westhusen_schloss_oberwerries_hamm_westf-410696b" title="Stadt Westhusen Schloß Oberwerries, Hamm (Westf)">Westhusen Schloß Oberwerries, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/westhusener_weg_hamm_westf-4106976" title="Stadt Westhusener Weg, Hamm (Westf)">Westhusener Weg, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/schafbusch_hamm_westf_heessen-4106982" title="Stadt Schafbusch, Hamm (Westf) Heessen">Schafbusch, Hamm (Westf) Heessen</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/am_roten_lppchen_hamm_westf-4107013" title="Stadt Am Roten Läppchen, Hamm (Westf)">Am Roten Läppchen, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/frielinghauser_strasse_hamm_westf-414094c" title="Stadt Frielinghauser Straße, Hamm (Westf)">Frielinghauser Straße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/vckinghauser_weg_hamm_westf-4141104" title="Stadt Vöckinghauser Weg, Hamm (Westf)">Vöckinghauser Weg, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/geranienstrasse_hamm_westf-4146955" title="Stadt Geranienstraße, Hamm (Westf)">Geranienstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/brucknerstrasse_hamm_westf-414703a" title="Stadt Brucknerstraße, Hamm (Westf)">Brucknerstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/abzw_walterstrasse_hamm_westf-9000020" title="Stadt Abzw. Walterstraße, Hamm (Westf)">Abzw. Walterstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/agnesstrasse_hamm_westf-900011a" title="Stadt Agnesstraße, Hamm (Westf)">Agnesstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/wehrstrasse_hamm_westf-9000201" title="Stadt Wehrstraße, Hamm (Westf)">Wehrstraße, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/ahornallee_hamm_westf-9001752" title="Stadt Ahornallee, Hamm (Westf)">Ahornallee, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/nordalm_hamm_westf-900220a" title="Stadt Nordalm, Hamm (Westf)">Nordalm, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/sandknapp_hamm_westf-900356d" title="Stadt Sandknapp, Hamm (Westf)">Sandknapp, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/kreuzkamphalle_hamm_westf-9003572" title="Stadt Kreuzkamphalle, Hamm (Westf)">Kreuzkamphalle, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/grner_winkel_hamm_westf-9003597" title="Stadt Grüner Winkel, Hamm (Westf)">Grüner Winkel, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/brandheide_hamm_westf-9003600" title="Stadt Brandheide, Hamm (Westf)">Brandheide, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/bimbergsheide_hamm_westf-900361f" title="Stadt Bimbergsheide, Hamm (Westf)">Bimbergsheide, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/am_hagenkamp_hamm_westf-9003622" title="Stadt Am Hagenkamp, Hamm (Westf)">Am Hagenkamp, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/zehntgarbenweg_hamm_westf-9003996" title="Stadt Zehntgarbenweg, Hamm (Westf)">Zehntgarbenweg, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/am_gallberg_hamm_westf-9004554" title="Stadt Am Gallberg, Hamm (Westf)">Am Gallberg, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestelle/am_hang_hamm_westf-9004579" title="Stadt Am Hang, Hamm (Westf)">Am Hang, Hamm (Westf)</a><a class="list-group-item text-default caret-right" href="/nrw/hamm/haltestellen" title="Alle Haltestellen der Stadt Hamm">Alle Haltestellen</a>                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <article>
+        <div class="stepper__step stepper__step--complete"><span
+                class="stepper__step__step primary"></span>
+            <h5 class="stepper__label h6">Step Name</h5>
+        </div>
+        <div class="stepper__content ">
+            <div class="stepper__wrapper h-auto ">
+
+
+                <ul class="mlist">
+                    <a href="#linkToKeineAhnung" title="Fahrplan der Haltestelle" class="list__group ">
+
+                        <ul class="list__group__header link">
+                            <li class="list__group__header__prepend-icon">
+                                <svg width="24" height="24">
+                                    <use href="#svg_schedule"/>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="list__tile caret-right">
+                                    <div class="list__tile__content">
+                                        <div class="list__tile__title text-dark">Fahrplan der
+                                            Haltestelle
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                    </a>
+                    <li class="list__group action" data-trigger="asStart" data-id="5512">
+
+                        <ul class="list__group__header">
+                            <li class="list__group__header__prepend-icon">
+                                <svg width="24" height="24">
+                                    <use href="#svg_start2"/>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="list__tile caret-right">
+                                    <div class="list__tile__content">
+                                        <div class="list__tile__title">Als Startpunkt wählen</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </li>
+                    <li class="list__group action" data-trigger="showInMap"
+                        data-id="5512">
+
+                        <ul class="list__group__header">
+                            <li class="list__group__header__prepend-icon">
+                                <svg width="24" height="24">
+                                    <use href="#svg_start"/>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="list__tile caret-right">
+                                    <div class="list__tile__content">
+                                        <div class="list__tile__title">In Karte anzeigen</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </li>
+
+                    <li class="list__group">
+
+                        <ul class="list__group__header action" data-trigger="changeLinie"
+                            data-id="100046">
+                            <li class="list__group__header__prepend-icon">
+                                <svg width="24" height="24">
+                                    <use href="#svg_map"/>
+                                </svg>
+                            </li>
+                            <li>
+                                <div class="list__tile caret-right">
+                                    <div class="list__tile__content">
+                                        <div class="list__tile__title">Anschluss zu</div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="chevron" fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
+        <path d="M0 0h24v24H0z" fill="none"></path>
+    </symbol>
+    <symbol id="chevron_dark" fill="#333333" height="24" viewBox="0 0 24 24" width="24"
+            xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
+        <path d="M0 0h24v24H0z" fill="none"></path>
+    </symbol>
+
+    <symbol id="dtc-off-canvas-svg" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        <path d="M0 0h24v24H0z" fill="none"></path>
+    </symbol>
+    <symbol id="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></symbol>
+
+    <symbol id="swap" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M13.98 22L6 30l7.98 8v-6H28v-4H13.98v-6zM42 18l-7.98-8v6H20v4h14.02v6L42 18z"/></symbol>
+
+</svg>
+<script type="text/javascript" src="/js/city.js"></script>
+</body>
+</html>

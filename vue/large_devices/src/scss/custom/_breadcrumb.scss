@@ -1,0 +1,36 @@
+.breadcrumb{
+
+
+
+
+//position: relative;
+  overflow: hidden;
+  /* margin-bottom: 20px; */
+  /* padding: 8px 15px; */
+  list-style: none;
+  white-space: nowrap;
+  border-radius: 0;
+  font-size: 11px;
+  background-color: transparent !important;
+
+  margin: 0 auto!important;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+
+  >li{
+    display: inline-block;
+
+  }
+  a{
+    color: #555;
+  }
+
+  >li+li:before {
+    padding: 0 5px;
+    content: '/\00a0';
+    color: #ccc;
+  }
+
+}

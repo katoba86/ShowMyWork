@@ -1,0 +1,27 @@
+
+.list-group{
+  .list-group-title{
+    padding: $list-group-item-padding-y $list-group-item-padding-x;
+     font-size:.87rem;
+    color:$gray-700;
+    text-transform:uppercase;
+    letter-spacing:.4px;
+    font-weight:500;
+  }
+
+  &.list-group-transparent{
+    .list-group-item{
+      background-color:transparent!important;
+    }
+  }
+
+}
+
+.feature-1{
+  @extend %elevation_medium;
+  padding:$card-padding ($card-padding/2)*3;
+  margin-bottom:$card-padding*2;
+  @extend .bg-white;
+  @extend %card-border-radius_medium;
+
+}

@@ -1,0 +1,2140 @@
+{
+  "journeys": [
+    {
+      "arriveIsTrainStation": true,
+      "departureIsTrainStation": true,
+      "hash": "0abfaa4a443abfc67d90f12ce446ec3b",
+      "text": {
+        "headline": "Mit der Bahn",
+        "icons": [
+          "zug.png"
+        ],
+        "via": [
+          "Werne a d Lippe",
+          "Dortmund Hbf",
+          "D\u00fcsseldorf Hbf",
+          "W\u00fcrzburg Hbf",
+          "Waigolshausen"
+        ]
+      },
+      "time_departure": {
+        "timestamp": 1548417780,
+        "full": "25.01.2019 13:03",
+        "date": "25.01.2019",
+        "time": "13:03",
+        "int": 783
+      },
+      "time_arrive": {
+        "timestamp": 1548437400,
+        "full": "25.01.2019 18:30",
+        "date": "25.01.2019",
+        "time": "18:30",
+        "int": 1110
+      },
+      "isExact": true,
+      "duration": {
+        "inMinutes": 327,
+        "human": "05h 27 min.",
+        "humanSplit": {
+          "hours": 5,
+          "minutes": 27
+        }
+      },
+      "fare": {
+        "cent": 13000,
+        "euro": 130
+      },
+      "modules": [
+        "DB"
+      ],
+      "products": {
+        "full": [
+          "ERB89933",
+          "IC 2011",
+          "ICE 723",
+          "RB 58061"
+        ],
+        "short": [
+          "ERB89",
+          "IC",
+          "ICE",
+          "RB"
+        ]
+      },
+      "interChange": 3,
+      "trips": {
+        "origin": {
+          "name": "Werne a d Lippe",
+          "extId": "8006348",
+          "lat": 51.669241,
+          "lng": 7.622924
+        },
+        "destination": {
+          "name": "Waigolshausen",
+          "extId": "8006147",
+          "lat": 49.967259,
+          "lng": 10.115723
+        },
+        "provider": "DB",
+        "providerIsDB": false,
+        "timeStart": {
+          "timestamp": 1548417780,
+          "full": "25.01.2019 13:03",
+          "date": "25.01.2019",
+          "time": "13:03",
+          "int": 783
+        },
+        "link": "http:\/\/partners.webmasterplan.com\/click.asp?ref=715105&site=2894&type=text&tnb=126&prd=yes&S=Werne+a+d+Lippe&Z=Waigolshausen&date=25.01.2019&time=13%3A03&start=1&subid=default",
+        "timeArrive": {
+          "timestamp": 1548437400,
+          "full": "25.01.2019 18:30",
+          "date": "25.01.2019",
+          "time": "18:30",
+          "int": 1110
+        },
+        "isExact": true,
+        "fare": {
+          "cent": 13000,
+          "euro": 130
+        },
+        "hint": [],
+        "duration": {
+          "inMinutes": 327,
+          "human": "05h 27 min.",
+          "humanSplit": {
+            "hours": 5,
+            "minutes": 27
+          }
+        },
+        "distance": null,
+        "interchange": 3,
+        "steps": [
+          {
+            "vkmType": [
+              "eurobahn",
+              "DPN"
+            ],
+            "vkmName": "ERB89933",
+            "from": {
+              "name": "Werne a d Lippe",
+              "loc": [
+                51669241,
+                7622924
+              ],
+              "time": {
+                "timestamp": 1548417780,
+                "full": "25.01.2019 13:03",
+                "date": "25.01.2019",
+                "time": "13:03",
+                "int": 783
+              }
+            },
+            "to": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548419280,
+                "full": "25.01.2019 13:28",
+                "date": "25.01.2019",
+                "time": "13:28",
+                "int": 808
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 25,
+              "human": "00h 25 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 25
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.669241,
+                7.622924
+              ],
+              [
+                51.617229,
+                7.529581
+              ],
+              [
+                51.588113,
+                7.539756
+              ],
+              [
+                51.567141,
+                7.528538
+              ],
+              [
+                51.546979,
+                7.509948
+              ],
+              [
+                51.517872,
+                7.459276
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Werne a d Lippe",
+                "lid": "A=1@O=Werne a d Lippe@X=7622933@Y=51669250@U=81@L=8006348@",
+                "extId": "8006348"
+              },
+              {
+                "name": "L\u00fcnen Hbf",
+                "lid": "A=1@O=L\u00fcnen Hbf@X=7529482@Y=51617130@U=81@L=8000239@",
+                "extId": "8000239"
+              },
+              {
+                "name": "Preu\u00dfen",
+                "lid": "A=1@O=Preu\u00dfen@X=7539693@Y=51588149@U=81@L=8004883@",
+                "extId": "8004883"
+              },
+              {
+                "name": "Dortmund-Derne",
+                "lid": "A=1@O=Dortmund-Derne@X=7528825@Y=51567717@U=81@L=8001530@",
+                "extId": "8001530"
+              },
+              {
+                "name": "Dortmund-Kirchderne",
+                "lid": "A=1@O=Dortmund-Kirchderne@X=7510101@Y=51547078@U=81@L=8001533@",
+                "extId": "8001533"
+              },
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              }
+            ],
+            "jidId": "1|206131|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity",
+              "IC"
+            ],
+            "vkmName": "IC 2011",
+            "from": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548420720,
+                "full": "25.01.2019 13:52",
+                "date": "25.01.2019",
+                "time": "13:52",
+                "int": 832
+              }
+            },
+            "to": {
+              "name": "D\u00fcsseldorf Hbf",
+              "loc": [
+                51219708,
+                6794011
+              ],
+              "time": {
+                "timestamp": 1548423720,
+                "full": "25.01.2019 14:42",
+                "date": "25.01.2019",
+                "time": "14:42",
+                "int": 882
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 50,
+              "human": "00h 50 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 50
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.517872,
+                7.459276
+              ],
+              [
+                51.47849,
+                7.223264
+              ],
+              [
+                51.451378,
+                7.01386
+              ],
+              [
+                51.431314,
+                6.886636
+              ],
+              [
+                51.429615,
+                6.77606
+              ],
+              [
+                51.219708,
+                6.794011
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              },
+              {
+                "name": "Bochum Hbf",
+                "lid": "A=1@O=Bochum Hbf@X=7223273@Y=51478607@U=81@L=8000041@",
+                "extId": "8000041"
+              },
+              {
+                "name": "Essen Hbf",
+                "lid": "A=1@O=Essen Hbf@X=7014795@Y=51451351@U=81@L=8000098@",
+                "extId": "8000098"
+              },
+              {
+                "name": "M\u00fclheim(Ruhr)Hbf",
+                "lid": "A=1@O=M\u00fclheim(Ruhr)Hbf@X=6886510@Y=51431341@U=81@L=8000259@",
+                "extId": "8000259"
+              },
+              {
+                "name": "Duisburg Hbf",
+                "lid": "A=1@O=Duisburg Hbf@X=6775907@Y=51429786@U=81@L=8000086@",
+                "extId": "8000086"
+              },
+              {
+                "name": "D\u00fcsseldorf Hbf",
+                "lid": "A=1@O=D\u00fcsseldorf Hbf@X=6794317@Y=51219960@U=81@L=8000085@",
+                "extId": "8000085"
+              }
+            ],
+            "jidId": "1|170027|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity-Express",
+              "ICE"
+            ],
+            "vkmName": "ICE 723",
+            "from": {
+              "name": "D\u00fcsseldorf Hbf",
+              "loc": [
+                51219708,
+                6794011
+              ],
+              "time": {
+                "timestamp": 1548425580,
+                "full": "25.01.2019 15:13",
+                "date": "25.01.2019",
+                "time": "15:13",
+                "int": 913
+              }
+            },
+            "to": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548435660,
+                "full": "25.01.2019 18:01",
+                "date": "25.01.2019",
+                "time": "18:01",
+                "int": 1081
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 168,
+              "human": "02h 48 min.",
+              "humanSplit": {
+                "hours": 2,
+                "minutes": 48
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.219708,
+                6.794011
+              ],
+              [
+                50.940602,
+                6.975162
+              ],
+              [
+                50.794051,
+                7.202616
+              ],
+              [
+                50.052926,
+                8.569776
+              ],
+              [
+                50.106817,
+                8.663003
+              ],
+              [
+                49.98059,
+                9.143854
+              ],
+              [
+                49.802163,
+                9.93593
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "D\u00fcsseldorf Hbf",
+                "lid": "A=1@O=D\u00fcsseldorf Hbf@X=6794317@Y=51219960@U=81@L=8000085@",
+                "extId": "8000085"
+              },
+              {
+                "name": "K\u00f6ln Messe\/Deutz Gl.11-12",
+                "lid": "A=1@O=K\u00f6ln Messe\/Deutz Gl.11-12@X=6974065@Y=50941717@U=81@L=8073368@",
+                "extId": "8073368"
+              },
+              {
+                "name": "Siegburg\/Bonn",
+                "lid": "A=1@O=Siegburg\/Bonn@X=7203029@Y=50793916@U=81@L=8005556@",
+                "extId": "8005556"
+              },
+              {
+                "name": "Frankfurt(M) Flughafen Fernbf",
+                "lid": "A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@U=81@L=8070003@",
+                "extId": "8070003"
+              },
+              {
+                "name": "Frankfurt(Main)Hbf",
+                "lid": "A=1@O=Frankfurt(Main)Hbf@X=8663785@Y=50107149@U=81@L=8000105@",
+                "extId": "8000105"
+              },
+              {
+                "name": "Aschaffenburg Hbf",
+                "lid": "A=1@O=Aschaffenburg Hbf@X=9143693@Y=49980554@U=81@L=8000010@",
+                "extId": "8000010"
+              },
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              }
+            ],
+            "jidId": "1|172859|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Regionalbahn",
+              "RB"
+            ],
+            "vkmName": "RB 58061",
+            "from": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548436020,
+                "full": "25.01.2019 18:07",
+                "date": "25.01.2019",
+                "time": "18:07",
+                "int": 1087
+              }
+            },
+            "to": {
+              "name": "Waigolshausen",
+              "loc": [
+                49967259,
+                10115723
+              ],
+              "time": {
+                "timestamp": 1548437400,
+                "full": "25.01.2019 18:30",
+                "date": "25.01.2019",
+                "time": "18:30",
+                "int": 1110
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 23,
+              "human": "00h 23 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 23
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                49.802163,
+                9.93593
+              ],
+              [
+                49.792024,
+                10.029148
+              ],
+              [
+                49.854382,
+                10.102464
+              ],
+              [
+                49.898986,
+                10.076521
+              ],
+              [
+                49.942737,
+                10.085106
+              ],
+              [
+                49.967259,
+                10.115723
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              },
+              {
+                "name": "Rottendorf",
+                "lid": "A=1@O=Rottendorf@X=10029094@Y=49791970@U=81@L=8005198@",
+                "extId": "8005198"
+              },
+              {
+                "name": "Seligenstadt(b W\u00fcrzburg)",
+                "lid": "A=1@O=Seligenstadt(b W\u00fcrzburg)@X=10102455@Y=49854256@U=81@L=8005523@",
+                "extId": "8005523"
+              },
+              {
+                "name": "Bergtheim",
+                "lid": "A=1@O=Bergtheim@X=10076476@Y=49899301@U=81@L=8000902@",
+                "extId": "8000902"
+              },
+              {
+                "name": "E\u00dfleben",
+                "lid": "A=1@O=E\u00dfleben@X=10085223@Y=49943105@U=81@L=8001919@",
+                "extId": "8001919"
+              },
+              {
+                "name": "Waigolshausen",
+                "lid": "A=1@O=Waigolshausen@X=10116029@Y=49967295@U=81@L=8006147@",
+                "extId": "8006147"
+              }
+            ],
+            "jidId": "1|192109|0|81|25012019"
+          }
+        ]
+      },
+      "cid": "J-0"
+    },
+    {
+      "arriveIsTrainStation": true,
+      "departureIsTrainStation": true,
+      "hash": "120aa357448ad8ee2cb8dc947826276f",
+      "text": {
+        "headline": "Mit der Bahn",
+        "icons": [
+          "zug.png"
+        ],
+        "via": [
+          "Werne a d Lippe",
+          "Dortmund Hbf",
+          "Kassel-Wilhelmsh\u00f6he",
+          "W\u00fcrzburg Hbf",
+          "Waigolshausen"
+        ]
+      },
+      "time_departure": {
+        "timestamp": 1548421380,
+        "full": "25.01.2019 14:03",
+        "date": "25.01.2019",
+        "time": "14:03",
+        "int": 843
+      },
+      "time_arrive": {
+        "timestamp": 1548441000,
+        "full": "25.01.2019 19:30",
+        "date": "25.01.2019",
+        "time": "19:30",
+        "int": 1170
+      },
+      "isExact": true,
+      "duration": {
+        "inMinutes": 327,
+        "human": "05h 27 min.",
+        "humanSplit": {
+          "hours": 5,
+          "minutes": 27
+        }
+      },
+      "fare": {
+        "cent": 10600,
+        "euro": 106
+      },
+      "modules": [
+        "DB"
+      ],
+      "products": {
+        "full": [
+          "ERB89935",
+          "ABR26721",
+          "ICE 1581",
+          "RB 58067"
+        ],
+        "short": [
+          "ERB89",
+          "ABR26",
+          "ICE",
+          "RB"
+        ]
+      },
+      "interChange": 3,
+      "trips": {
+        "origin": {
+          "name": "Werne a d Lippe",
+          "extId": "8006348",
+          "lat": 51.669241,
+          "lng": 7.622924
+        },
+        "destination": {
+          "name": "Waigolshausen",
+          "extId": "8006147",
+          "lat": 49.967259,
+          "lng": 10.115723
+        },
+        "provider": "DB",
+        "providerIsDB": false,
+        "timeStart": {
+          "timestamp": 1548421380,
+          "full": "25.01.2019 14:03",
+          "date": "25.01.2019",
+          "time": "14:03",
+          "int": 843
+        },
+        "link": "http:\/\/partners.webmasterplan.com\/click.asp?ref=715105&site=2894&type=text&tnb=126&prd=yes&S=Werne+a+d+Lippe&Z=Waigolshausen&date=25.01.2019&time=14%3A03&start=1&subid=default",
+        "timeArrive": {
+          "timestamp": 1548441000,
+          "full": "25.01.2019 19:30",
+          "date": "25.01.2019",
+          "time": "19:30",
+          "int": 1170
+        },
+        "isExact": true,
+        "fare": {
+          "cent": 10600,
+          "euro": 106
+        },
+        "hint": [],
+        "duration": {
+          "inMinutes": 327,
+          "human": "05h 27 min.",
+          "humanSplit": {
+            "hours": 5,
+            "minutes": 27
+          }
+        },
+        "distance": null,
+        "interchange": 3,
+        "steps": [
+          {
+            "vkmType": [
+              "eurobahn",
+              "DPN"
+            ],
+            "vkmName": "ERB89935",
+            "from": {
+              "name": "Werne a d Lippe",
+              "loc": [
+                51669241,
+                7622924
+              ],
+              "time": {
+                "timestamp": 1548421380,
+                "full": "25.01.2019 14:03",
+                "date": "25.01.2019",
+                "time": "14:03",
+                "int": 843
+              }
+            },
+            "to": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548422880,
+                "full": "25.01.2019 14:28",
+                "date": "25.01.2019",
+                "time": "14:28",
+                "int": 868
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 25,
+              "human": "00h 25 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 25
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.669241,
+                7.622924
+              ],
+              [
+                51.617229,
+                7.529581
+              ],
+              [
+                51.588113,
+                7.539756
+              ],
+              [
+                51.567141,
+                7.528538
+              ],
+              [
+                51.546979,
+                7.509948
+              ],
+              [
+                51.517872,
+                7.459276
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Werne a d Lippe",
+                "lid": "A=1@O=Werne a d Lippe@X=7622933@Y=51669250@U=81@L=8006348@",
+                "extId": "8006348"
+              },
+              {
+                "name": "L\u00fcnen Hbf",
+                "lid": "A=1@O=L\u00fcnen Hbf@X=7529482@Y=51617130@U=81@L=8000239@",
+                "extId": "8000239"
+              },
+              {
+                "name": "Preu\u00dfen",
+                "lid": "A=1@O=Preu\u00dfen@X=7539693@Y=51588149@U=81@L=8004883@",
+                "extId": "8004883"
+              },
+              {
+                "name": "Dortmund-Derne",
+                "lid": "A=1@O=Dortmund-Derne@X=7528825@Y=51567717@U=81@L=8001530@",
+                "extId": "8001530"
+              },
+              {
+                "name": "Dortmund-Kirchderne",
+                "lid": "A=1@O=Dortmund-Kirchderne@X=7510101@Y=51547078@U=81@L=8001533@",
+                "extId": "8001533"
+              },
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              }
+            ],
+            "jidId": "1|206131|1|81|25012019"
+          },
+          {
+            "vkmType": [
+              "ABELLIO Rail NRW GmbH",
+              "DPN"
+            ],
+            "vkmName": "ABR26721",
+            "from": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548423540,
+                "full": "25.01.2019 14:39",
+                "date": "25.01.2019",
+                "time": "14:39",
+                "int": 879
+              }
+            },
+            "to": {
+              "name": "Kassel-Wilhelmsh\u00f6he",
+              "loc": [
+                51312998,
+                9446845
+              ],
+              "time": {
+                "timestamp": 1548431760,
+                "full": "25.01.2019 16:56",
+                "date": "25.01.2019",
+                "time": "16:56",
+                "int": 1016
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 137,
+              "human": "02h 17 min.",
+              "humanSplit": {
+                "hours": 2,
+                "minutes": 17
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.517872,
+                7.459276
+              ],
+              [
+                51.567222,
+                7.612605
+              ],
+              [
+                51.585165,
+                7.66103
+              ],
+              [
+                51.678131,
+                7.80777
+              ],
+              [
+                51.578432,
+                8.104611
+              ],
+              [
+                51.670715,
+                8.348767
+              ],
+              [
+                51.712946,
+                8.740949
+              ],
+              [
+                51.766486,
+                8.942793
+              ],
+              [
+                51.621571,
+                9.012153
+              ],
+              [
+                51.492953,
+                9.163864
+              ],
+              [
+                51.499138,
+                9.395516
+              ],
+              [
+                51.312998,
+                9.446845
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              },
+              {
+                "name": "Kamen-Methler",
+                "lid": "A=1@O=Kamen-Methler@X=7613054@Y=51567375@U=81@L=8003169@",
+                "extId": "8003169"
+              },
+              {
+                "name": "Kamen",
+                "lid": "A=1@O=Kamen@X=7661003@Y=51585228@U=81@L=8003168@",
+                "extId": "8003168"
+              },
+              {
+                "name": "Hamm(Westf)",
+                "lid": "A=1@O=Hamm(Westf)@X=7807824@Y=51678077@U=81@L=8000149@",
+                "extId": "8000149"
+              },
+              {
+                "name": "Soest",
+                "lid": "A=1@O=Soest@X=8104593@Y=51578423@U=81@L=8000076@",
+                "extId": "8000076"
+              },
+              {
+                "name": "Lippstadt",
+                "lid": "A=1@O=Lippstadt@X=8348785@Y=51670688@U=81@L=8000571@",
+                "extId": "8000571"
+              },
+              {
+                "name": "Paderborn Hbf",
+                "lid": "A=1@O=Paderborn Hbf@X=8740508@Y=51712982@U=81@L=8000297@",
+                "extId": "8000297"
+              },
+              {
+                "name": "Altenbeken",
+                "lid": "A=1@O=Altenbeken@X=8943323@Y=51766432@U=81@L=8000004@",
+                "extId": "8000004"
+              },
+              {
+                "name": "Willebadessen",
+                "lid": "A=1@O=Willebadessen@X=9011650@Y=51621760@U=81@L=8006449@",
+                "extId": "8006449"
+              },
+              {
+                "name": "Warburg(Westf)",
+                "lid": "A=1@O=Warburg(Westf)@X=9163846@Y=51492953@U=81@L=8000196@",
+                "extId": "8000196"
+              },
+              {
+                "name": "Hofgeismar",
+                "lid": "A=1@O=Hofgeismar@X=9395462@Y=51499183@U=81@L=8002933@",
+                "extId": "8002933"
+              },
+              {
+                "name": "Kassel-Wilhelmsh\u00f6he",
+                "lid": "A=1@O=Kassel-Wilhelmsh\u00f6he@X=9446899@Y=51313115@U=81@L=8003200@",
+                "extId": "8003200"
+              }
+            ],
+            "jidId": "1|198677|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity-Express",
+              "ICE"
+            ],
+            "vkmName": "ICE 1581",
+            "from": {
+              "name": "Kassel-Wilhelmsh\u00f6he",
+              "loc": [
+                51312998,
+                9446845
+              ],
+              "time": {
+                "timestamp": 1548433440,
+                "full": "25.01.2019 17:24",
+                "date": "25.01.2019",
+                "time": "17:24",
+                "int": 1044
+              }
+            },
+            "to": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548437520,
+                "full": "25.01.2019 18:32",
+                "date": "25.01.2019",
+                "time": "18:32",
+                "int": 1112
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 68,
+              "human": "01h 08 min.",
+              "humanSplit": {
+                "hours": 1,
+                "minutes": 8
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.312998,
+                9.446845
+              ],
+              [
+                50.554794,
+                9.684178
+              ],
+              [
+                49.802163,
+                9.93593
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Kassel-Wilhelmsh\u00f6he",
+                "lid": "A=1@O=Kassel-Wilhelmsh\u00f6he@X=9446899@Y=51313115@U=81@L=8003200@",
+                "extId": "8003200"
+              },
+              {
+                "name": "Fulda",
+                "lid": "A=1@O=Fulda@X=9683980@Y=50554722@U=81@L=8000115@",
+                "extId": "8000115"
+              },
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              }
+            ],
+            "jidId": "1|169192|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Regionalbahn",
+              "RB"
+            ],
+            "vkmName": "RB 58067",
+            "from": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548439620,
+                "full": "25.01.2019 19:07",
+                "date": "25.01.2019",
+                "time": "19:07",
+                "int": 1147
+              }
+            },
+            "to": {
+              "name": "Waigolshausen",
+              "loc": [
+                49967259,
+                10115723
+              ],
+              "time": {
+                "timestamp": 1548441000,
+                "full": "25.01.2019 19:30",
+                "date": "25.01.2019",
+                "time": "19:30",
+                "int": 1170
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 23,
+              "human": "00h 23 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 23
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                49.802163,
+                9.93593
+              ],
+              [
+                49.792024,
+                10.029148
+              ],
+              [
+                49.854382,
+                10.102464
+              ],
+              [
+                49.898986,
+                10.076521
+              ],
+              [
+                49.942737,
+                10.085106
+              ],
+              [
+                49.967259,
+                10.115723
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              },
+              {
+                "name": "Rottendorf",
+                "lid": "A=1@O=Rottendorf@X=10029094@Y=49791970@U=81@L=8005198@",
+                "extId": "8005198"
+              },
+              {
+                "name": "Seligenstadt(b W\u00fcrzburg)",
+                "lid": "A=1@O=Seligenstadt(b W\u00fcrzburg)@X=10102455@Y=49854256@U=81@L=8005523@",
+                "extId": "8005523"
+              },
+              {
+                "name": "Bergtheim",
+                "lid": "A=1@O=Bergtheim@X=10076476@Y=49899301@U=81@L=8000902@",
+                "extId": "8000902"
+              },
+              {
+                "name": "E\u00dfleben",
+                "lid": "A=1@O=E\u00dfleben@X=10085223@Y=49943105@U=81@L=8001919@",
+                "extId": "8001919"
+              },
+              {
+                "name": "Waigolshausen",
+                "lid": "A=1@O=Waigolshausen@X=10116029@Y=49967295@U=81@L=8006147@",
+                "extId": "8006147"
+              }
+            ],
+            "jidId": "1|192114|0|81|25012019"
+          }
+        ]
+      },
+      "cid": "J-2"
+    },
+    {
+      "arriveIsTrainStation": true,
+      "departureIsTrainStation": true,
+      "hash": "5e3057f3d1f87c38bbc1abec96a9e3b1",
+      "text": {
+        "headline": "Mit der Bahn",
+        "icons": [
+          "zug.png"
+        ],
+        "via": [
+          "Werne a d Lippe",
+          "Dortmund Hbf",
+          "Frankfurt(M) Flughafen Fernbf",
+          "W\u00fcrzburg Hbf",
+          "Waigolshausen"
+        ]
+      },
+      "time_departure": {
+        "timestamp": 1548421380,
+        "full": "25.01.2019 14:03",
+        "date": "25.01.2019",
+        "time": "14:03",
+        "int": 843
+      },
+      "time_arrive": {
+        "timestamp": 1548441000,
+        "full": "25.01.2019 19:30",
+        "date": "25.01.2019",
+        "time": "19:30",
+        "int": 1170
+      },
+      "isExact": true,
+      "duration": {
+        "inMinutes": 327,
+        "human": "05h 27 min.",
+        "humanSplit": {
+          "hours": 5,
+          "minutes": 27
+        }
+      },
+      "fare": {
+        "cent": 12900,
+        "euro": 129
+      },
+      "modules": [
+        "DB"
+      ],
+      "products": {
+        "full": [
+          "ERB89935",
+          "ICE 611",
+          "ICE 725",
+          "RB 58067"
+        ],
+        "short": [
+          "ERB89",
+          "ICE",
+          "ICE",
+          "RB"
+        ]
+      },
+      "interChange": 3,
+      "trips": {
+        "origin": {
+          "name": "Werne a d Lippe",
+          "extId": "8006348",
+          "lat": 51.669241,
+          "lng": 7.622924
+        },
+        "destination": {
+          "name": "Waigolshausen",
+          "extId": "8006147",
+          "lat": 49.967259,
+          "lng": 10.115723
+        },
+        "provider": "DB",
+        "providerIsDB": false,
+        "timeStart": {
+          "timestamp": 1548421380,
+          "full": "25.01.2019 14:03",
+          "date": "25.01.2019",
+          "time": "14:03",
+          "int": 843
+        },
+        "link": "http:\/\/partners.webmasterplan.com\/click.asp?ref=715105&site=2894&type=text&tnb=126&prd=yes&S=Werne+a+d+Lippe&Z=Waigolshausen&date=25.01.2019&time=14%3A03&start=1&subid=default",
+        "timeArrive": {
+          "timestamp": 1548441000,
+          "full": "25.01.2019 19:30",
+          "date": "25.01.2019",
+          "time": "19:30",
+          "int": 1170
+        },
+        "isExact": true,
+        "fare": {
+          "cent": 12900,
+          "euro": 129
+        },
+        "hint": [],
+        "duration": {
+          "inMinutes": 327,
+          "human": "05h 27 min.",
+          "humanSplit": {
+            "hours": 5,
+            "minutes": 27
+          }
+        },
+        "distance": null,
+        "interchange": 3,
+        "steps": [
+          {
+            "vkmType": [
+              "eurobahn",
+              "DPN"
+            ],
+            "vkmName": "ERB89935",
+            "from": {
+              "name": "Werne a d Lippe",
+              "loc": [
+                51669241,
+                7622924
+              ],
+              "time": {
+                "timestamp": 1548421380,
+                "full": "25.01.2019 14:03",
+                "date": "25.01.2019",
+                "time": "14:03",
+                "int": 843
+              }
+            },
+            "to": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548422880,
+                "full": "25.01.2019 14:28",
+                "date": "25.01.2019",
+                "time": "14:28",
+                "int": 868
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 25,
+              "human": "00h 25 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 25
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.669241,
+                7.622924
+              ],
+              [
+                51.617229,
+                7.529581
+              ],
+              [
+                51.588113,
+                7.539756
+              ],
+              [
+                51.567141,
+                7.528538
+              ],
+              [
+                51.546979,
+                7.509948
+              ],
+              [
+                51.517872,
+                7.459276
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Werne a d Lippe",
+                "lid": "A=1@O=Werne a d Lippe@X=7622933@Y=51669250@U=81@L=8006348@",
+                "extId": "8006348"
+              },
+              {
+                "name": "L\u00fcnen Hbf",
+                "lid": "A=1@O=L\u00fcnen Hbf@X=7529482@Y=51617130@U=81@L=8000239@",
+                "extId": "8000239"
+              },
+              {
+                "name": "Preu\u00dfen",
+                "lid": "A=1@O=Preu\u00dfen@X=7539693@Y=51588149@U=81@L=8004883@",
+                "extId": "8004883"
+              },
+              {
+                "name": "Dortmund-Derne",
+                "lid": "A=1@O=Dortmund-Derne@X=7528825@Y=51567717@U=81@L=8001530@",
+                "extId": "8001530"
+              },
+              {
+                "name": "Dortmund-Kirchderne",
+                "lid": "A=1@O=Dortmund-Kirchderne@X=7510101@Y=51547078@U=81@L=8001533@",
+                "extId": "8001533"
+              },
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              }
+            ],
+            "jidId": "1|206131|1|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity-Express",
+              "ICE"
+            ],
+            "vkmName": "ICE 611",
+            "from": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548423300,
+                "full": "25.01.2019 14:35",
+                "date": "25.01.2019",
+                "time": "14:35",
+                "int": 875
+              }
+            },
+            "to": {
+              "name": "Frankfurt(M) Flughafen Fernbf",
+              "loc": [
+                50052926,
+                8569776
+              ],
+              "time": {
+                "timestamp": 1548431400,
+                "full": "25.01.2019 16:50",
+                "date": "25.01.2019",
+                "time": "16:50",
+                "int": 1010
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 135,
+              "human": "02h 15 min.",
+              "humanSplit": {
+                "hours": 2,
+                "minutes": 15
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.517872,
+                7.459276
+              ],
+              [
+                51.47849,
+                7.223264
+              ],
+              [
+                51.451378,
+                7.01386
+              ],
+              [
+                51.429615,
+                6.77606
+              ],
+              [
+                51.219708,
+                6.794011
+              ],
+              [
+                50.942823,
+                6.959197
+              ],
+              [
+                50.052926,
+                8.569776
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              },
+              {
+                "name": "Bochum Hbf",
+                "lid": "A=1@O=Bochum Hbf@X=7223273@Y=51478607@U=81@L=8000041@",
+                "extId": "8000041"
+              },
+              {
+                "name": "Essen Hbf",
+                "lid": "A=1@O=Essen Hbf@X=7014795@Y=51451351@U=81@L=8000098@",
+                "extId": "8000098"
+              },
+              {
+                "name": "Duisburg Hbf",
+                "lid": "A=1@O=Duisburg Hbf@X=6775907@Y=51429786@U=81@L=8000086@",
+                "extId": "8000086"
+              },
+              {
+                "name": "D\u00fcsseldorf Hbf",
+                "lid": "A=1@O=D\u00fcsseldorf Hbf@X=6794317@Y=51219960@U=81@L=8000085@",
+                "extId": "8000085"
+              },
+              {
+                "name": "K\u00f6ln Hbf",
+                "lid": "A=1@O=K\u00f6ln Hbf@X=6958730@Y=50943029@U=81@L=8000207@",
+                "extId": "8000207"
+              },
+              {
+                "name": "Frankfurt(M) Flughafen Fernbf",
+                "lid": "A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@U=81@L=8070003@",
+                "extId": "8070003"
+              }
+            ],
+            "jidId": "1|172400|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity-Express",
+              "ICE"
+            ],
+            "vkmName": "ICE 725",
+            "from": {
+              "name": "Frankfurt(M) Flughafen Fernbf",
+              "loc": [
+                50052926,
+                8569776
+              ],
+              "time": {
+                "timestamp": 1548434160,
+                "full": "25.01.2019 17:36",
+                "date": "25.01.2019",
+                "time": "17:36",
+                "int": 1056
+              }
+            },
+            "to": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548439260,
+                "full": "25.01.2019 19:01",
+                "date": "25.01.2019",
+                "time": "19:01",
+                "int": 1141
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 85,
+              "human": "01h 25 min.",
+              "humanSplit": {
+                "hours": 1,
+                "minutes": 25
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                50.052926,
+                8.569776
+              ],
+              [
+                50.106817,
+                8.663003
+              ],
+              [
+                49.98059,
+                9.143854
+              ],
+              [
+                49.802163,
+                9.93593
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Frankfurt(M) Flughafen Fernbf",
+                "lid": "A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@U=81@L=8070003@",
+                "extId": "8070003"
+              },
+              {
+                "name": "Frankfurt(Main)Hbf",
+                "lid": "A=1@O=Frankfurt(Main)Hbf@X=8663785@Y=50107149@U=81@L=8000105@",
+                "extId": "8000105"
+              },
+              {
+                "name": "Aschaffenburg Hbf",
+                "lid": "A=1@O=Aschaffenburg Hbf@X=9143693@Y=49980554@U=81@L=8000010@",
+                "extId": "8000010"
+              },
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              }
+            ],
+            "jidId": "1|172892|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Regionalbahn",
+              "RB"
+            ],
+            "vkmName": "RB 58067",
+            "from": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548439620,
+                "full": "25.01.2019 19:07",
+                "date": "25.01.2019",
+                "time": "19:07",
+                "int": 1147
+              }
+            },
+            "to": {
+              "name": "Waigolshausen",
+              "loc": [
+                49967259,
+                10115723
+              ],
+              "time": {
+                "timestamp": 1548441000,
+                "full": "25.01.2019 19:30",
+                "date": "25.01.2019",
+                "time": "19:30",
+                "int": 1170
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 23,
+              "human": "00h 23 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 23
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                49.802163,
+                9.93593
+              ],
+              [
+                49.792024,
+                10.029148
+              ],
+              [
+                49.854382,
+                10.102464
+              ],
+              [
+                49.898986,
+                10.076521
+              ],
+              [
+                49.942737,
+                10.085106
+              ],
+              [
+                49.967259,
+                10.115723
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              },
+              {
+                "name": "Rottendorf",
+                "lid": "A=1@O=Rottendorf@X=10029094@Y=49791970@U=81@L=8005198@",
+                "extId": "8005198"
+              },
+              {
+                "name": "Seligenstadt(b W\u00fcrzburg)",
+                "lid": "A=1@O=Seligenstadt(b W\u00fcrzburg)@X=10102455@Y=49854256@U=81@L=8005523@",
+                "extId": "8005523"
+              },
+              {
+                "name": "Bergtheim",
+                "lid": "A=1@O=Bergtheim@X=10076476@Y=49899301@U=81@L=8000902@",
+                "extId": "8000902"
+              },
+              {
+                "name": "E\u00dfleben",
+                "lid": "A=1@O=E\u00dfleben@X=10085223@Y=49943105@U=81@L=8001919@",
+                "extId": "8001919"
+              },
+              {
+                "name": "Waigolshausen",
+                "lid": "A=1@O=Waigolshausen@X=10116029@Y=49967295@U=81@L=8006147@",
+                "extId": "8006147"
+              }
+            ],
+            "jidId": "1|192114|0|81|25012019"
+          }
+        ]
+      },
+      "cid": "J-1"
+    },
+    {
+      "arriveIsTrainStation": true,
+      "departureIsTrainStation": true,
+      "hash": "46baca46018631e0c9d425e7f5d1791d",
+      "text": {
+        "headline": "Mit der Bahn",
+        "icons": [
+          "zug.png"
+        ],
+        "via": [
+          "Werne a d Lippe",
+          "Dortmund Hbf",
+          "W\u00fcrzburg Hbf",
+          "Waigolshausen"
+        ]
+      },
+      "time_departure": {
+        "timestamp": 1548421380,
+        "full": "25.01.2019 14:03",
+        "date": "25.01.2019",
+        "time": "14:03",
+        "int": 843
+      },
+      "time_arrive": {
+        "timestamp": 1548444600,
+        "full": "25.01.2019 20:30",
+        "date": "25.01.2019",
+        "time": "20:30",
+        "int": 1230
+      },
+      "isExact": true,
+      "duration": {
+        "inMinutes": 387,
+        "human": "06h 27 min.",
+        "humanSplit": {
+          "hours": 6,
+          "minutes": 27
+        }
+      },
+      "fare": {
+        "cent": 10300,
+        "euro": 103
+      },
+      "modules": [
+        "DB"
+      ],
+      "products": {
+        "full": [
+          "ERB89935",
+          "IC 2027",
+          "RB 58071"
+        ],
+        "short": [
+          "ERB89",
+          "IC",
+          "RB"
+        ]
+      },
+      "interChange": 2,
+      "trips": {
+        "origin": {
+          "name": "Werne a d Lippe",
+          "extId": "8006348",
+          "lat": 51.669241,
+          "lng": 7.622924
+        },
+        "destination": {
+          "name": "Waigolshausen",
+          "extId": "8006147",
+          "lat": 49.967259,
+          "lng": 10.115723
+        },
+        "provider": "DB",
+        "providerIsDB": false,
+        "timeStart": {
+          "timestamp": 1548421380,
+          "full": "25.01.2019 14:03",
+          "date": "25.01.2019",
+          "time": "14:03",
+          "int": 843
+        },
+        "link": "http:\/\/partners.webmasterplan.com\/click.asp?ref=715105&site=2894&type=text&tnb=126&prd=yes&S=Werne+a+d+Lippe&Z=Waigolshausen&date=25.01.2019&time=14%3A03&start=1&subid=default",
+        "timeArrive": {
+          "timestamp": 1548444600,
+          "full": "25.01.2019 20:30",
+          "date": "25.01.2019",
+          "time": "20:30",
+          "int": 1230
+        },
+        "isExact": true,
+        "fare": {
+          "cent": 10300,
+          "euro": 103
+        },
+        "hint": [],
+        "duration": {
+          "inMinutes": 387,
+          "human": "06h 27 min.",
+          "humanSplit": {
+            "hours": 6,
+            "minutes": 27
+          }
+        },
+        "distance": null,
+        "interchange": 2,
+        "steps": [
+          {
+            "vkmType": [
+              "eurobahn",
+              "DPN"
+            ],
+            "vkmName": "ERB89935",
+            "from": {
+              "name": "Werne a d Lippe",
+              "loc": [
+                51669241,
+                7622924
+              ],
+              "time": {
+                "timestamp": 1548421380,
+                "full": "25.01.2019 14:03",
+                "date": "25.01.2019",
+                "time": "14:03",
+                "int": 843
+              }
+            },
+            "to": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548422880,
+                "full": "25.01.2019 14:28",
+                "date": "25.01.2019",
+                "time": "14:28",
+                "int": 868
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 25,
+              "human": "00h 25 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 25
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.669241,
+                7.622924
+              ],
+              [
+                51.617229,
+                7.529581
+              ],
+              [
+                51.588113,
+                7.539756
+              ],
+              [
+                51.567141,
+                7.528538
+              ],
+              [
+                51.546979,
+                7.509948
+              ],
+              [
+                51.517872,
+                7.459276
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Werne a d Lippe",
+                "lid": "A=1@O=Werne a d Lippe@X=7622933@Y=51669250@U=81@L=8006348@",
+                "extId": "8006348"
+              },
+              {
+                "name": "L\u00fcnen Hbf",
+                "lid": "A=1@O=L\u00fcnen Hbf@X=7529482@Y=51617130@U=81@L=8000239@",
+                "extId": "8000239"
+              },
+              {
+                "name": "Preu\u00dfen",
+                "lid": "A=1@O=Preu\u00dfen@X=7539693@Y=51588149@U=81@L=8004883@",
+                "extId": "8004883"
+              },
+              {
+                "name": "Dortmund-Derne",
+                "lid": "A=1@O=Dortmund-Derne@X=7528825@Y=51567717@U=81@L=8001530@",
+                "extId": "8001530"
+              },
+              {
+                "name": "Dortmund-Kirchderne",
+                "lid": "A=1@O=Dortmund-Kirchderne@X=7510101@Y=51547078@U=81@L=8001533@",
+                "extId": "8001533"
+              },
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              }
+            ],
+            "jidId": "1|206131|1|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Intercity",
+              "IC"
+            ],
+            "vkmName": "IC 2027",
+            "from": {
+              "name": "Dortmund Hbf",
+              "loc": [
+                51517872,
+                7459276
+              ],
+              "time": {
+                "timestamp": 1548423480,
+                "full": "25.01.2019 14:38",
+                "date": "25.01.2019",
+                "time": "14:38",
+                "int": 878
+              }
+            },
+            "to": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548441120,
+                "full": "25.01.2019 19:32",
+                "date": "25.01.2019",
+                "time": "19:32",
+                "int": 1172
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 294,
+              "human": "04h 54 min.",
+              "humanSplit": {
+                "hours": 4,
+                "minutes": 54
+              }
+            },
+            "vkm": 1,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                51.517872,
+                7.459276
+              ],
+              [
+                51.254443,
+                7.150155
+              ],
+              [
+                51.160784,
+                7.004287
+              ],
+              [
+                50.942823,
+                6.959197
+              ],
+              [
+                50.731963,
+                7.096678
+              ],
+              [
+                50.350775,
+                7.588343
+              ],
+              [
+                50.001239,
+                8.258453
+              ],
+              [
+                50.052926,
+                8.569776
+              ],
+              [
+                50.106817,
+                8.663003
+              ],
+              [
+                50.120903,
+                8.92921
+              ],
+              [
+                49.98059,
+                9.143854
+              ],
+              [
+                49.802163,
+                9.93593
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "Dortmund Hbf",
+                "lid": "A=1@O=Dortmund Hbf@X=7459294@Y=51517899@U=81@L=8000080@",
+                "extId": "8000080"
+              },
+              {
+                "name": "Wuppertal Hbf",
+                "lid": "A=1@O=Wuppertal Hbf@X=7149544@Y=51254362@U=81@L=8000266@",
+                "extId": "8000266"
+              },
+              {
+                "name": "Solingen Hbf",
+                "lid": "A=1@O=Solingen Hbf@X=7004188@Y=51160766@U=81@L=8000087@",
+                "extId": "8000087"
+              },
+              {
+                "name": "K\u00f6ln Hbf",
+                "lid": "A=1@O=K\u00f6ln Hbf@X=6958730@Y=50943029@U=81@L=8000207@",
+                "extId": "8000207"
+              },
+              {
+                "name": "Bonn Hbf",
+                "lid": "A=1@O=Bonn Hbf@X=7097136@Y=50732008@U=81@L=8000044@",
+                "extId": "8000044"
+              },
+              {
+                "name": "Koblenz Hbf",
+                "lid": "A=1@O=Koblenz Hbf@X=7588343@Y=50350928@U=81@L=8000206@",
+                "extId": "8000206"
+              },
+              {
+                "name": "Mainz Hbf",
+                "lid": "A=1@O=Mainz Hbf@X=8258723@Y=50001113@U=81@L=8000240@",
+                "extId": "8000240"
+              },
+              {
+                "name": "Frankfurt(M) Flughafen Fernbf",
+                "lid": "A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@U=81@L=8070003@",
+                "extId": "8070003"
+              },
+              {
+                "name": "Frankfurt(Main)Hbf",
+                "lid": "A=1@O=Frankfurt(Main)Hbf@X=8663785@Y=50107149@U=81@L=8000105@",
+                "extId": "8000105"
+              },
+              {
+                "name": "Hanau Hbf",
+                "lid": "A=1@O=Hanau Hbf@X=8929003@Y=50120957@U=81@L=8000150@",
+                "extId": "8000150"
+              },
+              {
+                "name": "Aschaffenburg Hbf",
+                "lid": "A=1@O=Aschaffenburg Hbf@X=9143693@Y=49980554@U=81@L=8000010@",
+                "extId": "8000010"
+              },
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              }
+            ],
+            "jidId": "1|170181|0|81|25012019"
+          },
+          {
+            "vkmType": [
+              "Regionalbahn",
+              "RB"
+            ],
+            "vkmName": "RB 58071",
+            "from": {
+              "name": "W\u00fcrzburg Hbf",
+              "loc": [
+                49802163,
+                9935930
+              ],
+              "time": {
+                "timestamp": 1548443220,
+                "full": "25.01.2019 20:07",
+                "date": "25.01.2019",
+                "time": "20:07",
+                "int": 1207
+              }
+            },
+            "to": {
+              "name": "Waigolshausen",
+              "loc": [
+                49967259,
+                10115723
+              ],
+              "time": {
+                "timestamp": 1548444600,
+                "full": "25.01.2019 20:30",
+                "date": "25.01.2019",
+                "time": "20:30",
+                "int": 1230
+              }
+            },
+            "hint": null,
+            "duration": {
+              "inMinutes": 23,
+              "human": "00h 23 min.",
+              "humanSplit": {
+                "hours": 0,
+                "minutes": 23
+              }
+            },
+            "vkm": 2,
+            "text": null,
+            "late": null,
+            "polyCoords": [
+              [
+                49.802163,
+                9.93593
+              ],
+              [
+                49.792024,
+                10.029148
+              ],
+              [
+                49.854382,
+                10.102464
+              ],
+              [
+                49.898986,
+                10.076521
+              ],
+              [
+                49.942737,
+                10.085106
+              ],
+              [
+                49.967259,
+                10.115723
+              ]
+            ],
+            "distance": null,
+            "stops": [
+              {
+                "name": "W\u00fcrzburg Hbf",
+                "lid": "A=1@O=W\u00fcrzburg Hbf@X=9935777@Y=49801795@U=81@L=8000260@",
+                "extId": "8000260"
+              },
+              {
+                "name": "Rottendorf",
+                "lid": "A=1@O=Rottendorf@X=10029094@Y=49791970@U=81@L=8005198@",
+                "extId": "8005198"
+              },
+              {
+                "name": "Seligenstadt(b W\u00fcrzburg)",
+                "lid": "A=1@O=Seligenstadt(b W\u00fcrzburg)@X=10102455@Y=49854256@U=81@L=8005523@",
+                "extId": "8005523"
+              },
+              {
+                "name": "Bergtheim",
+                "lid": "A=1@O=Bergtheim@X=10076476@Y=49899301@U=81@L=8000902@",
+                "extId": "8000902"
+              },
+              {
+                "name": "E\u00dfleben",
+                "lid": "A=1@O=E\u00dfleben@X=10085223@Y=49943105@U=81@L=8001919@",
+                "extId": "8001919"
+              },
+              {
+                "name": "Waigolshausen",
+                "lid": "A=1@O=Waigolshausen@X=10116029@Y=49967295@U=81@L=8006147@",
+                "extId": "8006147"
+              }
+            ],
+            "jidId": "1|192119|0|81|25012019"
+          }
+        ]
+      },
+      "cid": "J-3"
+    }
+  ],
+  "input": null
+}

@@ -1,0 +1,137 @@
+openapi: 3.0.0
+info:
+  version: 3.0.1
+  title: Translation
+servers:
+  - url: 'http://localhost/api'
+paths:
+  /{pid}/articles:
+    parameters:
+      - name: pid
+        in: path
+        example: 1
+        required: true
+        description: 'The page id'
+        schema:
+          type: integer
+          format: int32
+    get:
+      summary: 'Get Article by Id'
+      operationId: getArticle
+      tags:
+        - article
+      responses:
+        '200':
+          description: 'Articles'
+        '400':
+          description: Bad request. Page ID must be an integer and larger than 0.
+        '401':
+          description: Authorization information is missing or invalid.
+        '404':
+          description: A Page with the specified ID was not found.
+        '5XX':
+          description: Unexpected error.
+
+components:
+
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    Tag:
+      type: object
+      required:
+        - id
+        - name
+        - slug
+        - description
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        slug:
+          type: string
+        description:
+          type: string
+    Tags:
+      type: array
+      items:
+        $ref: '#/components/schemas/Tag'
+    Category:
+      type: object
+      required:
+        - id
+        - name
+        - slug
+        - description
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        slug:
+          type: string
+        description:
+          type: string
+        parent:
+          type: integer
+          nullable: true
+    Categories:
+      type: array
+      items:
+        $ref: '#/components/schemas/Category'
+    Article:
+      type: object
+      required:
+        - id
+        - title
+        - slug
+        - excerpt
+        - content
+        - featured_image
+        - categories
+        - tags
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        slug:
+          type: string
+        excerpt:
+          type: string
+        content:
+          type: string
+        featured_image:
+          type: string
+          nullable: true
+        categories:
+          type: array
+          items:
+            type: integer
+        tags:
+          type: array
+          items:
+            type: integer
+    Articles:
+      type: array
+      items:
+        $ref: '#/components/schemas/Article'
+    Error:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+
+security:
+  - bearerAuth: []

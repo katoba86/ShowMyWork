@@ -1,0 +1,73 @@
+
+@mixin box-sizing($box-type){
+  -webkit-border-box: $box-type;
+  -moz-border-box: $box-type;
+  border-box: $box-type;
+}
+
+
+
+
+
+[data-scrim-light-bottom] {
+  position: relative;
+}
+[data-scrim-light-bottom]::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#191919));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.41) 0%, #ffffff 94%);
+  left: 0;
+  right: 0;
+  z-index: 0;
+  border-radius: inherit;
+
+}
+
+
+
+// Default scrim
+//
+@for $i from 1 through 10 {
+  [data-scrim-light-bottom="#{$i}"]::before {
+    opacity: $i / 10;
+  }
+}
+
+[data-scrim-light-bottom="0"]::before {
+  opacity: 0;
+}
+
+
+
+
+%bg-primary{
+  background-color:$color-primary;
+}
+
+
+%muted-small{
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.5rem;
+  word-spacing: 2px;
+  color: rgba($color-text-light, 0.6);
+}
+
+%margin-top{
+  margin-top:1em;
+}
+%margin-bottom{
+  margin-top:1em;
+}
+%small-text{
+  @extend .small;
+}
+.bg-primary{
+  @extend %bg-primary;
+}

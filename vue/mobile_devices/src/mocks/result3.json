@@ -1,0 +1,1018 @@
+{
+  "journeys": [
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": "nicht 10. bis 12. Okt 2019",
+        "bits": null,
+        "originalString": "7EFD3AF7EFDFBF7EFDFBE7EC1FBF7EFDF1E7EFDFBF7EFCF3E7EFDF00000000000FDFBF7EFDFB87EFDFBF7EFDFBF7E0",
+        "R": "Mo - Sa"
+      },
+      "origin": {
+        "name": "Hamm(Westf)",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Dortmund Hbf",
+        "id": 8000080,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.459276,
+            51.517872
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1567761360,
+        "date": "06.09.2019",
+        "time": "11:16"
+      },
+      "time_arrive": {
+        "timestamp": 1567762320,
+        "date": "06.09.2019",
+        "time": "11:32"
+      },
+      "duration": {
+        "inMinutes": 16,
+        "human": "00h 16 min.",
+        "humanSplit": {
+          "hours": 0,
+          "minutes": 16
+        }
+      },
+      "fare": {
+        "cent": 1250,
+        "euro": 13,
+        "tarif": null,
+        "verbund": null,
+        "ctx": "D",
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": false
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "IC 2044",
+          "number": "2044",
+          "cls": 2,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "IC  2044",
+            "num": "2044",
+            "matchId": "55",
+            "catOut": "IC",
+            "catOutS": "IC",
+            "catOutL": "Intercity",
+            "catIn": "IC",
+            "catCode": "1",
+            "admin": "80____"
+          }
+        }
+      ],
+      "interChange": 0,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Dortmund Hbf",
+            "id": 8000080,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.459276,
+                51.517872
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1567761360,
+            "date": "06.09.2019",
+            "time": "11:16"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1567762320,
+            "date": "06.09.2019",
+            "time": "11:32"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": 1250,
+            "euro": 13,
+            "tarif": null,
+            "verbund": null,
+            "ctx": "D",
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": false
+          },
+          "duration": {
+            "inMinutes": 16,
+            "human": "00h 16 min.",
+            "humanSplit": {
+              "hours": 0,
+              "minutes": 16
+            }
+          },
+          "distance": null,
+          "interchange": 0,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "IC 2044",
+                "number": "2044",
+                "cls": 2,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "IC  2044",
+                  "num": "2044",
+                  "matchId": "55",
+                  "catOut": "IC",
+                  "catOutS": "IC",
+                  "catOutL": "Intercity",
+                  "catIn": "IC",
+                  "catCode": "1",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Dortmund Hbf",
+                "id": "8000080",
+                "other": {
+                  "pCls": 191
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.459276,
+                    51.517872
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 16,
+                "human": "00h 16 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 16
+                }
+              },
+              "arrive": {
+                "timestamp": 1567762320,
+                "date": "06.09.2019",
+                "time": "11:32"
+              },
+              "departure": {
+                "timestamp": 1567761360,
+                "date": "06.09.2019",
+                "time": "11:16"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1567761360,
+                    "date": "06.09.2019",
+                    "time": "11:16"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8000080",
+                  "name": "Dortmund Hbf",
+                  "arrive": {
+                    "timestamp": 1567762320,
+                    "date": "06.09.2019",
+                    "time": "11:32"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.459276,
+                      51.517872
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@lB`EzJcCfDBWcCxEcAdJHdJt@zQbD@WAVvGx@MvCk@`Cje@z`@bQbSFWGVrHxIu@hC??r]n^lGlDHc@ADbBxC^r@dCxEnEnLFLGFLQfFjHzLhNvh@di@??????bEnDbaAjcAzEvFtGlJzH~NjIhThY~cA??~Ib\\??f}BtlIvs@nmC??boBtmH??dLjb@??rq@teC??luAlaFd\\jkA??`o@t|B??????x^pqAvK~a@pBdKlB~M??????zAzLOF??bB~PC@BAj@|HfFnw@zEnm@zBn]zBrf@RE"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "db"
+        ],
+        "via": {
+          "ids": [
+            "8000080"
+          ],
+          "names": [
+            "Dortmund Hbf"
+          ]
+        },
+        "products": "IC"
+      },
+      "id": "dtc5d7221139d381"
+    },
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": null,
+        "bits": null,
+        "originalString": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFE0",
+        "R": "t\u00e4glich"
+      },
+      "origin": {
+        "name": "Hamm(Westf)",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Dortmund Hbf",
+        "id": 8000080,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.459276,
+            51.517872
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1567761600,
+        "date": "06.09.2019",
+        "time": "11:20"
+      },
+      "time_arrive": {
+        "timestamp": 1567762980,
+        "date": "06.09.2019",
+        "time": "11:43"
+      },
+      "duration": {
+        "inMinutes": 23,
+        "human": "00h 23 min.",
+        "humanSplit": {
+          "hours": 0,
+          "minutes": 23
+        }
+      },
+      "fare": {
+        "cent": -1,
+        "euro": -0,
+        "tarif": "WT-Tarif",
+        "verbund": "WT",
+        "ctx": "M",
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": false
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "RE 10122",
+          "number": "10122",
+          "cls": 8,
+          "oprX": {
+            "name": "DB Regio AG NRW",
+            "icoX": {
+              "res": "RE",
+              "txt": "DB Regio AG NRW"
+            }
+          },
+          "prodCtx": {
+            "name": "RE 10122",
+            "num": "10122",
+            "line": "RE     1",
+            "matchId": "1",
+            "catOut": "RE",
+            "catOutS": "RE",
+            "catOutL": "Regional-Express",
+            "catIn": "RE",
+            "catCode": "3",
+            "admin": "800301",
+            "addName": "RE     1"
+          }
+        }
+      ],
+      "interChange": 0,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Dortmund Hbf",
+            "id": 8000080,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.459276,
+                51.517872
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1567761600,
+            "date": "06.09.2019",
+            "time": "11:20"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1567762980,
+            "date": "06.09.2019",
+            "time": "11:43"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": -1,
+            "euro": -0,
+            "tarif": "WT-Tarif",
+            "verbund": "WT",
+            "ctx": "M",
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": false
+          },
+          "duration": {
+            "inMinutes": 23,
+            "human": "00h 23 min.",
+            "humanSplit": {
+              "hours": 0,
+              "minutes": 23
+            }
+          },
+          "distance": null,
+          "interchange": 0,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RE 10122",
+                "number": "10122",
+                "cls": 8,
+                "oprX": {
+                  "name": "DB Regio AG NRW",
+                  "icoX": {
+                    "res": "RE",
+                    "txt": "DB Regio AG NRW"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RE 10122",
+                  "num": "10122",
+                  "line": "RE     1",
+                  "matchId": "1",
+                  "catOut": "RE",
+                  "catOutS": "RE",
+                  "catOutL": "Regional-Express",
+                  "catIn": "RE",
+                  "catCode": "3",
+                  "admin": "800301",
+                  "addName": "RE     1"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Dortmund Hbf",
+                "id": "8000080",
+                "other": {
+                  "pCls": 191
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.459276,
+                    51.517872
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 23,
+                "human": "00h 23 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 23
+                }
+              },
+              "arrive": {
+                "timestamp": 1567762980,
+                "date": "06.09.2019",
+                "time": "11:43"
+              },
+              "departure": {
+                "timestamp": 1567761600,
+                "date": "06.09.2019",
+                "time": "11:20"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1567761600,
+                    "date": "06.09.2019",
+                    "time": "11:20"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8003168",
+                  "name": "Kamen",
+                  "arrive": {
+                    "timestamp": 1567762080,
+                    "date": "06.09.2019",
+                    "time": "11:28"
+                  },
+                  "departure": {
+                    "timestamp": 1567762140,
+                    "date": "06.09.2019",
+                    "time": "11:29"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.66103,
+                      51.585165
+                    ]
+                  }
+                },
+                {
+                  "id": "8001537",
+                  "name": "Dortmund-Kurl",
+                  "arrive": {
+                    "timestamp": 1567762380,
+                    "date": "06.09.2019",
+                    "time": "11:33"
+                  },
+                  "departure": {
+                    "timestamp": 1567762440,
+                    "date": "06.09.2019",
+                    "time": "11:34"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.585395,
+                      51.557011
+                    ]
+                  }
+                },
+                {
+                  "id": "8001515",
+                  "name": "Dortmund-Scharnhorst",
+                  "arrive": {
+                    "timestamp": 1567762620,
+                    "date": "06.09.2019",
+                    "time": "11:37"
+                  },
+                  "departure": {
+                    "timestamp": 1567762680,
+                    "date": "06.09.2019",
+                    "time": "11:38"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.536943,
+                      51.538511
+                    ]
+                  }
+                },
+                {
+                  "id": "8000080",
+                  "name": "Dortmund Hbf",
+                  "arrive": {
+                    "timestamp": 1567762980,
+                    "date": "06.09.2019",
+                    "time": "11:43"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.459276,
+                      51.517872
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@lB`EzJcCfDBWcCxEcAdJHdJt@zQbD@WAVvGx@MvCk@`Cje@z`@bQbSFWGVrHxIu@hC??r]n^lGlDHc@ADbBxC^r@dCxEnEnLFLGFLQfFjHzLhNvh@di@??????bEnDbaAjcAzEvFtGlJzH~NjIhThY~cA??~Ib\\??f}BtlIvs@nmC??boBtmH??dLjb@??rq@teC??luAlaFd\\jkA??`o@t|B??????x^pqAvK~a@pBdKlB~M??????zAzLOF??bB~PC@BAj@|HfFnw@zEnm@zBn]zBrf@RE"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "db"
+        ],
+        "via": {
+          "ids": [
+            "8000080"
+          ],
+          "names": [
+            "Dortmund Hbf"
+          ]
+        },
+        "products": "RE"
+      },
+      "id": "dtc5d7221139d385"
+    },
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": null,
+        "bits": null,
+        "originalString": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0",
+        "R": "t\u00e4glich"
+      },
+      "origin": {
+        "name": "Hamm(Westf)",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Dortmund Hbf",
+        "id": 8000080,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.459276,
+            51.517872
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1567762200,
+        "date": "06.09.2019",
+        "time": "11:30"
+      },
+      "time_arrive": {
+        "timestamp": 1567763880,
+        "date": "06.09.2019",
+        "time": "11:58"
+      },
+      "duration": {
+        "inMinutes": 28,
+        "human": "00h 28 min.",
+        "humanSplit": {
+          "hours": 0,
+          "minutes": 28
+        }
+      },
+      "fare": {
+        "cent": -1,
+        "euro": -0,
+        "tarif": "WT-Tarif",
+        "verbund": "WT",
+        "ctx": "M",
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": false
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "ERB89880",
+          "number": "89880",
+          "cls": 8,
+          "oprX": {
+            "name": "eurobahn",
+            "icoX": {
+              "res": "DPN",
+              "txt": "eurobahn"
+            }
+          },
+          "prodCtx": {
+            "name": "ERB89880",
+            "num": "89880",
+            "line": "ERB  RE3",
+            "matchId": "RE3",
+            "catOut": "ERB",
+            "catOutS": "DPN",
+            "catOutL": "eurobahn",
+            "catIn": "DPN",
+            "catCode": "3",
+            "admin": "R2____",
+            "addName": "ERB  RE3"
+          }
+        }
+      ],
+      "interChange": 0,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Dortmund Hbf",
+            "id": 8000080,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.459276,
+                51.517872
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1567762200,
+            "date": "06.09.2019",
+            "time": "11:30"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1567763880,
+            "date": "06.09.2019",
+            "time": "11:58"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": -1,
+            "euro": -0,
+            "tarif": "WT-Tarif",
+            "verbund": "WT",
+            "ctx": "M",
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": false
+          },
+          "duration": {
+            "inMinutes": 28,
+            "human": "00h 28 min.",
+            "humanSplit": {
+              "hours": 0,
+              "minutes": 28
+            }
+          },
+          "distance": null,
+          "interchange": 0,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ERB89880",
+                "number": "89880",
+                "cls": 8,
+                "oprX": {
+                  "name": "eurobahn",
+                  "icoX": {
+                    "res": "DPN",
+                    "txt": "eurobahn"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ERB89880",
+                  "num": "89880",
+                  "line": "ERB  RE3",
+                  "matchId": "RE3",
+                  "catOut": "ERB",
+                  "catOutS": "DPN",
+                  "catOutL": "eurobahn",
+                  "catIn": "DPN",
+                  "catCode": "3",
+                  "admin": "R2____",
+                  "addName": "ERB  RE3"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Dortmund Hbf",
+                "id": "8000080",
+                "other": {
+                  "pCls": 191
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.459276,
+                    51.517872
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 28,
+                "human": "00h 28 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 28
+                }
+              },
+              "arrive": {
+                "timestamp": 1567763880,
+                "date": "06.09.2019",
+                "time": "11:58"
+              },
+              "departure": {
+                "timestamp": 1567762200,
+                "date": "06.09.2019",
+                "time": "11:30"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1567762200,
+                    "date": "06.09.2019",
+                    "time": "11:30"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8004448",
+                  "name": "Nordb\u00f6gge",
+                  "arrive": {
+                    "timestamp": 1567762500,
+                    "date": "06.09.2019",
+                    "time": "11:35"
+                  },
+                  "departure": {
+                    "timestamp": 1567762560,
+                    "date": "06.09.2019",
+                    "time": "11:36"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.741888,
+                      51.615566
+                    ]
+                  }
+                },
+                {
+                  "id": "8003168",
+                  "name": "Kamen",
+                  "arrive": {
+                    "timestamp": 1567762800,
+                    "date": "06.09.2019",
+                    "time": "11:40"
+                  },
+                  "departure": {
+                    "timestamp": 1567762860,
+                    "date": "06.09.2019",
+                    "time": "11:41"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.66103,
+                      51.585165
+                    ]
+                  }
+                },
+                {
+                  "id": "8003169",
+                  "name": "Kamen-Methler",
+                  "arrive": {
+                    "timestamp": 1567763040,
+                    "date": "06.09.2019",
+                    "time": "11:44"
+                  },
+                  "departure": {
+                    "timestamp": 1567763100,
+                    "date": "06.09.2019",
+                    "time": "11:45"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.612605,
+                      51.567222
+                    ]
+                  }
+                },
+                {
+                  "id": "8001537",
+                  "name": "Dortmund-Kurl",
+                  "arrive": {
+                    "timestamp": 1567763220,
+                    "date": "06.09.2019",
+                    "time": "11:47"
+                  },
+                  "departure": {
+                    "timestamp": 1567763280,
+                    "date": "06.09.2019",
+                    "time": "11:48"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.585395,
+                      51.557011
+                    ]
+                  }
+                },
+                {
+                  "id": "8001515",
+                  "name": "Dortmund-Scharnhorst",
+                  "arrive": {
+                    "timestamp": 1567763460,
+                    "date": "06.09.2019",
+                    "time": "11:51"
+                  },
+                  "departure": {
+                    "timestamp": 1567763520,
+                    "date": "06.09.2019",
+                    "time": "11:52"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.536943,
+                      51.538511
+                    ]
+                  }
+                },
+                {
+                  "id": "8000080",
+                  "name": "Dortmund Hbf",
+                  "arrive": {
+                    "timestamp": 1567763880,
+                    "date": "06.09.2019",
+                    "time": "11:58"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.459276,
+                      51.517872
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@lB`EzJcCfDBWcCxEcAdJHdJt@zQbD@WAVvGx@MvCk@`Cje@z`@bQbSFWGVrHxIu@hC??r]n^lGlDHc@ADbBxC^r@dCxEnEnLFLGFLQfFjHzLhNvh@di@??????bEnDbaAjcAzEvFtGlJzH~NjIhThY~cA??~Ib\\??f}BtlIvs@nmC??boBtmH??dLjb@??rq@teC??luAlaFd\\jkA??`o@t|B??????x^pqAvK~a@pBdKlB~M??????zAzLOF??bB~PC@BAj@|HfFnw@zEnm@zBn]zBrf@RE"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "zug"
+        ],
+        "via": {
+          "ids": [
+            "8000080"
+          ],
+          "names": [
+            "Dortmund Hbf"
+          ]
+        },
+        "products": "ERB"
+      },
+      "id": "dtc5d7221139d386"
+    }
+  ],
+  "prev": "eyJpdiI6IjdwdUlDRG9FN204cVljUWdmekU2Ync9PSIsInZhbHVlIjoiOTE4UHFWVWdOTkl1TnJ5QnMyWjg2XC9oOG5zTVVGWW5nT2JcL1lpWEJ1QkYyRHluVU1tenZFcGRcLzVhRWRMMzNuSHZPWVU0VHFwdUdyRk1iVUgyS01vb1lpRWk0ZXNIU3hJWHNBUEtMeE41RU9SUWZ5S0VmR1k3b1wva3JoQzRJTCtYRXh4bG5kS1Zlb0FzMzRFZ1wveEpxZnVkZFB5ZmVuTjhISEczU0thbUNGNExySTVFMmxDQ1ZJZEhucUZHYnlRS2UiLCJtYWMiOiJlMGE0M2RkZTg0YmQ5ZGNmYWRhNTVlYjRlMzM1YWYxNGZmY2MzYWI2MmMwZDMyMGE1ZWEyNDM2MjZiNGNiNjFjIn0=",
+  "next": "eyJpdiI6IjB4XC93YXA2cmt2VEpFc0g3ZTFLTnl3PT0iLCJ2YWx1ZSI6Ims3aVRDTDVhZnhQSGV1VTVFbnBDTVU2UHc1NHZSeVJyWFZZbHRmZm9jVjNvYXlTVUhPV0FuTjR3clY4SkhOOVhlK29ZdjhKbDFNUzRiNTdHM0JJM29hS2doYWh1THNhK3pSbFhCXC9zd0Rlb29hbDJBOWt3bEZkeUNDaUNzZXpSM3dWcnNKUGtqMm9nVUlYTTVpUGF3cEd2MHlMbXRcLzFLQm03bVU1MDVEZUdIOXZvSWpKTldSQWhFZWVUM1ZxN1ZPIiwibWFjIjoiMTM1NmZjNjY4NWQwNzA0NWQwNjEyZTUzMWNkYzlhOTgyYTNlZjk5ODM5ZjFiNTMwMjlkZGM5NTM5OGY5MWQxOCJ9",
+  "isCached": null,
+  "cacheKey": null
+}

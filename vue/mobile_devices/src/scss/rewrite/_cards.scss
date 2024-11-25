@@ -1,0 +1,9 @@
+.card{
+  .card-footer{
+    .list-group{
+      &.list-group-flush{
+        @extend %no-padding;
+      }
+    }
+  }
+}

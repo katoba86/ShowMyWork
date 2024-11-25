@@ -1,0 +1,49 @@
+{
+  "name": "frontend_mobile",
+  "version": "0.1.0",
+  "private": true,
+  "browserslist": "> 2%, not dead",
+  "scripts": {
+    "build-report": "vue-cli-service build --report",
+    "servew": "vue-cli-service serve --no-clean",
+    "serve": "CHOKIDAR_USEPOLLING=true vue-cli-service serve --no-clean",
+    "build": "vue-cli-service build --no-clean",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@mdi/js": "^6.4.95",
+    "animejs": "^3.2.1",
+    "autoprefixer": "^8.6.5",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "copy-webpack-plugin": "^6.4.0",
+    "core-js": "^3.6.5",
+    "dotenv-webpack": "^1.7.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "load-google-maps-api": "^2.0.2",
+    "mdi-vue": "^3.0.11",
+    "mitt": "^2.1.0",
+    "purgecss-webpack-plugin": "^3.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.1",
+    "vuex": "^4.0.0-rc.2",
+    "workbox-webpack-plugin": "^6.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.11",
+    "@vue/compiler-sfc": "^3.0.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "glob-all": "^3.2.1",
+    "webpack-assets-manifest": "^4.0.0",
+    "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^4.4.0"
+  }
+}

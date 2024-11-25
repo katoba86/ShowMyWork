@@ -1,0 +1,5 @@
+.btn{
+  &.btn-shadow{
+    @extend %elevation_medium;
+  }
+}

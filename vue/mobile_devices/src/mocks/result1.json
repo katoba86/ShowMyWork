@@ -1,0 +1,3927 @@
+{
+  "journeys": [
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": null,
+        "bits": null,
+        "originalString": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008102040810204081020408000000000000000000000000000000000000000000000000000000000000000000",
+        "R": "f\u00e4hrt 25. Dez 2020 bis 19. M\u00e4r 2021 Fr "
+      },
+      "origin": {
+        "name": "Hamm(Westf)Hbf",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Waldkraiburg-Kraiburg",
+        "id": 8006164,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            12.407685,
+            48.202776
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1608926040,
+        "date": "25.12.2020",
+        "time": "20:54"
+      },
+      "time_arrive": {
+        "timestamp": 1608880560,
+        "date": "25.12.2020",
+        "time": "08:16"
+      },
+      "duration": {
+        "inMinutes": 682,
+        "human": "11h 22 min.",
+        "humanSplit": {
+          "hours": 11,
+          "minutes": 22
+        }
+      },
+      "fare": {
+        "cent": 11780,
+        "euro": 118,
+        "tarif": null,
+        "verbund": null,
+        "ctx": "D",
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": false
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "ICE 854",
+          "number": "854",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE  854",
+            "num": "854",
+            "matchId": "10",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "ICE 619",
+          "number": "619",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE  619",
+            "num": "619",
+            "matchId": "42",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "ICE 1203",
+          "number": "1203",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE 1203",
+            "num": "1203",
+            "matchId": "24",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "RB 27302",
+          "number": "27302",
+          "cls": 8,
+          "oprX": {
+            "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+            "icoX": {
+              "res": "RB",
+              "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+            }
+          },
+          "prodCtx": {
+            "name": "RB 27302",
+            "num": "27302",
+            "matchId": "44",
+            "catOut": "RB",
+            "catOutS": "RB",
+            "catOutL": "Regionalbahn",
+            "catIn": "RB",
+            "catCode": "3",
+            "admin": "8013D_",
+            "addName": "RB    44"
+          }
+        }
+      ],
+      "interChange": 3,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)Hbf",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Waldkraiburg-Kraiburg",
+            "id": 8006164,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                12.407685,
+                48.202776
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1608926040,
+            "date": "25.12.2020",
+            "time": "20:54"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1608880560,
+            "date": "25.12.2020",
+            "time": "08:16"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": 11780,
+            "euro": 118,
+            "tarif": null,
+            "verbund": null,
+            "ctx": "D",
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": false
+          },
+          "duration": {
+            "inMinutes": 682,
+            "human": "11h 22 min.",
+            "humanSplit": {
+              "hours": 11,
+              "minutes": 22
+            }
+          },
+          "distance": null,
+          "interchange": 3,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 854",
+                "number": "854",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE  854",
+                  "num": "854",
+                  "matchId": "10",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)Hbf",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "K\u00f6ln Hbf",
+                "id": "8000207",
+                "other": {
+                  "pCls": 319
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    6.959197,
+                    50.942823
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 78,
+                "human": "01h 18 min.",
+                "humanSplit": {
+                  "hours": 1,
+                  "minutes": 18
+                }
+              },
+              "arrive": {
+                "timestamp": 1608930720,
+                "date": "25.12.2020",
+                "time": "22:12"
+              },
+              "departure": {
+                "timestamp": 1608926040,
+                "date": "25.12.2020",
+                "time": "20:54"
+              },
+              "waiting": {
+                "inMinutes": 18,
+                "human": "00h 18 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 18
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608926040,
+                    "date": "25.12.2020",
+                    "time": "20:54"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8000142",
+                  "name": "Hagen Hbf",
+                  "arrive": {
+                    "timestamp": 1608927660,
+                    "date": "25.12.2020",
+                    "time": "21:21"
+                  },
+                  "departure": {
+                    "timestamp": 1608927780,
+                    "date": "25.12.2020",
+                    "time": "21:23"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.460391,
+                      51.362727
+                    ]
+                  }
+                },
+                {
+                  "id": "8000266",
+                  "name": "Wuppertal Hbf",
+                  "arrive": {
+                    "timestamp": 1608928680,
+                    "date": "25.12.2020",
+                    "time": "21:38"
+                  },
+                  "departure": {
+                    "timestamp": 1608928800,
+                    "date": "25.12.2020",
+                    "time": "21:40"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.150155,
+                      51.254443
+                    ]
+                  }
+                },
+                {
+                  "id": "8000207",
+                  "name": "K\u00f6ln Hbf",
+                  "arrive": {
+                    "timestamp": 1608930720,
+                    "date": "25.12.2020",
+                    "time": "22:12"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      6.959197,
+                      50.942823
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@jB~DzJaChD@YaCxEcAfJFbJt@|QdD?Y?XtGv@KxCm@`Cje@z`@bQ`SFUGTrHzIu@fChFeQdT~TzHlGj}E|vC????@@ncBncA??l}HvwEfIpFpHnHrItM~GfP|GxUzB|O`AtPNtQ_@fPaCjn@??}@|\\QdK?lCPnLdBnYHrKvBuAdIr\\ll@j{BjExMpFhLjExGxExFjFrEtFtDpNdF|WfEfG`CrFxDhH|HnGxJbFzLnHbWzT~}@??lJle@nJ~b@lCnJb_AjgCpFpL??dCvDzEtFbIvFzItCbJp@rDKhGcAnz@uYfGyAjGa@pDHn_@~DCZ??xHbAbGjBxF`DtHdHjG|JhQ`a@tJjRnKhWvDzHfMhMrK`HB@lRvIlNvI~EnF~JnPUb@Ob@jIlLvPv[hH~HfCzDth@f{@~DnHbDpI|AvFtCfOxAjPT|G@`HJ?K?m@dUyG`s@_@jLJ|PlAnPpCjOvG~U~GzQlAnDJ^?@@B??jAvHjDlm@FbJe@zk@DzEx@vI~B`JGFCFhLzYlK`QtC|CbDvBbK~D????lKhC|]^jGl@`GrBvJvHFQ??rOnJlDhApDd@nDk@nA{@nEyFfGwHDLEMbGoGvFeD|T_GbU}D????`AK????bHm@tOyCbJc@?R?bA`Te@jGq@vJDKvD~Eb@pDKrDT|IvBhDbBzClCrGlJ|DnHjBjH|@wApFbOdBfHbDbQ??`h@~bCdEbSKFIHnMnn@rDnSpAvKEjI??tBsA|dAd{FpF~VdKjb@zH`UfX~h@bGlKfHbIdIjFlDpAhGjAdJJjGw@`RmFhIe@??nETfGpAhDbB|CfCzEtFbC~DrBzEvCbJpBbKdA|KV|GXf^p@dLt@rGhBhKhCnJxKvVfBhF`CvJ~ApKt@dLRzGA|P??Urv@DnSXpKXGr@nM`F~`@dUdmAg@^rYl}AtLz}@??~B{AhC`NRM~Jlh@|ApKzAjPfCdb@jAtKd@vH??pDno@|@bLz@lGlEzRxM~d@dKxd@??tN`v@nEzRpRhu@vGzR??bOvf@nEvWnB~O\\lGFvFW`Qr@lN??jAxP\\~AdFzPhDbJvExG??~IzLlFjL????rAzFr@nGrApYFzGgEz|@M`L^pLx@nGhCbJ`CjExMbP??nE`JhDbOzBvObA~KV~H]@j@vh@v@`L~ApK`CvJxJ~WvJz\\bGxQ??`Tpn@tQ~p@zC|IxIpSxMjUvMjOxFdJzEbMtBzHrAjHA@@A~CdWvItmALjLk@|\\GtJXnHMB@BRCSBdDjj@ID|CuEjDbH~B~ChW`]nHnHzK~GbGvBfGjAdJf@~L_Atw@mU??d|Asd@vLqC~L_@jr@fD??haAbFboCrd@jGt@lGHbJoA~F{Bhu@qc@|FmCdGoBvOcC??|lCg\\~LPlq@bEdXfCpDBxGg@|Fm@DzAE{AdCU??`_@}DhUaBzZiDfUeDrlBkS??bvB}TtvCrA??`[^rDD?I~FVlDz@hQjJ|Bt@lDBpDaABL??nFiCdPeNvKoH~FuBpDFhAZjDrBhLdKh\\hNbDrB~B~BK\\o@|CPJG\\CJxBxAdDxBvGvG~BjDl@iA??DFtAzCz@tDj@rGR|H??Bn@?@NnF??t@tJ`AfGzArFvBtEvEvFtKvHhZ|\\hEzGfDnIvAtFvEf\\rBw@????yAtO_Br[zB`@iAxB_AUg@|RQrx@q@`E}A|CuAzAa@uA[vC??h@bB"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 619",
+                "number": "619",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE  619",
+                  "num": "619",
+                  "matchId": "42",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "K\u00f6ln Hbf",
+                "id": "8000207",
+                "other": {
+                  "pCls": 319
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    6.959197,
+                    50.942823
+                  ]
+                }
+              },
+              "destination": {
+                "name": "M\u00fcnchen Hbf",
+                "id": "8000261",
+                "other": {
+                  "pCls": 447
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    11.558744,
+                    48.140364
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": -1284,
+                "human": "-21h -24 min.",
+                "humanSplit": {
+                  "hours": -21,
+                  "minutes": -24
+                }
+              },
+              "arrive": {
+                "timestamp": 1608872580,
+                "date": "25.12.2020",
+                "time": "06:03"
+              },
+              "departure": {
+                "timestamp": 1608931800,
+                "date": "25.12.2020",
+                "time": "22:30"
+              },
+              "waiting": {
+                "inMinutes": 25,
+                "human": "00h 25 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 25
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000207",
+                  "name": "K\u00f6ln Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608931800,
+                    "date": "25.12.2020",
+                    "time": "22:30"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      6.959197,
+                      50.942823
+                    ]
+                  }
+                },
+                {
+                  "id": "8003330",
+                  "name": "K\u00f6ln\/Bonn Flughafen",
+                  "arrive": {
+                    "timestamp": 1608932460,
+                    "date": "25.12.2020",
+                    "time": "22:41"
+                  },
+                  "departure": {
+                    "timestamp": 1608932580,
+                    "date": "25.12.2020",
+                    "time": "22:43"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.119259,
+                      50.878909
+                    ]
+                  }
+                },
+                {
+                  "id": "8005556",
+                  "name": "Siegburg\/Bonn",
+                  "arrive": {
+                    "timestamp": 1608933060,
+                    "date": "25.12.2020",
+                    "time": "22:51"
+                  },
+                  "departure": {
+                    "timestamp": 1608933120,
+                    "date": "25.12.2020",
+                    "time": "22:52"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.202616,
+                      50.794051
+                    ]
+                  }
+                },
+                {
+                  "id": "8000667",
+                  "name": "Montabaur",
+                  "arrive": {
+                    "timestamp": 1608934260,
+                    "date": "25.12.2020",
+                    "time": "23:11"
+                  },
+                  "departure": {
+                    "timestamp": 1608934320,
+                    "date": "25.12.2020",
+                    "time": "23:12"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.825254,
+                      50.44473
+                    ]
+                  }
+                },
+                {
+                  "id": "8003680",
+                  "name": "Limburg S\u00fcd",
+                  "arrive": {
+                    "timestamp": 1608934860,
+                    "date": "25.12.2020",
+                    "time": "23:21"
+                  },
+                  "departure": {
+                    "timestamp": 1608934920,
+                    "date": "25.12.2020",
+                    "time": "23:22"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.096135,
+                      50.382462
+                    ]
+                  }
+                },
+                {
+                  "id": "8070003",
+                  "name": "Frankfurt(M) Flughafen Fernbf",
+                  "arrive": {
+                    "timestamp": 1608936060,
+                    "date": "25.12.2020",
+                    "time": "23:41"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.569776,
+                      50.052926
+                    ]
+                  }
+                },
+                {
+                  "id": "8000105",
+                  "name": "Frankfurt(Main)Hbf",
+                  "arrive": {
+                    "timestamp": 1608937140,
+                    "date": "25.12.2020",
+                    "time": "23:59"
+                  },
+                  "departure": {
+                    "timestamp": 1608851220,
+                    "date": "25.12.2020",
+                    "time": "00:07"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.663003,
+                      50.106817
+                    ]
+                  }
+                },
+                {
+                  "id": "8070003",
+                  "name": "Frankfurt(M) Flughafen Fernbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608852420,
+                    "date": "25.12.2020",
+                    "time": "00:27"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.569776,
+                      50.052926
+                    ]
+                  }
+                },
+                {
+                  "id": "8000244",
+                  "name": "Mannheim Hbf",
+                  "arrive": {
+                    "timestamp": 1608854640,
+                    "date": "25.12.2020",
+                    "time": "01:04"
+                  },
+                  "departure": {
+                    "timestamp": 1608854760,
+                    "date": "25.12.2020",
+                    "time": "01:06"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.469268,
+                      49.479181
+                    ]
+                  }
+                },
+                {
+                  "id": "8000156",
+                  "name": "Heidelberg Hbf",
+                  "arrive": {
+                    "timestamp": 1608855420,
+                    "date": "25.12.2020",
+                    "time": "01:17"
+                  },
+                  "departure": {
+                    "timestamp": 1608855540,
+                    "date": "25.12.2020",
+                    "time": "01:19"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.67548,
+                      49.403582
+                    ]
+                  }
+                },
+                {
+                  "id": "8006421",
+                  "name": "Wiesloch-Walldorf",
+                  "arrive": {
+                    "timestamp": 1608855960,
+                    "date": "25.12.2020",
+                    "time": "01:26"
+                  },
+                  "departure": {
+                    "timestamp": 1608856020,
+                    "date": "25.12.2020",
+                    "time": "01:27"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.664217,
+                      49.291028
+                    ]
+                  }
+                },
+                {
+                  "id": "8000055",
+                  "name": "Bruchsal",
+                  "arrive": {
+                    "timestamp": 1608856620,
+                    "date": "25.12.2020",
+                    "time": "01:37"
+                  },
+                  "departure": {
+                    "timestamp": 1608856680,
+                    "date": "25.12.2020",
+                    "time": "01:38"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.589687,
+                      49.124592
+                    ]
+                  }
+                },
+                {
+                  "id": "8003184",
+                  "name": "Karlsruhe-Durlach",
+                  "arrive": {
+                    "timestamp": 1608857280,
+                    "date": "25.12.2020",
+                    "time": "01:48"
+                  },
+                  "departure": {
+                    "timestamp": 1608857400,
+                    "date": "25.12.2020",
+                    "time": "01:50"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.462292,
+                      49.002025
+                    ]
+                  }
+                },
+                {
+                  "id": "8000191",
+                  "name": "Karlsruhe Hbf",
+                  "arrive": {
+                    "timestamp": 1608857760,
+                    "date": "25.12.2020",
+                    "time": "01:56"
+                  },
+                  "departure": {
+                    "timestamp": 1608858660,
+                    "date": "25.12.2020",
+                    "time": "02:11"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.401939,
+                      48.99353
+                    ]
+                  }
+                },
+                {
+                  "id": "8000299",
+                  "name": "Pforzheim Hbf",
+                  "arrive": {
+                    "timestamp": 1608859860,
+                    "date": "25.12.2020",
+                    "time": "02:31"
+                  },
+                  "departure": {
+                    "timestamp": 1608859980,
+                    "date": "25.12.2020",
+                    "time": "02:33"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.702969,
+                      48.894064
+                    ]
+                  }
+                },
+                {
+                  "id": "8006053",
+                  "name": "Vaihingen(Enz)",
+                  "arrive": {
+                    "timestamp": 1608860760,
+                    "date": "25.12.2020",
+                    "time": "02:46"
+                  },
+                  "departure": {
+                    "timestamp": 1608860820,
+                    "date": "25.12.2020",
+                    "time": "02:47"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.959009,
+                      48.947271
+                    ]
+                  }
+                },
+                {
+                  "id": "8000235",
+                  "name": "Ludwigsburg",
+                  "arrive": {
+                    "timestamp": 1608861900,
+                    "date": "25.12.2020",
+                    "time": "03:05"
+                  },
+                  "departure": {
+                    "timestamp": 1608862020,
+                    "date": "25.12.2020",
+                    "time": "03:07"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.185115,
+                      48.892374
+                    ]
+                  }
+                },
+                {
+                  "id": "8000096",
+                  "name": "Stuttgart Hbf",
+                  "arrive": {
+                    "timestamp": 1608862800,
+                    "date": "25.12.2020",
+                    "time": "03:20"
+                  },
+                  "departure": {
+                    "timestamp": 1608863760,
+                    "date": "25.12.2020",
+                    "time": "03:36"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.182589,
+                      48.785052
+                    ]
+                  }
+                },
+                {
+                  "id": "8000302",
+                  "name": "Plochingen",
+                  "arrive": {
+                    "timestamp": 1608864660,
+                    "date": "25.12.2020",
+                    "time": "03:51"
+                  },
+                  "departure": {
+                    "timestamp": 1608864780,
+                    "date": "25.12.2020",
+                    "time": "03:53"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.411113,
+                      48.712869
+                    ]
+                  }
+                },
+                {
+                  "id": "8000170",
+                  "name": "Ulm Hbf",
+                  "arrive": {
+                    "timestamp": 1608867600,
+                    "date": "25.12.2020",
+                    "time": "04:40"
+                  },
+                  "departure": {
+                    "timestamp": 1608867720,
+                    "date": "25.12.2020",
+                    "time": "04:42"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.982422,
+                      48.399585
+                    ]
+                  }
+                },
+                {
+                  "id": "8000139",
+                  "name": "G\u00fcnzburg",
+                  "arrive": {
+                    "timestamp": 1608868560,
+                    "date": "25.12.2020",
+                    "time": "04:56"
+                  },
+                  "departure": {
+                    "timestamp": 1608868680,
+                    "date": "25.12.2020",
+                    "time": "04:58"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      10.27868,
+                      48.460389
+                    ]
+                  }
+                },
+                {
+                  "id": "8000013",
+                  "name": "Augsburg Hbf",
+                  "arrive": {
+                    "timestamp": 1608870600,
+                    "date": "25.12.2020",
+                    "time": "05:30"
+                  },
+                  "departure": {
+                    "timestamp": 1608870720,
+                    "date": "25.12.2020",
+                    "time": "05:32"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      10.885595,
+                      48.365247
+                    ]
+                  }
+                },
+                {
+                  "id": "8004158",
+                  "name": "M\u00fcnchen-Pasing",
+                  "arrive": {
+                    "timestamp": 1608871980,
+                    "date": "25.12.2020",
+                    "time": "05:53"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.461633,
+                      48.150036
+                    ]
+                  }
+                },
+                {
+                  "id": "8000261",
+                  "name": "M\u00fcnchen Hbf",
+                  "arrive": {
+                    "timestamp": 1608872580,
+                    "date": "25.12.2020",
+                    "time": "06:03"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.558744,
+                      48.140364
+                    ]
+                  }
+                }
+              ],
+              "poly": "uw|uH_fni@i@cB??ZwC`@tAtA{A|A}Cp@aEPsx@f@}R~@ThAyBmAUz@}Ol@kHr@gRQCPBZqJ@kLe@yG??rCz@z@_GzJw[PR??xAsEdBiFtAeEQQ`ImWbMw^HHIIdXc{@bFuLvLuV??JPfQw]|@eBAAfWaf@MUb@i@hNqYtAeG|@yJJyGO{HwEum@??aF_s@g@oP@eF????x@iNzAaKpCoJ`CyEtCaEb}ByuBf_@oWrE{FhBcD|CmIfBqIhAuJZyIGuKa@uGaJct@W}DDuEp@aFf@yBtBgExDkCzHo@jGlAlSjI??D@VyBWxBfX`LfA|@tCjEpC|GbAhIPvLQvlANfIh@tJv@dHlDpRbH|SfDxGrFnIvFjG|EdErAjA?@fBbBrLtGnIvBrCGhIaEDRvHuD|LeHrKqJ~SeXL`@@?j`Cu}CdG{IJXlGmL~HaSdRcp@MKbBT~@_G??gBqAnDuP`BiM|@aE??b@qBrGuUtU}dA]WxfAeaFhHkZnEkMpFcL|[_i@??zAcC??rc@qs@rGgJ`MwMlKaInIoEtIeD`JsB~b@qHjOaEpT}HbT}J`mAiq@`TaKxToGhUsCdJYjbAh@zOa@dJaA`J}AzIaCbO}FpNcI|MiKdMiMhLgOjKaQlZkk@fPsUzL}MbkAcjArLwNpGmJbGeKrF}KzLyZ`HkUpZ_lArHwTrM{YlOaWlL_OdMeMfa@m]nQcSrGgJdKiQrFaL~IcT??fLoZjKo\\ptAicFxKif@rXkwAxHu^nG}UtHsT`FwLrF}KnO}VnL}N`b@uc@`JqLlGuJlmAi}B|MkY|HkTjJk]bHg_@|ZeeCtFc`@zHs^bIoX??pVaq@??`Ng_@`E{MbGgVtEeWvBsOjCqXbAiPvDa|@lAePdB}OxDwWvCcOdDqN|GkUdIaTlFgLzFsKvKkPfQmSbj@mh@hHyH|GsItKkPtJaR|LuZxJ}\\jFwV`EuWtCkXhB}Xx@gYLgb@iAs}CJkYv@iYlCqa@vEq`@pEkWtI_^jH{TjIyS~gA_eClRw^b\\kh@|JwQdJuRxWyn@tFyKlK{PxG}IzL{MtM_LbIqFbTiKdj@eRvNsH`NsJbRoQjL_OlKyPnJiRpL}ZpJg]fHa_@zEm`@nCoa@t@gY^qoBc@?b@O??^{iBVqPfAeYlBwXrCkXxDyW|EaWhDqNvGoUjEmMlIuSjNuXhs@ynApF}KtImStHqTrGuUpFqVhGs_@|CgXrAcPfBk]v@q]jF}hEt@eY|@kP|BsXhFg`@nCcOnUyeAnEkWtEo`@pBoZ??|@oWTqP^_rER{Tr@{TbAgPtAaPfDaXfH__@lGwUxHqTbFoLtF{KdGcKvI_M`y@o`AbArCcAsCMP??xb@og@|KyObGcKlJmR~EuLnEgM|Mcd@??tSms@`Jq]hH__@dS{pAlCeOrFoV|Ju\\vEaM~I}Rry@u}AzIaS|HgTdl@enBxHiTdFoLrJcR~O}UlQaSrM}Kt`A}p@nSiMdLwFjLuEnWkHlR}CvOoApmAiFtOuB`v@gPhUkCxOa@dJJxk@bEfJXdJ?xOs@fUcD|vA_\\dUyDjUuAdw@d@jU{A`UqEdOkFpI_EzPuKra@g]??foAgfA`MkM~GmIzK}ObGcKpl@mlArJ{QhGyJpPyT~c@wf@hLcOpOsV|Z_j@hTm[`Q{StVoVvMsKbyAkfAhN}I`TkKbOoFzTsFtO_Crk@oGpOsCvTyG~NoGpS}LvRsO~S{TfRaW??????xPwUjLyNrh@yk@dLeOvKcPdOgWhi@}dAhJkRzLmZbKm\\`Ic^hg@oxCxJap@dSqcB??????jEw_@jA_Pd@kPAmPy@sT{AyOaCgOeFgV??????gJqb@wIs]e`AcbDwQoj@uDaN}CsNgCeO}PitA_Hsl@\\MaDeZqA_Py@ePYiPByT~CkdA^a]E?C?Xmb@K_LkA_PmC}NoEgMcEyGgFuE{UuOBM?BkBmAwFmDcEeCyCmCcE}GoC_JsHw_@iAp@}Ga_@{AoFcE_HsFiDkGc@cGdBuPlLyOtM????A?a@oB}c@r\\aGtDyKnEmBv@]P?CwAv@mGjBeFQgD_BmAgA_EeHsCaJEF{A_BzAqHRiCB_G????KkCkEt@??}Xk_A?A?@{`@awA??z`@`wA?A?@|Xj_A??jEu@JjC????C~FShC{ApHzA~ADGrC`J~DdHlAfAfD~AdFPlGkBvAw@?B\\QlBw@xKoE`GuD|c@s\\Jh@??VdA??xOuMtPmLbGeBjGb@rFhDbE~GzAnF|G`_@hAq@rHv_@nC~IbE|GxClCbEdCvFlDjBlA?CCLzUtOfFtEbExGnEfMlC|NjA~OJ~KYlb@B?D?_@`]_DjdACxTXhPx@dPpA~O`DdZ??aDeZqA_Py@ePYiPByT~CkdA^a]E?|CzBtCsJlD}HhEsG`FeFrFoD`GuBpDq@lGWpGRnInBdGtCxRvLI`@rTxMhfE|hC??vjCl_B??v_@vUlHbHxuHh_KfKtIxF|C`GzB~IhBdJl@pLP??la@x@fKR~iDpC??hnCpB??loAZlGRhGx@dGdB|FhC|MfI??j^dTnwBxtA??fKhGvIbD`J~A~LV|LgAjnBoV??xQeDhL}EftAaaAfI_FpL}DpZwF??~qA{UfJY~LdAdO`F`iAxg@jKdIrj@xj@??j|Bn|BzNnP`PhVN[`RvYlCfDpFpDhG|@rDWdG{AzhBmj@??plBal@??lCy@????z`G{hBbb@qN??z\\yJ|IwBdJwApvA{@??|GC??xrCiAnj@O?K?Jzu@Edz@o@??zLbA|KjDxKzGtI|I??hFnH~x@tpApG`JtHlI??zGbHjFjErSvLnLtD~ThC??nJPhUiC~IkBpFsDlEiGrBsEh@yB^}B??vAyU~BmMpAkD@GdA{CzEqLWc@jG{Og@q@f@p@tTgl@pBuE`KcQbC_HBDB@nEgPbIsX|H_WdF}QnGuXt@f@[SHe@~DiOlAoECEBBtAcFzAoFxAmFxAmFZmAjDxCsAuAX_AiBgBJHpBeIzBwLKGNC??dDkPxOuk@zDwMxNsb@xHuXNNtH{XjE{LFHJF~@gDdAbAaBiBb@oAzGgUxAmFbBiGfDaMxDyMxDwMvAaF|@wCRw@H]vIy[Gc@EQ??|Mof@??r{AgsFYUGGjRqt@lYobAnF}PlGwS??vIwZ??`HeWjC{NnAwOhA}\\pAwOvHmg@pF}ZhBuOdCeJdCaH??~@mC??`@mAyC_D`ErEfA{CrEaKpLcRxBqB|ImFdD{AlCk@dCShENvDz@vCtAtGzFfJnNnHjJ~CzBhDtAre@hF??lqFdi@??`bGpIdJt@fGfAra@lL??hk@pPpOpC~kFzs@??vsCh`@??dXzDb`BdX??boA|S|I`CbHvC??vOxJpsAheA??`RxN??lQpNlfA`z@DQEPry@vo@??FSxZ`V??|ThQlH~ECPnY|OpOrH??rGrDvHpGleAdpA??|nC|dD??dnD`eD??niHlxGtHvG|PxM??rA`B??fDjFlDxH`Qnk@??|Ih[jBtIhBjPTjG?xKeCfi@yBtUaCvUe@rKJ`Px@nKrHpb@hQtx@pMv{@eAr@xBdN??yBeNdAs@qMw{@iQux@sHqb@y@oKKaPd@sK`CwUxBuUdCgi@?yKUkGiBkPkBuI}Ii[??aQok@mDyHgDkF??sAaBtCoBaDwLaB}JsAqOWwKTaPt@qKzB_OtCsL|A_GZuAd@mC????`@sC_Ae@~@d@`BuOR}Oq@{T??iCgv@PE}B{q@??g@mO?wKf@wKnBiOMIrCmLbCcGlDyG`FqG??vF{E|GeDxb@yJBN??lBQ??????bMuCE_@rEkBdEiC`EaEFPX_@GMFLpE{G|MoXzC}E??~DoE~C}BfD}AdGuArDQjGd@nL~DnDt@lGHpDe@|F{Bt[sS??vy@wi@??|D}DbCwDjBaEnCoJ|@aGb@iGN}U??O}Za@kGwAcKgDaNeh@wdB{CmN_AkKQwKToG`AmI??dBgHfD}HtGwInHcHxKsG|a@iO|JuG??dVcQvF}Ctr@oS|FiC|EcFrDmHzBkJr@{G??vAgSpC{N??~Qqx@nCwItFkKxV}\\fGoJdDcIh^kgA??hN}[|AgFdCwNvAoFlBuEdCwDrHsGjeAot@|EcFjByE`A}FXkGLkY??@kB??LkTe@iG_A{Fim@ibCiHkTsI{RyJaQ_QqV??cQ{V}BcEaDiIgD_NcVwlAmGgY??uTi`AuJc\\aKs`@kDyHia@or@??}PcYc^ic@mEmGoFsKwJ}VuF{PuDmRkAiK}Dqh@]oB@?BCgBcKsJaa@yCaSyBwSi@Nq@wHu@Tt@UmCc[u@aGyFsXkAoH_AiK??c@cPNgrHUcn@??F{`@MqG{@mKmCsN????qDoRs@oKIqGLaGf@yFbAyFxCsIrh@uy@jQw[e@w@@@~CiG??bw@g|Ahc@a`A|sB_cEbQq_@bP{`@hYgv@tKc[pMmc@pIc]nH{]pGq^rDcWvKcz@??jLk}@xD_WtGm^vHw]|FoUlJk\\dHkT~[y}@tMmc@lIc]`FeVlGs^dJeo@nCqNrG}TdOo^??`Ny[xFeKpDaFvFiGdNuJdAc@kAoIFlCwDIyf@yIcFoCyJ}HoLmFxAiFxAiF{@g@_[{Ti_@iQA?TgAiDkB@Io@rAyFyD]|ADOwOyMgIeFcGmBiGa@qF^wFrBoTdS??nTeSvFsBpF_@hG`@bGlBfIdFvOxMEN\\}AxFxDn@sAAHhDjBUfAXeBpGxBxL`Cxp@zLbSvC??tr@bNpv@|MzGdCfEfC|CxCjFjISb@Rc@`PbTzEpD`JzEdGrAlGMdGeBrGkDFVnHmEnRuO`DgBjDy@lDI~Df@pCnAnNlKbHfBjDTvCSdEuAlBuAHX????EaBvOmTfFeFvJ}FhKmC`H_@dH\\ddAbNjEDtF{@hG_D|FsGpFyK|BmG`CsInIzG??BMqIwGx@}C}@}GVVlDaC^VtIw^rF_v@zHiqC|AgwB|@By@oDO_Zq@qLoAiC}CmBr@oF??`DcDbCsDvMsXpG_JvHoG`cAys@l@`Cm@aCt@m@Kc@xZqU~SaKhO{EhZaF????????pDaBzCyBzEsFxFaKrCqIhCuNfCk`@hCuW`CgSjDqS??lOyt@`VibArN}n@???A????hNqi@`CyNx@wO@oXPmGbLa}A????????V_IDuKiAki@LuK`@iGvAaK|BgJrKuUtDgJ???C??XVxBeIdAyFrAcKv@}KReKEoG{Bm`@NuKdAgKvBkJfD}HrMyRjLgNa@kAfMuMdEoGlFwKpJa\\tPko@~AyJt@oKFwKQmG_Dwh@qAqO_A{FwAkFyKoUuAoFs@cGSmGE_s@??Cmr@UuKiAsOkDqRyTmz@eAyFaAiKuD{{Cg@qKo@iGyEgZ??{Hig@eAiKiA{SS_Pv@kkAPuKt@yOpCoWjCuN|BgJbEgMdXar@vDsMzB{NnAwU??bEyuAHuKO_PiA}S{BkSeCwNwGoV??kCoQk@sKGoGFkGl@sKpBaOpAqFrCqIlk@uqArFwPxDyPoEuCnEtCnBeJ??xBiLh@gGLmEGuMg@iGk@aDsEgPeBuJm@iGUkGDwKhO{nC~BuWdIkp@??b^qoCfLwu@??zXiiBrEaYtB}J??lCiIrDmH|`@ok@??vm@c|@xGoIlHeHf_@e[??dSmP??n`BkeAtFuE`EeF??tF{KdJm\\|KuZfF{K`Ri[??pA_DvAkFzA}JhD}d@XsKImGkAeKwAiFwGqO_A{FMeCLmGZaCtAkF`C{DhAgAjDwApDGdGzA|KtDdDfBnC|CnHpN|C~BhDz@??vDQjDqA|WkRlD_ApD\\pItDdJ^bJjA`M^hLpElDdAxA@jDeApCyCbB_FtBwW`CcJzD_HfMkLrBmEtBkJv@iB`A{AnH_HjBuE|FoUfDyHdFoEdw@ye@d@jAnCmBW}ArMiKxFsCxIwCtOyBlDaAbDmBrCsC`C}DtCoI`Fc_@vBiJtBmEvEmF~FaCjGOnDt@pNrHnDp@lGQlDeAlF{DdEqGhDyI??|IuVhAuFn@eGNmGMmGqBwWWkGNuKn@cGfAwF|CgI`C{DzGgI??pLaNlK_IpIwDdZsIbDoBpC{CtDiHf_@_iAnMm^??dDwHlGcJhHoHxGaE??pHkC`JmAlGCpq@~ApDMbGkBfFkEzDaHtg@{oAbBaFlAsF`DcWjAwFdB}EdEqGzCeCfD}AjGs@zs@tB??dyAbE??xn@hBdJa@bGgBtFiDzEgF`CyDrBmElCyIzByN^iGvBsy@lAoOzA}JpEsQdRuh@tDiHrC{CvFyCnDm@lGNjDdAlFvDjc@dd@??z]`_@`CzDnBrE`HfT`C|DbFpEjDtApDf@lGIhGu@xFqCtLwM~CyBbGcBlGFbGlBzC~BlCfDrBjExAhFlCpQBT@?A?~ArM|AzFLK\\_@tErItCpCnBdAjFz@xN]vAj@vKi@hD}AtCwB`F{FdByCdGuO??MQTo@????xI}StAwEtAwJPuLu@gKmByIgGcPwEeJVc@wFcKkKsOmCsGcA{Es@aHoC{hBeAg]YgOy@sOkBcOuCgN{vDi~L??mFgSuAsJw@wK{HuoDiCql@??gB}S}c@iyD{A}JkDyMyp@yhB??yJgXgC}Iee@utByByN}FyeASmGBmGXkGtA}JdGcUnBsJj@cGTmGEmG[iGkAuIoKgi@RKCSf@Wg@V{Kim@oBuI}aAkjFcFeQ_]u|@kGcN{KkYHKHKiZiw@_CeJ}@_H??Y_FGyG`@oK~BmOvGy[lBoGrBoEfS}Z??vnBqvChIaKpJaKlMaLxLwI??lJuFxvDynB??tgCgrAhFiEnEaGtDkHtEwN??bXw~@nBoJl@cGP{OsEmpB?sKv@iKbAyFpCsIja@mw@??~Sga@??zMkWnEyLxCeNlAcK^gGLcTsBam@b@{d@v@uO|DsVj@cGPmGUsK{BeSq@mKBg~@LoFr@_H~BaJjB}DpCyDvEmDdEoAlGSdXtAbGfB~CzBfNnQlEbE`EjBhGr@pDUhF{Axo@kW~C{BrCyC|D}GfB{EfZkrAhLge@??jNso@~CuRzCgW`n@{yIrFm{@PuKEsK_@oKw@kKqC}RuQ}`AiAcKu@kK_@oU??~EmpDR}YVA??u@oXQ@iBuUiC{SeFqYgHaYeGcPsTqe@}IgRwFgKsdAu_B??a|CqyEoZad@??{\\gi@kDoGeD_ImCwIuBkJeBwKUFgRk`C}AuY?@T?JuK`@gGdCsNtEqLtGuIpFuD~FmBpRsAdXgErL}B|JuDJf@nJkGlh@mc@Pn@K]jRsO~DaCrQcOOc@|K}JzGqHjLsMxFoIxBgEpEkMnHqZYQvDsTnCwWp@kORiXOckBRee@?E????PeKx@_MRHcAI`@sOrCrBbD}J~F}JdDoDjDoCrC_BdEuA|IsAzvGur@ASxx@yIpOoCrNwD~OeGrQiJxO{KzMsLLZ`McN`P_U|NwV~Ry`@dGaM??~^cv@MS??jSuc@fE}LlG{T`F}U|BuNvCmW|Gax@dBeO`EqVhFwUhv@_wC??~e@kiBvl@gzB??xLye@`F_VzCaW|@qOh@wT|Ay~AT_i@vCivCf@ix@R@`CmhBhDwiDR@bDs_DEAM?|AwrA??|@}cAtEqhEN@jBycB??r@cZr@wO~Cih@`CoW[IpCeUbE_WxQy{@~FeUtJw[dKcYnMa[bT{e@PRztBgwE??poA_rC??rYso@bGhJEEfEmKbEgNhGsOj@uB|@cHc@Il@oAj@iBCCBBnBwIp@wGfCcXfJsd@??fBkIq@g@FD~Jk`@dCgR~@cW????`Byi@????Fce@eBEq@k@~CyMRmA@c@bAaR~AoSjAyUF@pC`@j@uKRDc@IDgAaDg@V}E_@G??xBcc@xAqPDBlACc@yTBcKd@DtCo~@P}MFAMF]oFDmWQC`DugA??LqEd@BSqNAkHf@kQ~BT^wL`BN"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 1203",
+                "number": "1203",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE 1203",
+                  "num": "1203",
+                  "matchId": "24",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "M\u00fcnchen Hbf",
+                "id": "8000261",
+                "other": {
+                  "pCls": 447
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    11.558744,
+                    48.140364
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 1,
+                "human": "00h 01 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 1
+                }
+              },
+              "arrive": {
+                "timestamp": 1608876600,
+                "date": "25.12.2020",
+                "time": "07:10"
+              },
+              "departure": {
+                "timestamp": 1608874080,
+                "date": "25.12.2020",
+                "time": "06:28"
+              },
+              "waiting": {
+                "inMinutes": 24,
+                "human": "00h 24 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 24
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000261",
+                  "name": "M\u00fcnchen Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608874080,
+                    "date": "25.12.2020",
+                    "time": "06:28"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.558744,
+                      48.140364
+                    ]
+                  }
+                },
+                {
+                  "id": "8000262",
+                  "name": "M\u00fcnchen Ost",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608874800,
+                    "date": "25.12.2020",
+                    "time": "06:40"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.604993,
+                      48.127302
+                    ]
+                  }
+                },
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": {
+                    "timestamp": 1608876600,
+                    "date": "25.12.2020",
+                    "time": "07:10"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                }
+              ],
+              "poly": "ilydHcqpeAkE{BnEqX|@oDjBaFWYlB_Fv@gDb@sDr@uMxEkX??t@wF|CiM~@iHz@{DzBcG`D_GPVtG_NpAeFvAeJdAwDdBmDdKqP??jP{[r@oBz@{FJ_Hk@yE_BaFeEaICEuN}UuDgFKRMTuDuFMRLSmIwOmBoGs@qE??aDs\\c@{LYBR@t@yKYIS@_@_Q?gNr@_Q????@EpCXJeBpAPrAe^????zAsWbDk[~AyJjDiM|Ueo@vBgJrB_ONFhLy|@bMw|@vKe{@r@qF??????lEq^OEpj@ijE`@Nvj@yhEQIv^gqC??jr@yjFjH{r@ZJ`XqgCjCmN`Msg@QMpOem@pFwPdn@upA??????^h@|IuQnEuLxCcNvRmdAnCuIpNw\\bI{\\nCqInp@{tAxF_KlEeGbHwHpUuP??fRsN`X}QvCmCnE}FrDkHtCmIvIca@zAeFjBsE|B_E~GcIrnAumAdDiBjDeAvZ}EhDqA~EiD|CqD|B_EbMe^pBoEbCuDpCyCrFmDtQyHlZaThDyArN}D??tPoEtCqA~C}Bln@es@dKiIpIyDjz@wXlIgEtHoG~r@cx@zIcLtDiHfBwEbXu{@nFeKzMiR??`RuW`Pe`@pDmHzGeIdIwEhkCyj@~L{@|`@bB|ICpDc@bGeBhIwElHcHnGyIlFqKfE{L|C_NtA{JjIwz@??pFal@??~Cy[`AwFvAgFjBuEdEoGdFmEhDaBfGkAjG@pb@lKdJj@fJi@nqAoXbGgB`DqBpCyC|B_ExB_HpJm`@|GuXCC"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RB 27302",
+                "number": "27302",
+                "cls": 8,
+                "oprX": {
+                  "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+                  "icoX": {
+                    "res": "RB",
+                    "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RB 27302",
+                  "num": "27302",
+                  "matchId": "44",
+                  "catOut": "RB",
+                  "catOutS": "RB",
+                  "catOutL": "Regionalbahn",
+                  "catIn": "RB",
+                  "catCode": "3",
+                  "admin": "8013D_",
+                  "addName": "RB    44"
+                }
+              },
+              "origin": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Waldkraiburg-Kraiburg",
+                "id": "8006164",
+                "other": {
+                  "pCls": 40
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.407685,
+                    48.202776
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 1,
+                "human": "00h 01 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 1
+                }
+              },
+              "arrive": {
+                "timestamp": 1608880560,
+                "date": "25.12.2020",
+                "time": "08:16"
+              },
+              "departure": {
+                "timestamp": 1608878040,
+                "date": "25.12.2020",
+                "time": "07:34"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608878040,
+                    "date": "25.12.2020",
+                    "time": "07:34"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                },
+                {
+                  "id": "8005173",
+                  "name": "Rosenheim Hochschule",
+                  "arrive": {
+                    "timestamp": 1608878160,
+                    "date": "25.12.2020",
+                    "time": "07:36"
+                  },
+                  "departure": {
+                    "timestamp": 1608878220,
+                    "date": "25.12.2020",
+                    "time": "07:37"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.104416,
+                      47.86693
+                    ]
+                  }
+                },
+                {
+                  "id": "8005327",
+                  "name": "Schechen",
+                  "arrive": {
+                    "timestamp": 1608878520,
+                    "date": "25.12.2020",
+                    "time": "07:42"
+                  },
+                  "departure": {
+                    "timestamp": 1608878580,
+                    "date": "25.12.2020",
+                    "time": "07:43"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.126646,
+                      47.926807
+                    ]
+                  }
+                },
+                {
+                  "id": "8005194",
+                  "name": "Rott(Inn)",
+                  "arrive": {
+                    "timestamp": 1608878940,
+                    "date": "25.12.2020",
+                    "time": "07:49"
+                  },
+                  "departure": {
+                    "timestamp": 1608878940,
+                    "date": "25.12.2020",
+                    "time": "07:49"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.136139,
+                      47.988149
+                    ]
+                  }
+                },
+                {
+                  "id": "8006220",
+                  "name": "Wasserburg(Inn)Bf",
+                  "arrive": {
+                    "timestamp": 1608879480,
+                    "date": "25.12.2020",
+                    "time": "07:58"
+                  },
+                  "departure": {
+                    "timestamp": 1608879480,
+                    "date": "25.12.2020",
+                    "time": "07:58"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.185202,
+                      48.061744
+                    ]
+                  }
+                },
+                {
+                  "id": "8002189",
+                  "name": "Gars(Inn)",
+                  "arrive": {
+                    "timestamp": 1608880140,
+                    "date": "25.12.2020",
+                    "time": "08:09"
+                  },
+                  "departure": {
+                    "timestamp": 1608880140,
+                    "date": "25.12.2020",
+                    "time": "08:09"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.298574,
+                      48.147537
+                    ]
+                  }
+                },
+                {
+                  "id": "8006164",
+                  "name": "Waldkraiburg-Kraiburg",
+                  "arrive": {
+                    "timestamp": 1608880560,
+                    "date": "25.12.2020",
+                    "time": "08:16"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.407685,
+                      48.202776
+                    ]
+                  }
+                }
+              ],
+              "poly": "qu`cHm`~hAYSoTj~@eDzHoC`D_DxBiDlAqe@xJgJXqD_@aGwA??guJ}iC??qo@_QgGoAeJ{@_MA}tB|FcMe@ihDsj@??kSkDuEyAcDeByHiGes@mp@mFsDmDsAoDo@sDOkGh@wYjKiG`AmG?yXsA??a`@xBiGq@uIgDkFcEu`BazAeHwHcGmJmu@a_BkEiGuEkDaEeBcOaE??uTqGqDg@kaB_AkGa@mD_A}DsBmE_Eq[mg@oa@cc@_IoFkc@sUk\\_W??mKeIeDkB{|@{Z{FmC_D{BwEmFaC{DeD}HyAgFcBuJy@gKMkGToLpEmo@b@mKEmGYgGwA{JoM}b@}CeIs`@cn@}AaD}AeF{AwJWiGt@m`@WqKs@_GmBoJgD{MmCuIoBqE_C{DwEoFsFoDwNwGqFyDiEcG_C}FcAcEy@}F]mKHsGxAa]??xBcc@XqKg@qtBu@iKuBmKuCeHqGgL??ohB{_DkFqKeTuf@??u\\qv@}B}DsC{CuF_Du|@}[sFgD{EkF}B}D_DeI_Ook@_IwTwE{Jc_@go@??"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "db",
+          "db",
+          "db",
+          "zug"
+        ],
+        "via": {
+          "ids": [
+            "8000207",
+            "8000261",
+            "8000320",
+            "8006164"
+          ],
+          "names": [
+            "K\u00f6ln Hbf",
+            "M\u00fcnchen Hbf",
+            "Rosenheim",
+            "Waldkraiburg-Kraiburg"
+          ]
+        },
+        "products": "ICE, ICE, ICE, RB"
+      },
+      "id": "dtc5fe63a17e3015"
+    },
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": null,
+        "bits": null,
+        "originalString": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008100000000000081020408100000000000000000000000000000000000000000000000000000000000000000",
+        "R": "f\u00e4hrt 19. Feb bis 26. M\u00e4r 2021 Fr; auch 25. Dez 2020,  1. Jan 2021 "
+      },
+      "origin": {
+        "name": "Hamm(Westf)Hbf",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Waldkraiburg-Kraiburg",
+        "id": 8006164,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            12.407685,
+            48.202776
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1608926400,
+        "date": "25.12.2020",
+        "time": "21:00"
+      },
+      "time_arrive": {
+        "timestamp": 1608884460,
+        "date": "25.12.2020",
+        "time": "09:21"
+      },
+      "duration": {
+        "inMinutes": 741,
+        "human": "12h 21 min.",
+        "humanSplit": {
+          "hours": 12,
+          "minutes": 21
+        }
+      },
+      "fare": {
+        "cent": -1,
+        "euro": -0,
+        "tarif": "Preisauskunft nicht m\u00f6glich",
+        "verbund": null,
+        "ctx": null,
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": false
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "RE 32575",
+          "number": "32575",
+          "cls": 8,
+          "oprX": {
+            "name": "National Express",
+            "icoX": {
+              "res": "DPN",
+              "txt": "National Express"
+            }
+          },
+          "prodCtx": {
+            "name": "RE 32575",
+            "num": "32575",
+            "matchId": "7",
+            "catOut": "RE",
+            "catOutS": "DPN",
+            "catOutL": "National Express",
+            "catIn": "DPN",
+            "catCode": "3",
+            "admin": "NXRE__",
+            "addName": "RE     7"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "IC 2307",
+          "number": "2307",
+          "cls": 2,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "IC  2307",
+            "num": "2307",
+            "matchId": "30",
+            "catOut": "IC",
+            "catOutS": "IC",
+            "catOutL": "Intercity",
+            "catIn": "IC",
+            "catCode": "1",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "NJ 421",
+          "number": "421",
+          "cls": 2,
+          "oprX": {
+            "name": "\u00d6sterreichische Bundesbahnen",
+            "icoX": {
+              "res": "D",
+              "txt": "\u00d6sterreichische Bundesbahnen"
+            }
+          },
+          "prodCtx": {
+            "name": "NJ   421",
+            "num": "421",
+            "matchId": "91",
+            "catOut": "NJ",
+            "catOutS": "NJ",
+            "catOutL": "Nightjet",
+            "catIn": "NJ",
+            "catCode": "1",
+            "admin": "81____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "RB 27116",
+          "number": "27116",
+          "cls": 8,
+          "oprX": {
+            "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+            "icoX": {
+              "res": "RB",
+              "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+            }
+          },
+          "prodCtx": {
+            "name": "RB 27116",
+            "num": "27116",
+            "matchId": "44",
+            "catOut": "RB",
+            "catOutS": "RB",
+            "catOutL": "Regionalbahn",
+            "catIn": "RB",
+            "catCode": "3",
+            "admin": "8013D_",
+            "addName": "RB    44"
+          }
+        }
+      ],
+      "interChange": 3,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)Hbf",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Waldkraiburg-Kraiburg",
+            "id": 8006164,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                12.407685,
+                48.202776
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1608926400,
+            "date": "25.12.2020",
+            "time": "21:00"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1608884460,
+            "date": "25.12.2020",
+            "time": "09:21"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": -1,
+            "euro": -0,
+            "tarif": "Preisauskunft nicht m\u00f6glich",
+            "verbund": null,
+            "ctx": null,
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": false
+          },
+          "duration": {
+            "inMinutes": 741,
+            "human": "12h 21 min.",
+            "humanSplit": {
+              "hours": 12,
+              "minutes": 21
+            }
+          },
+          "distance": null,
+          "interchange": 3,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RE 32575",
+                "number": "32575",
+                "cls": 8,
+                "oprX": {
+                  "name": "National Express",
+                  "icoX": {
+                    "res": "DPN",
+                    "txt": "National Express"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RE 32575",
+                  "num": "32575",
+                  "matchId": "7",
+                  "catOut": "RE",
+                  "catOutS": "DPN",
+                  "catOutL": "National Express",
+                  "catIn": "DPN",
+                  "catCode": "3",
+                  "admin": "NXRE__",
+                  "addName": "RE     7"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)Hbf",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Hagen Hbf",
+                "id": "8000142",
+                "other": {
+                  "pCls": 59
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.460391,
+                    51.362727
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 36,
+                "human": "00h 36 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 36
+                }
+              },
+              "arrive": {
+                "timestamp": 1608928560,
+                "date": "25.12.2020",
+                "time": "21:36"
+              },
+              "departure": {
+                "timestamp": 1608926400,
+                "date": "25.12.2020",
+                "time": "21:00"
+              },
+              "waiting": {
+                "inMinutes": 22,
+                "human": "00h 22 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 22
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608926400,
+                    "date": "25.12.2020",
+                    "time": "21:00"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8001061",
+                  "name": "B\u00f6nen",
+                  "arrive": {
+                    "timestamp": 1608926760,
+                    "date": "25.12.2020",
+                    "time": "21:06"
+                  },
+                  "departure": {
+                    "timestamp": 1608926820,
+                    "date": "25.12.2020",
+                    "time": "21:07"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.757313,
+                      51.598046
+                    ]
+                  }
+                },
+                {
+                  "id": "8000171",
+                  "name": "Unna",
+                  "arrive": {
+                    "timestamp": 1608927120,
+                    "date": "25.12.2020",
+                    "time": "21:12"
+                  },
+                  "departure": {
+                    "timestamp": 1608927180,
+                    "date": "25.12.2020",
+                    "time": "21:13"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.692249,
+                      51.53905
+                    ]
+                  }
+                },
+                {
+                  "id": "8000392",
+                  "name": "Holzwickede",
+                  "arrive": {
+                    "timestamp": 1608927480,
+                    "date": "25.12.2020",
+                    "time": "21:18"
+                  },
+                  "departure": {
+                    "timestamp": 1608927540,
+                    "date": "25.12.2020",
+                    "time": "21:19"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.619634,
+                      51.504684
+                    ]
+                  }
+                },
+                {
+                  "id": "8000037",
+                  "name": "Schwerte(Ruhr)",
+                  "arrive": {
+                    "timestamp": 1608927840,
+                    "date": "25.12.2020",
+                    "time": "21:24"
+                  },
+                  "departure": {
+                    "timestamp": 1608927900,
+                    "date": "25.12.2020",
+                    "time": "21:25"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.559047,
+                      51.44229
+                    ]
+                  }
+                },
+                {
+                  "id": "8000142",
+                  "name": "Hagen Hbf",
+                  "arrive": {
+                    "timestamp": 1608928560,
+                    "date": "25.12.2020",
+                    "time": "21:36"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.460391,
+                      51.362727
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@jB~DzJaChD@YaCxEcAfJFbJt@|QdD?Y?XtGv@KxCm@`Cje@z`@bQ`SFUGTrHzIu@fChFeQdT~TzHlGj}E|vC????@@ncBncA??l}HvwEfIpFpHnHrItM~GfP|GxUzB|O`AtPNtQ_@fPaCjn@??}@|\\QdK?lCPnLdBnYHrKvBuAdIr\\ll@j{BjExMpFhLjExGxExFjFrEtFtDpNdF|WfEfG`CrFxDhH|HnGxJbFzLnHbW|St~@\\UlJle@nJ~b@lCnJb_AjgCpFpL??dCvDzEtFbIvFzItCbJp@rDKhGcAnz@uYfGyAjGa@pDHn_@~DCZ??xHbAbGjBxF`DtHdHjG|JhQ`a@tJjRnKhWvDzHfMhMrK`HB@lRvIlNvI~EnF~JnPUb@Ob@jIlLvPv[hH~HfCzDth@f{@~DnHbDpI|AvFtCfOxAjPT|G@`HJ?K?m@dUyG`s@_@jLJ|PlAnPpCjOvG~U~GzQlAnDJ^?@@B??jAvHjDlm@FbJe@zk@DzEx@vI~B`JGFCFhLzYlK`QtC|CbDvBbK~D????lKhC|]^jGl@`GrBvJvHFQ??rOnJlDhApDd@nDk@nA{@nEyFfGwHDLEMbGoGvFeD|T_GbU}D????`AK????bHm@tOyCbJc@?R?bA`Te@jGq@vJDCj@"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "IC 2307",
+                "number": "2307",
+                "cls": 2,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "IC  2307",
+                  "num": "2307",
+                  "matchId": "30",
+                  "catOut": "IC",
+                  "catOutS": "IC",
+                  "catOutL": "Intercity",
+                  "catIn": "IC",
+                  "catCode": "1",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "Hagen Hbf",
+                "id": "8000142",
+                "other": {
+                  "pCls": 59
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.460391,
+                    51.362727
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Bonn Hbf",
+                "id": "8000044",
+                "other": {
+                  "pCls": 319
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.096678,
+                    50.731963
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 76,
+                "human": "01h 16 min.",
+                "humanSplit": {
+                  "hours": 1,
+                  "minutes": 16
+                }
+              },
+              "arrive": {
+                "timestamp": 1608934440,
+                "date": "25.12.2020",
+                "time": "23:14"
+              },
+              "departure": {
+                "timestamp": 1608929880,
+                "date": "25.12.2020",
+                "time": "21:58"
+              },
+              "waiting": {
+                "inMinutes": 6,
+                "human": "00h 06 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 6
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000142",
+                  "name": "Hagen Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608929880,
+                    "date": "25.12.2020",
+                    "time": "21:58"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.460391,
+                      51.362727
+                    ]
+                  }
+                },
+                {
+                  "id": "8000266",
+                  "name": "Wuppertal Hbf",
+                  "arrive": {
+                    "timestamp": 1608930780,
+                    "date": "25.12.2020",
+                    "time": "22:13"
+                  },
+                  "departure": {
+                    "timestamp": 1608930900,
+                    "date": "25.12.2020",
+                    "time": "22:15"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.150155,
+                      51.254443
+                    ]
+                  }
+                },
+                {
+                  "id": "8000087",
+                  "name": "Solingen Hbf",
+                  "arrive": {
+                    "timestamp": 1608931560,
+                    "date": "25.12.2020",
+                    "time": "22:26"
+                  },
+                  "departure": {
+                    "timestamp": 1608931680,
+                    "date": "25.12.2020",
+                    "time": "22:28"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.004287,
+                      51.160784
+                    ]
+                  }
+                },
+                {
+                  "id": "8000207",
+                  "name": "K\u00f6ln Hbf",
+                  "arrive": {
+                    "timestamp": 1608933000,
+                    "date": "25.12.2020",
+                    "time": "22:50"
+                  },
+                  "departure": {
+                    "timestamp": 1608933180,
+                    "date": "25.12.2020",
+                    "time": "22:53"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      6.959197,
+                      50.942823
+                    ]
+                  }
+                },
+                {
+                  "id": "8000044",
+                  "name": "Bonn Hbf",
+                  "arrive": {
+                    "timestamp": 1608934440,
+                    "date": "25.12.2020",
+                    "time": "23:14"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.096678,
+                      50.731963
+                    ]
+                  }
+                }
+              ],
+              "poly": "axnxHmbpl@GjC~Eb@pDKrDT|IvBhDbBzClCrGlJ|DnHjBjH|@wApFbOdBfHbDbQ??`h@~bCdEbSKFIHnMnn@rDnSpAvKEjI??tBsA|dAd{FpF~VdKjb@zH`UfX~h@bGlKfHbIdIjFlDpAhGjAdJJjGw@`RmFhIe@??nETfGpAhDbB|CfCzEtFbC~DrBzEvCbJpBbKdA|KV|GXf^p@dLt@rGhBhKhCnJxKvVfBhF`CvJ~ApKt@dLRzGA|P??Urv@DnSXpKXGr@nM`F~`@dUdmAg@^rYl}AtLz}@??~B{AhC`NRM~Jlh@|ApKzAjPfCdb@jAtKd@vH??pDno@|@bLz@lGlEzRxM~d@dKxd@??tN`v@nEzRpRhu@vGzR??bOvf@nEvWnB~O\\lGFvFW`Qr@lN??jAxP\\~AdFzPhDbJvExG??~IzLlFjL????rAzFr@nGrApYFzGgEz|@M`L^pLx@nGhCbJ`CjExMbP??nE`JhDbOzBvObA~KV~H]@j@vh@v@`L~ApK`CvJxJ~WvJz\\bGxQ??`Tpn@tQ~p@zC|IxIpSxMjUvMjOxFdJzEbMtBzHrAjHA@@A~CdWvItmALjLk@|\\GtJXnHMB@BRCSBdDjj@ID|CuEjDbH~B~ChW`]nHnHzK~GbGvBfGjAdJf@~L_Atw@mU??d|Asd@vLqC~L_@jr@fD??haAbFboCrd@jGt@lGHbJoA~F{Bhu@qc@|FmCdGoBvOcC??|lCg\\~LPlq@bEdXfCpDBxGg@|Fm@DzAE{AdCU??`_@}DhUaBzZiDfUeDrlBkS??bvB}TtvCrA??`[^rDD?I~FVlDz@hQjJ|Bt@lDBpDaABL??nFiCdPeNvKoH~FuBpDFhAZjDrBhLdKh\\hNbDrB~B~BK\\o@|CPJG\\CJxBxAdDxBvGvG~BjDl@iA??DFtAzCz@tDj@rGR|H??Bn@?@NnF??t@tJ`AfGzArFvBtEvEvFtKvHhZ|\\hEzGfDnIvAtFvEf\\rBw@????yAtO_Br[zB`@iAxB_AUg@|RQrx@q@`E}A|CuAzAa@uA[vC??n@pB{e@xh@FLoCxEw@zB????{AdK}@|KQ~CLdGjA~FhQ``@OV@GtFpI??~OvKMr@lTnNlD|@~HC???QtY[pDi@~FeChFqEhCwDfLgY??JL^}@j@z@|AmDhDcEfCsA|Ce@dEPrE~@zJzG\\{ADW~CjBtO|K??Hk@xD`CDY??xXfPx\\nREVDW|HxCOlATxBzE`FpLpHl@eDCHpGzFe@hB@E~ItF`Ar@BQ|IfGbhAzq@xa@|PjUdGCf@`QxCxMhA????F@nLl@rRJ~bC}@????bi@YfJk@|I{BtIkDlOqJ??????lJmHrOqOxNmQlPkUbuCavE??xaE}vGdLqO~g@sm@`NeT??|JqVfEuMpDkN|C{N`y@i`G??nFya@????tOgjAnCgPQOPNtOeq@LJ"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "NJ 421",
+                "number": "421",
+                "cls": 2,
+                "oprX": {
+                  "name": "\u00d6sterreichische Bundesbahnen",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "\u00d6sterreichische Bundesbahnen"
+                  }
+                },
+                "prodCtx": {
+                  "name": "NJ   421",
+                  "num": "421",
+                  "matchId": "91",
+                  "catOut": "NJ",
+                  "catOutS": "NJ",
+                  "catOutL": "Nightjet",
+                  "catIn": "NJ",
+                  "catCode": "1",
+                  "admin": "81____"
+                }
+              },
+              "origin": {
+                "name": "Bonn Hbf",
+                "id": "8000044",
+                "other": {
+                  "pCls": 319
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.096678,
+                    50.731963
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": -1332,
+                "human": "-22h -12 min.",
+                "humanSplit": {
+                  "hours": -22,
+                  "minutes": -12
+                }
+              },
+              "arrive": {
+                "timestamp": 1608879780,
+                "date": "25.12.2020",
+                "time": "08:03"
+              },
+              "departure": {
+                "timestamp": 1608934800,
+                "date": "25.12.2020",
+                "time": "23:20"
+              },
+              "waiting": {
+                "inMinutes": 31,
+                "human": "00h 31 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 31
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000044",
+                  "name": "Bonn Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608934800,
+                    "date": "25.12.2020",
+                    "time": "23:20"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.096678,
+                      50.731963
+                    ]
+                  }
+                },
+                {
+                  "id": "8000206",
+                  "name": "Koblenz Hbf",
+                  "arrive": {
+                    "timestamp": 1608937080,
+                    "date": "25.12.2020",
+                    "time": "23:58"
+                  },
+                  "departure": {
+                    "timestamp": 1608850800,
+                    "date": "25.12.2020",
+                    "time": "00:00"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.588343,
+                      50.350775
+                    ]
+                  }
+                },
+                {
+                  "id": "8000240",
+                  "name": "Mainz Hbf",
+                  "arrive": {
+                    "timestamp": 1608854220,
+                    "date": "25.12.2020",
+                    "time": "00:57"
+                  },
+                  "departure": {
+                    "timestamp": 1608854340,
+                    "date": "25.12.2020",
+                    "time": "00:59"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.258453,
+                      50.001239
+                    ]
+                  }
+                },
+                {
+                  "id": "8070003",
+                  "name": "Frankfurt(M) Flughafen Fernbf",
+                  "arrive": {
+                    "timestamp": 1608855300,
+                    "date": "25.12.2020",
+                    "time": "01:15"
+                  },
+                  "departure": {
+                    "timestamp": 1608855420,
+                    "date": "25.12.2020",
+                    "time": "01:17"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.569776,
+                      50.052926
+                    ]
+                  }
+                },
+                {
+                  "id": "8002041",
+                  "name": "Frankfurt(Main)S\u00fcd",
+                  "arrive": {
+                    "timestamp": 1608855900,
+                    "date": "25.12.2020",
+                    "time": "01:25"
+                  },
+                  "departure": {
+                    "timestamp": 1608856020,
+                    "date": "25.12.2020",
+                    "time": "01:27"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.686187,
+                      50.099302
+                    ]
+                  }
+                },
+                {
+                  "id": "8000260",
+                  "name": "W\u00fcrzburg Hbf",
+                  "arrive": {
+                    "timestamp": 1608860340,
+                    "date": "25.12.2020",
+                    "time": "02:39"
+                  },
+                  "departure": {
+                    "timestamp": 1608860460,
+                    "date": "25.12.2020",
+                    "time": "02:41"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.93593,
+                      49.802163
+                    ]
+                  }
+                },
+                {
+                  "id": "8000284",
+                  "name": "N\u00fcrnberg Hbf",
+                  "arrive": {
+                    "timestamp": 1608863760,
+                    "date": "25.12.2020",
+                    "time": "03:36"
+                  },
+                  "departure": {
+                    "timestamp": 1608867180,
+                    "date": "25.12.2020",
+                    "time": "04:33"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.08227,
+                      49.445435
+                    ]
+                  }
+                },
+                {
+                  "id": "8000013",
+                  "name": "Augsburg Hbf",
+                  "arrive": {
+                    "timestamp": 1608873840,
+                    "date": "25.12.2020",
+                    "time": "06:24"
+                  },
+                  "departure": {
+                    "timestamp": 1608874080,
+                    "date": "25.12.2020",
+                    "time": "06:28"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      10.885595,
+                      48.365247
+                    ]
+                  }
+                },
+                {
+                  "id": "8000261",
+                  "name": "M\u00fcnchen Hbf",
+                  "arrive": {
+                    "timestamp": 1608876660,
+                    "date": "25.12.2020",
+                    "time": "07:11"
+                  },
+                  "departure": {
+                    "timestamp": 1608877680,
+                    "date": "25.12.2020",
+                    "time": "07:28"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.558744,
+                      48.140364
+                    ]
+                  }
+                },
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": {
+                    "timestamp": 1608879780,
+                    "date": "25.12.2020",
+                    "time": "08:03"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                }
+              ],
+              "poly": "yqstHgaij@MKz@eE??|@yEqBkA~Bv@d@mDzCaK~BgEnCgDpyAmyA??|y@uy@fH_IjGyJxj@kcA??rfAonB??f_A_cBb[gc@??rJ{Kxo@uj@lc@oa@??dj@ah@??@???nO}MhDyAnDy@lGUtD`@`GzAlGHnDm@fOuE~MqA??~Y{Ajc@MhGvAxK`HhGv@hG}@bL_GjJ{D??tc@mQnDiApDe@jGRlDbAbDtB|ElF|CdCjDxAnDl@jGZlGUfGiA`GaCrFoDbFaFrUcYtRm^|Y{m@`F{LOOdFgPzHsNvXea@zL_N|MeK|eByeAfNiK??|JsIxJ_K~}C_eDrj@}g@vGaJr_@ir@??v_@ur@pGoJ~EiFlZwU~GkGy@mC??rIqN~G}QdGiJrBcBhEC~CgCbDiE??t@dBzGoJ??fCqD??hk@{}@~EiFfQsJfFsEdfAgwA??tEiG??dj@wt@vDqHzAqF`AeGhKubAnB_KhBaF|BiEnCeDbNuJfH{HbIeN`FaNlDcMvCqM??hLal@lIaq@~`@moCbDsNtC}IxBqE|JgP??n\\ai@nFcL~LkZhH_UlRwt@lCeOrDyWbZk`D??`WyoCjAsK|BmOfEuRhcA}vDXV??pO{l@??b@qCNHpZgiAjDoJNZO[~DuFlF}DdGoBbJm@jGXjQtIlDdA@c@vJvBnYvCbQBAXj\\lDbKtCvCo@bUtCr]jHzIhC~NdG`J|AlUf@dJ_@tO_Ch]sH??~b@kHzZ_D`O}FxN{GvPiLjQuI~z@}m@|CiC|GoIxKaPbEeHtEaMvHqYjDcIbEaH??|GiK??vHgMlKwV~DcHlgAmyAhJaLbIoFbGgBrDa@rDCjGj@jKrC??|GxDdFxEpEfGvDpH|CrI`CpJ|BjOt@zKLbLW`L}Gd_A{Bjj@sCha@wB~e@\\xTz@fP`Eb\\lAxF`Oj]~Sd\\xClCfD|AhGxApDZlUuAlDaAnF_EhEsGhFgLvBuJ|BuRRFpEuh@b@oNO?JiP`@sG|Fkd@nEmRvIeSdEyGfFsE~FcCfReEzIoCdIkFnHkHjGqJfRy^zCuIpGuUnEeJ??rIwM??hF_IvEyFvYaWzFqCd`@_HrD[rDF`JzAjT|InLvDpDZrDW|FiCbF}E~MwRlDuG??xAiEtEoT??lB_KvBaTfA}FdBgFzI_SxAsFlB}Jt@iG\\uGh@gf@??^ao@p@iP~@wKtBqOnHu^hDkNdBeF|BgEbFcFnXeQdOeF~C_ClHoHfCsDnD}H`I_TtAsG??hD_Wn@uBxBiEvCuCjDsApDWlGTbJlArDMdGwAnFwDlEoGbFmLnAyFdBqO??dB}O|AmFz@eBdAyA|C_CbGyB|I{BpDQxANtAb@`DxB|GfJ??hGbJ`GdK~IpL`C~DhB`FvEbRfFhLzEpFfD~ApDj@pDMlDeA`D}BrE_GdYkb@??vFoI|O}R??vLgQlWac@bY_`@ha@ur@xMcSdQeZjCoDtJcKpPyTvJ}JbDoBlDiAjGc@tOjBvO|@~IbChGx@ji@o@|Go@??nFqBpFwDrC{CtRuWbIaNxKeVvJyQzCsIxHmYrHmT`Tuw@nFkM??jRmVxFoKnGkJbHiIhMwLlCiD~BeExCuIjGuUzCsIrDyHbIcNbDkIfd@meBnByEhEuGvCqClIyF??jKaH|FqClD}@|LwAfR}Db\\gOjDcA`[_BvO}AxO[bJwAbGqBzFsCfSaNtHyGfCuDvBoEzGcU??lGqUvBwNhIsh@??r@}FTsGOuGo@_JcCi_@SyI??w@ue@??@uxAmA}{@AwTjAmTfJmhA|Bj@}Bk@vDq_@??rv@qgHt@yKT_LO_Ls@yKw@iGaDoN}Lqa@NMs^moAc{@wvC??uF{QcFoLiEsG}RkTsTmWoEgGyJwQcDiIaEuMgEoRsCqS}Z_wD??uByVsBoOqC}NeFuQyEyLsz@giB??moA{nCsHoTqI}\\??oIu^_BeKmAqK_A}NU{HBcYTsGjA_P|]saDrHqq@??tHqp@pAwFnBwEhCqD|CaC|QgGdDkBdH}H~Uk[@@vAkB|KuKzGsI????tNiQnLyJYgAvHwG`YgVpBoCnByEhAgGX_GGqEgAiRAcEVsE~ByRRJdEsZ|B}KvEcPv@cHFoDa@kGyDeU??_Jii@c@qG}@eZNAO@k@mSEeL]sN??{@iVw@a|@{AyxBz@oTlAoKpBsLxC}M@BACv@iDLHvAqGjB}FfFgLKKJJfQa`@hI}V|DwJzAzBsD{DzB_J|@{FCCBBbAeKXqHFsGU}K}@yK_Gm_@]gE{Cm[gEoW??aFiZyJca@}CwQ??cOg~@sC}NgDkN_EwMiGsP_[eq@??um@yqA??cKgTeOgWqGeJsXm]???@?AaYg`@iDcIiCgJcAaG_AuKmAaf@iAaPoCsSuGmY??????gJqb@wIs]e`AcbDwQoj@uDaN}CsNgCeO}PitA_Hsl@\\MaDeZqA_Py@ePYiPByT~CkdA^a]E?C?Xmb@K_LkA_PmC}NoEgMcEyGgFuE{UuOBM?BkBmAwFmDcEeCyCmCcE}GoC_JsHw_@e@aCyN}s@mYwwA??????e@kCg@qCyBaLQ{@aOou@eDqN{CuIwBmEqGeJcFwEcDsBgD_BiG_BkGc@sc@]aJmAqAu@sC_DqBuEqCqIaGkQi@h@qKuWuAuFyAuIZKwGyg@uAyPi@__BsBo`ACaLf@_LrAkKp]{vAtByJl@mGPsGIwGm@mIgCm[ZKaGyj@gHuu@PEQDy@eJwAke@w@Q??c@}Jk@mGkCcOy\\wfA?AJIuQ{k@ib@e}A{BsJ}AgK{@yKgBuq@??oBiy@M@??mCcgALCwBk}@g@o]aCka@gBk`AHuG`@qGv@iGpGg_@p@{KOaLo@mGkA{F}B_HPQ}Ni^uBgKAE???Ag@wK^aJp@}DhD_LpCiQvAwE~@aDlDcH?AsAiBx@iBIOzBaC??t@pBlWqi@bEaHxCsCdDeBnOcDzFuCbF_FnIeM??bKmQ~I{Rp~A_fEfByE??rp@efB??~HgTCCBBlIeR??zIaNnIeJ~~DqiD??tjCyzB??fkB{~A??|aAyz@nLuNrIkO??????rKkTjHwTtFgV~DkWnBaTx@cPhBsyAF?D?~AauAHgYTiXy@C\\cZGwGm@wH????u@}EaNwm@_G_Vm_@mcBHG??yAuGk{@cyDoC}NiA}OB_OhHi`A??^{K?yE]oIo@mG{CuNaMq_@_CiOk@{K?yGLqGvA{XH_LYaLy@uK}AiKwIw\\??oDyIiIcNmDoHoCmJaCkP??qEeh@KiP`Bsa@tCup@v@qkA|@eUnDeh@JmJQkJ}A{PsCyMeRwg@eTap@TURUqMod@_Ik^eIwf@_H_m@u@uOLoLbBoP~CgMW]~EaMhD}LzFcVhDcIrE_GbNuJtCuCfEwGlB{E`BkGrAmJnDen@DuGSuGmAoKoAyFkKa\\iAmF{@uGw@ePNeY]_LuLaaA??eGkd@mBkHiE}JuDuHiCqDyCiCwKeHoCeDeJqReCwDgCmCoDgCiDuAqDm@kG?uPfCgFm@gDiBsC_DwBoEyBqJwCuW_@kL?wGxAyn@b@oGdCySb@qGJuG}Asa@EuG`@yKbCoXT_LgEqbBCwGd@{K|BgN??~CwJzBgElCiDlFeExScL~C_CpCaD~BaEfK}VzDmHxWmb@bK{I|CuDlBwDbGwPxBoExVo]jFeEfGkApDXpLzDjGL`G{BtEuFxBqEnC_J~AcKt@yKj@iPAaL{@wKeBeKuIi_@??iDoQm@mGwA}YaAoJoIw]cDmI}Ru]cOkW{Se\\a[uo@gEoM}Jib@gEgWqBkQ??????iHiq@iIqg@uCcXcBa]Oq]XiPzAyX~A{OvBkO`FuVtDaNjEkMzI_SfK}PzGyIhHsHxHqGlNsIhi@oV`OyFfOuEnOqDrOqCtOmBjUyAbw@_CfUcCzj@qMpb@kGp_@}H??pmA_W|NqDhJ{C~NeGxS}KfNkJtMuKhM{LdH_IrPoTffCi_E??fz@msAzO}UlP}Tlk@gt@v}AyyBxPeTzYa\\??pr@gv@rU{XtTqZj\\mg@jOyVpN_XrMoYnWep@??nx@esB`McZrMkYxs@eyA~EoLpC_J`EqRnC}V|G}lAlAqa@zAgUWGzAoSlCyQ\\wDxB_Yn@iEfCoHdJuM`AmC|@aG~IinBE}KuA_]GwGZcLdAuKlB_KtC}ItDuH`MgTdDcIfCcJn]qvBhBqLj@gGPuKk@uKgByJ_DeIoE_GoFiDgGeA_FG}Lf@CgAcQf@qD]mDiAqCeBeDkD_CaEiB{EoA{Fq@iGeBai@y@qKwCyNaUuv@}BiJaAcG_AsKIiPbA}OrC}NxCqIfO_]|BeE`HeIrUiPfFqE|d@il@??fnAs_BbC{DpBsEzAmFfA_GvMqeAnByJvHkYbB_Kv@sKvA{e@n@kGfA{FrC{I|DcH~EeFtMcJ??rXsRvCoCtLuNjFiE`q@k[vI{ClG]pDZnDbAtF`DpMxKxH|BlHExO_E??|KyDdIkFpC_DbC}DzCoItGo_@h@{FLuGa@}XZ{KzAeKzCsI`C{DtCwC|SsK|C}BnCgDxBiEbBgFxHog@hCgJrBqEjEoGp|@yhA??p^}d@fEuGlBwEzAoFdA}Fn@iGRgP]eHqAuJgCgJqXur@oBwJ}@sKGsGLuGf@mGz@aGdCkJfRyj@??|]efAfDiNxJgf@tD_N|CoIpDwHrIwM??z\\q^pIgMjFaLhEiMhEiRjCoSjAgT??fCcrCl@cP~@uKrBiOjEkRlRii@pD_NlC}NnRyoA??xD}WfBaTrHeuCfA_PtCkS`DmN|FyPng@kfAn\\gq@??tHwP|DqMvCuN|BwSp@cPZ{X|@cxBPgPlAiTtCiSxE}QxEyLbt@irAhFcL~G{TjXigA`FuN??xEkJhEsGrg@em@lGmJbyBkpEnGeJjs@ey@nEgG|BeEdF{NzKac@dB_Kx@_PEka@j@Am@eVR_GpAkJbKs\\jA{Fp@gGZqGBqGUsGeBqS??w@cLG}Kf@iKv@uGlDcN`K{VjCaJlIag@zAuO|Asr@F}K]yKyBu\\K}KtEo}Ad@yKj@kGvTisAdDiNtCuIlD}Hd[ci@lB{ExAoFzAcK^oGn@ef@??b@me@t@sKtBqJ`Lc[xAcKZePCcdAb@oTlB{S|Jwr@vDyMtBmEnEiGhFmEj[aQ??nI_FzCgCrC_DnD{F??bCsFbBeFpCwNhAyOr@cj@j@wKxBgO|DqMvBqE~DkGh`@kg@jFiEfQcJbFyEvDkH~BkJ~@oKEkL_AcK_NmeAe@_K?uGp@oN??bAsHlAyFnVwcAtLsw@rCuNda@anA`CiJ~@cGj@iGv@u^P?NyUn@yUt@wKpBiOpBwJhsAirE??bJwZ|EqLhe@qn@bCyDjFaLfLyZxDwMxBqL`F_`@??????jAgJ??lRq|Al@wKrBa{@`AoKdBkKpByN??tFwd@dHwg@HBEArJyq@~CoO|EkMlSoY??GMxGkKhDcIn`@mtACEBD~IiZBBMKfPao@????~Ia]jCgCjA_EIO`Ma^zAmI\\aGcA{YSDCYQBPC{@aQqAmHcDmL}@cFwBwViBuN??hBtNvBvV|@bFbDlLpAlHz@`QQBPCBXS@`AzLvEzQhEhM|BbEnCbD~C|BxI|Cjj@jN??xZvHtTzGze@|K????z_@dJB_@H@@Y@S`M`DxGbA`O}AxCRbTlIvTvExHdC??UbDh\\jKjq@bOC^@I??BUpRnF????tPvEpDXlGWnDu@zFiCnSeO??hFiChG}@lGNnRrBlGCdG}A`L_GxFiB??zDa@rDBhRlDrDLpDWlD_AfDgBpM}KbDoBlDkAdEe@????vFNnDz@dD`BjEbD??`n@ni@nF|D|FbCxL~A??hJBhGw@dGmBdIaFdFwE~GeItc@wo@????hOyTjF_LfDeNdCmSdA}FlC}IjEaI??xGoG~FeC``C}i@tZwEfJq@fQe@????tV@??dMGxO}@tOeBrOsC`RcFlTqIfI}EnR_PhD_BnDq@rDCdMfBAH`RdDhDhAtFlDxEnF`C~D~CjIlArF`E`WvAlFzChH~EvGnFxDjDpApe@|GbGjBzFrCdKpItGxItFpKdFtN??|GjRbIzM~EdF~RrNhMnLnNnQ`GzJbFjLjFdQdKhj@rApFxCnIzDhHrExFjFdEzFnCnSjGxG|DtFpE??pJfJlF~D~FbCfGdAhMFj{A}DdJd@vI`Dr\\nWzJzF??dHzBhG`AlGTpRi@`MPdJx@pOzCdObFr_Cb}@`DxBxElF~B~DnBvE|BfJxCrW`A|FlBhHhBzEzJtV??dOr_@~B|DtCtCdDjBfGfAlGUbTuBvENdG~ArFnDpC|CbCxDlLxTfCtD`F~ExFvCfGnAdJKdG_B~^eOhG{@rD@dFp@nE~Af]fT??fQrKlDfAjG`@pDUj}AoU~IoBfDcBdFsEhS{UhGmDtFiAhGBpDt@xHhDtLzG??`~C~jBnF|D~E`FlEbG|y@ntAtEzFrI`I??x`BxwA??rMvKjInEbPhEd_@lICh@rLxBbXvBdt@_FfJBnDp@|FhCnFzDvE~EhE|GxCvHxB`Kr@bG`@vH?lJs@rKyCnWU|OHfCz@lKbA|F`IrXjBxE`EzGvXzXlEdGla@||@`E|GxEjFfPlMlEfGhDzHxSpl@lDtHlEfGta@fc@~D~GdHbOlEbGzCjCbDjBlDfAfUjDlN|CpMbEhLzE|MlHdLvH|\\vY??nIxJ~IlN~d@x{@jPn`@~B|DvEnFjItEnDx@pDTlGUfc@oEjGHfGlAjDxAnFvDtaApw@??`cA~x@rE|F~Vxb@pC|CpFtD`GjBjG^r`@{CdJRfGtAfDzAvm@r]bLxEpDf@lGDpXeC??|FElGd@nDp@bGrBrKdH|EhFdCpDnFrKxDpMtB~NtBf\\x@`GzBfJhD|HjEfGhFhE~F`ChGx@rDEb_AgKdJi@pDRnDt@jDtA|P`KlDfApDd@rDDrDa@xEyAxJoElD{@pDYfJXhbAfHdJFlGi@dGqA`GyBfI{EfFqEj_@y`@pG{IjDyHlC{IbUeaArIia@jAyDjF_V??jGcY|FyXfHc[hC}IhF{KxGoIzHeGd}CiwB??vwBg{A??hd@yZhIuErIoDxIkCrOcCflIqZ??xXuBxZmE|T}Etz@{S??zp@cPpOoCvOoBvOmAzOi@|k@K??deBD??dfBD?g@??hL@nHd@??????nuBD??~tABfJUjU}Bhp@{K??p{Fi`A??~rDmn@ldAaPdG_BnEiB??nJkGlh@mc@Pn@K]jRsO~DaCrQcOOc@|K}JzGqHjLsMxFoIxBgEpEkMnHqZYQvDsTnCwWp@kORiXOckBRee@?E????PeKx@_MRHcAI`@sOrCrBbD}J~F}JdDoDjDoCrC_BdEuA|IsAzvGur@ASxx@yIpOoCrNwD~OeGrQiJxO{KzMsLLZ`McN`P_U|NwV~Ry`@dGaM??~^cv@MS??jSuc@fE}LlG{T`F}U|BuNvCmW|Gax@dBeO`EqVhFwUhv@_wC??~e@kiBvl@gzB??xLye@`F_VzCaW|@qOh@wT|Ay~AT_i@vCivCf@ix@R@`CmhBhDwiDR@bDs_DEAM?|AwrA??|@}cAtEqhEN@jBycB??r@cZr@wO~Cih@`CoW[IpCeUbE_WxQy{@~FeUtJw[dKcYnMa[bT{e@PRztBgwE??poA_rC??rYso@bGhJEEfEmKbEgNhGsOj@uB|@cHc@Il@oAj@iBCCBBnBwIp@wGfCcXfJsd@??fBkIq@g@FD~Jk`@dCgR~@cW????`Byi@????Fce@eBEq@k@~CyMRmA@c@bAaR~AoSjAyUF@pC`@j@uKRDc@IDgAaDg@V}E_@G??xBcc@xAqPDBlACc@yTBcKd@DtCo~@P}MFAMF]oFDmWQC`DugA??LqEd@BSqNAkHf@kQ~BT^wLiBkBnEqX|@oDjBaFWYlB_Fv@gDb@sDr@uMxEkX??t@wF|CiM~@iHz@{DzBcG`D_GPVtG_NpAeFvAeJdAwDdBmDdKqP??jP{[r@oBz@{FJ_Hk@yE_BaFeEaICEuN}UuDgFKRMTuDuFMRLSmIwOmBoGs@qE??aDs\\c@{LYBR@t@yKYIS@_@_Q?gNr@_Q????@EpCXJeBpAPrAe^????zAsWbDk[~AyJjDiM|Ueo@vBgJrB_ONFhLy|@bMw|@vKe{@r@qF??????lEq^OEpj@ijE`@Nvj@yhEQIv^gqC??jr@yjFjH{r@ZJ`XqgCjCmN`Msg@QMpOem@pFwPdn@upA??????^h@|IuQnEuLxCcNvRmdAnCuIpNw\\bI{\\nCqInp@{tAxF_KlEeGbHwHpUuP??fRsN`X}QvCmCnE}FrDkHtCmIvIca@zAeFjBsE|B_E~GcIrnAumAdDiBjDeAvZ}EhDqA~EiD|CqD|B_EbMe^pBoEbCuDpCyCrFmDtQyHlZaThDyArN}D??tPoEtCqA~C}Bln@es@dKiIpIyDjz@wXlIgEtHoG~r@cx@zIcLtDiHfBwEbXu{@nFeKzMiR??`RuW`Pe`@pDmHzGeIdIwEhkCyj@~L{@|`@bB|ICpDc@bGeBhIwElHcHnGyIlFqKfE{L|C_NtA{JjIwz@??pFal@??~Cy[`AwFvAgFjBuEdEoGdFmEhDaBfGkAjG@pb@lKdJj@fJi@nqAoXbGgB`DqBpCyC|B_ExB_HpJm`@|GuXCC"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RB 27116",
+                "number": "27116",
+                "cls": 8,
+                "oprX": {
+                  "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+                  "icoX": {
+                    "res": "RB",
+                    "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RB 27116",
+                  "num": "27116",
+                  "matchId": "44",
+                  "catOut": "RB",
+                  "catOutS": "RB",
+                  "catOutL": "Regionalbahn",
+                  "catIn": "RB",
+                  "catCode": "3",
+                  "admin": "8013D_",
+                  "addName": "RB    44"
+                }
+              },
+              "origin": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Waldkraiburg-Kraiburg",
+                "id": "8006164",
+                "other": {
+                  "pCls": 40
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.407685,
+                    48.202776
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 1,
+                "human": "00h 01 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 1
+                }
+              },
+              "arrive": {
+                "timestamp": 1608884460,
+                "date": "25.12.2020",
+                "time": "09:21"
+              },
+              "departure": {
+                "timestamp": 1608881640,
+                "date": "25.12.2020",
+                "time": "08:34"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608881640,
+                    "date": "25.12.2020",
+                    "time": "08:34"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                },
+                {
+                  "id": "8005173",
+                  "name": "Rosenheim Hochschule",
+                  "arrive": {
+                    "timestamp": 1608881760,
+                    "date": "25.12.2020",
+                    "time": "08:36"
+                  },
+                  "departure": {
+                    "timestamp": 1608881820,
+                    "date": "25.12.2020",
+                    "time": "08:37"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.104416,
+                      47.86693
+                    ]
+                  }
+                },
+                {
+                  "id": "8005327",
+                  "name": "Schechen",
+                  "arrive": {
+                    "timestamp": 1608882120,
+                    "date": "25.12.2020",
+                    "time": "08:42"
+                  },
+                  "departure": {
+                    "timestamp": 1608882180,
+                    "date": "25.12.2020",
+                    "time": "08:43"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.126646,
+                      47.926807
+                    ]
+                  }
+                },
+                {
+                  "id": "8005194",
+                  "name": "Rott(Inn)",
+                  "arrive": {
+                    "timestamp": 1608882480,
+                    "date": "25.12.2020",
+                    "time": "08:48"
+                  },
+                  "departure": {
+                    "timestamp": 1608882540,
+                    "date": "25.12.2020",
+                    "time": "08:49"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.136139,
+                      47.988149
+                    ]
+                  }
+                },
+                {
+                  "id": "8004928",
+                  "name": "Ramerberg",
+                  "arrive": {
+                    "timestamp": 1608882780,
+                    "date": "25.12.2020",
+                    "time": "08:53"
+                  },
+                  "departure": {
+                    "timestamp": 1608882780,
+                    "date": "25.12.2020",
+                    "time": "08:53"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.146737,
+                      48.019486
+                    ]
+                  }
+                },
+                {
+                  "id": "8006220",
+                  "name": "Wasserburg(Inn)Bf",
+                  "arrive": {
+                    "timestamp": 1608883140,
+                    "date": "25.12.2020",
+                    "time": "08:59"
+                  },
+                  "departure": {
+                    "timestamp": 1608883200,
+                    "date": "25.12.2020",
+                    "time": "09:00"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.185202,
+                      48.061744
+                    ]
+                  }
+                },
+                {
+                  "id": "8005614",
+                  "name": "Soyen",
+                  "arrive": {
+                    "timestamp": 1608883500,
+                    "date": "25.12.2020",
+                    "time": "09:05"
+                  },
+                  "departure": {
+                    "timestamp": 1608883500,
+                    "date": "25.12.2020",
+                    "time": "09:05"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.21003,
+                      48.108245
+                    ]
+                  }
+                },
+                {
+                  "id": "8002189",
+                  "name": "Gars(Inn)",
+                  "arrive": {
+                    "timestamp": 1608883860,
+                    "date": "25.12.2020",
+                    "time": "09:11"
+                  },
+                  "departure": {
+                    "timestamp": 1608883920,
+                    "date": "25.12.2020",
+                    "time": "09:12"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.298574,
+                      48.147537
+                    ]
+                  }
+                },
+                {
+                  "id": "8003122",
+                  "name": "Jettenbach",
+                  "arrive": {
+                    "timestamp": 1608884220,
+                    "date": "25.12.2020",
+                    "time": "09:17"
+                  },
+                  "departure": {
+                    "timestamp": 1608884220,
+                    "date": "25.12.2020",
+                    "time": "09:17"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.36682,
+                      48.17143
+                    ]
+                  }
+                },
+                {
+                  "id": "8006164",
+                  "name": "Waldkraiburg-Kraiburg",
+                  "arrive": {
+                    "timestamp": 1608884460,
+                    "date": "25.12.2020",
+                    "time": "09:21"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.407685,
+                      48.202776
+                    ]
+                  }
+                }
+              ],
+              "poly": "qu`cHm`~hAYSoTj~@eDzHoC`D_DxBiDlAqe@xJgJXqD_@aGwA??guJ}iC??qo@_QgGoAeJ{@_MA}tB|FcMe@ihDsj@??kSkDuEyAcDeByHiGes@mp@mFsDmDsAoDo@sDOkGh@wYjKiG`AmG?yXsA??a`@xBiGq@uIgDkFcEu`BazAeHwHcGmJmu@a_BkEiGuEkDaEeBcOaE??uTqGqDg@kaB_AkGa@mD_A}DsBmE_Eq[mg@oa@cc@_IoFkc@sUk\\_W??mKeIeDkB{|@{Z{FmC_D{BwEmFaC{DeD}HyAgFcBuJy@gKMkGToLpEmo@b@mKEmGYgGwA{JoM}b@}CeIs`@cn@}AaD}AeF{AwJWiGt@m`@WqKs@_GmBoJgD{MmCuIoBqE_C{DwEoFsFoDwNwGqFyDiEcG_C}FcAcEy@}F]mKHsGxAa]??xBcc@XqKg@qtBu@iKuBmKuCeHqGgL??ohB{_DkFqKeTuf@??u\\qv@}B}DsC{CuF_Du|@}[sFgD{EkF}B}D_DeI_Ook@_IwTwE{Jc_@go@??"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "db",
+          "db",
+          "zug",
+          "zug"
+        ],
+        "via": {
+          "ids": [
+            "8000142",
+            "8000044",
+            "8000320",
+            "8006164"
+          ],
+          "names": [
+            "Hagen Hbf",
+            "Bonn Hbf",
+            "Rosenheim",
+            "Waldkraiburg-Kraiburg"
+          ]
+        },
+        "products": "RE, IC, NJ, RB"
+      },
+      "id": "dtc5fe63a17e301b"
+    },
+    {
+      "repeat": {
+        "bitFields": null,
+        "I": null,
+        "bits": null,
+        "originalString": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008100000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "R": "f\u00e4hrt 25. Dez 2020, 1. Jan 2021 "
+      },
+      "origin": {
+        "name": "Hamm(Westf)Hbf",
+        "id": 8000149,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            7.80777,
+            51.678131
+          ]
+        }
+      },
+      "destination": {
+        "name": "Waldkraiburg-Kraiburg",
+        "id": 8006164,
+        "other": null,
+        "coordinate": {
+          "type": "Point",
+          "coordinates": [
+            12.407685,
+            48.202776
+          ]
+        }
+      },
+      "time_departure": {
+        "timestamp": 1608926820,
+        "date": "25.12.2020",
+        "time": "21:07"
+      },
+      "time_arrive": {
+        "timestamp": 1608880560,
+        "date": "25.12.2020",
+        "time": "08:16"
+      },
+      "duration": {
+        "inMinutes": 669,
+        "human": "11h 09 min.",
+        "humanSplit": {
+          "hours": 11,
+          "minutes": 9
+        }
+      },
+      "fare": {
+        "cent": 8890,
+        "euro": 89,
+        "tarif": null,
+        "verbund": null,
+        "ctx": "D",
+        "upsell": false,
+        "bookable": true,
+        "fromPrice": true
+      },
+      "module": "DB",
+      "products": [
+        {
+          "flixInfos": null,
+          "name": "RE 56733",
+          "number": "56733",
+          "cls": 8,
+          "oprX": {
+            "name": "Abellio Rail NRW GmbH",
+            "icoX": {
+              "res": "DPN",
+              "txt": "Abellio Rail NRW GmbH"
+            }
+          },
+          "prodCtx": {
+            "name": "RE 56733",
+            "num": "56733",
+            "matchId": "11",
+            "catOut": "RE",
+            "catOutS": "DPN",
+            "catOutL": "Abellio Rail NRW GmbH",
+            "catIn": "DPN",
+            "catCode": "3",
+            "admin": "ARRE__",
+            "addName": "RE    11"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "ICE 879",
+          "number": "879",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE  879",
+            "num": "879",
+            "matchId": "12",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "ICE 619",
+          "number": "619",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE  619",
+            "num": "619",
+            "matchId": "42",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "ICE 1203",
+          "number": "1203",
+          "cls": 1,
+          "oprX": {
+            "name": "DB Fernverkehr AG",
+            "icoX": {
+              "res": "D",
+              "txt": "DB Fernverkehr AG"
+            }
+          },
+          "prodCtx": {
+            "name": "ICE 1203",
+            "num": "1203",
+            "matchId": "24",
+            "catOut": "ICE",
+            "catOutS": "ICE",
+            "catOutL": "Intercity-Express",
+            "catIn": "ICE",
+            "catCode": "0",
+            "admin": "80____"
+          }
+        },
+        {
+          "flixInfos": null,
+          "name": "RB 27302",
+          "number": "27302",
+          "cls": 8,
+          "oprX": {
+            "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+            "icoX": {
+              "res": "RB",
+              "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+            }
+          },
+          "prodCtx": {
+            "name": "RB 27302",
+            "num": "27302",
+            "matchId": "44",
+            "catOut": "RB",
+            "catOutS": "RB",
+            "catOutL": "Regionalbahn",
+            "catIn": "RB",
+            "catCode": "3",
+            "admin": "8013D_",
+            "addName": "RB    44"
+          }
+        }
+      ],
+      "interChange": 4,
+      "trips": [
+        {
+          "origin": {
+            "name": "Hamm(Westf)Hbf",
+            "id": 8000149,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                7.80777,
+                51.678131
+              ]
+            }
+          },
+          "destination": {
+            "name": "Waldkraiburg-Kraiburg",
+            "id": 8006164,
+            "other": null,
+            "coordinate": {
+              "type": "Point",
+              "coordinates": [
+                12.407685,
+                48.202776
+              ]
+            }
+          },
+          "provider": "DB",
+          "departure": {
+            "timestamp": 1608926820,
+            "date": "25.12.2020",
+            "time": "21:07"
+          },
+          "link": null,
+          "arrive": {
+            "timestamp": 1608880560,
+            "date": "25.12.2020",
+            "time": "08:16"
+          },
+          "fareIsGuessed": false,
+          "fare": {
+            "cent": 8890,
+            "euro": 89,
+            "tarif": null,
+            "verbund": null,
+            "ctx": "D",
+            "upsell": false,
+            "bookable": true,
+            "fromPrice": true
+          },
+          "duration": {
+            "inMinutes": 669,
+            "human": "11h 09 min.",
+            "humanSplit": {
+              "hours": 11,
+              "minutes": 9
+            }
+          },
+          "distance": null,
+          "interchange": 4,
+          "steps": [
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RE 56733",
+                "number": "56733",
+                "cls": 8,
+                "oprX": {
+                  "name": "Abellio Rail NRW GmbH",
+                  "icoX": {
+                    "res": "DPN",
+                    "txt": "Abellio Rail NRW GmbH"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RE 56733",
+                  "num": "56733",
+                  "matchId": "11",
+                  "catOut": "RE",
+                  "catOutS": "DPN",
+                  "catOutL": "Abellio Rail NRW GmbH",
+                  "catIn": "DPN",
+                  "catCode": "3",
+                  "admin": "ARRE__",
+                  "addName": "RE    11"
+                }
+              },
+              "origin": {
+                "name": "Hamm(Westf)Hbf",
+                "id": "8000149",
+                "other": {
+                  "pCls": 559
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.80777,
+                    51.678131
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Kassel-Wilhelmsh\u00f6he",
+                "id": "8003200",
+                "other": {
+                  "pCls": 827
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    9.446845,
+                    51.312998
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 110,
+                "human": "01h 50 min.",
+                "humanSplit": {
+                  "hours": 1,
+                  "minutes": 50
+                }
+              },
+              "arrive": {
+                "timestamp": 1608933420,
+                "date": "25.12.2020",
+                "time": "22:57"
+              },
+              "departure": {
+                "timestamp": 1608926820,
+                "date": "25.12.2020",
+                "time": "21:07"
+              },
+              "waiting": {
+                "inMinutes": 17,
+                "human": "00h 17 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 17
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000149",
+                  "name": "Hamm(Westf)Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608926820,
+                    "date": "25.12.2020",
+                    "time": "21:07"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      7.80777,
+                      51.678131
+                    ]
+                  }
+                },
+                {
+                  "id": "8000076",
+                  "name": "Soest",
+                  "arrive": {
+                    "timestamp": 1608927660,
+                    "date": "25.12.2020",
+                    "time": "21:21"
+                  },
+                  "departure": {
+                    "timestamp": 1608927720,
+                    "date": "25.12.2020",
+                    "time": "21:22"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.104611,
+                      51.578432
+                    ]
+                  }
+                },
+                {
+                  "id": "8000571",
+                  "name": "Lippstadt",
+                  "arrive": {
+                    "timestamp": 1608928260,
+                    "date": "25.12.2020",
+                    "time": "21:31"
+                  },
+                  "departure": {
+                    "timestamp": 1608928320,
+                    "date": "25.12.2020",
+                    "time": "21:32"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.348767,
+                      51.670715
+                    ]
+                  }
+                },
+                {
+                  "id": "8000297",
+                  "name": "Paderborn Hbf",
+                  "arrive": {
+                    "timestamp": 1608929220,
+                    "date": "25.12.2020",
+                    "time": "21:47"
+                  },
+                  "departure": {
+                    "timestamp": 1608929280,
+                    "date": "25.12.2020",
+                    "time": "21:48"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.740949,
+                      51.712946
+                    ]
+                  }
+                },
+                {
+                  "id": "8000004",
+                  "name": "Altenbeken",
+                  "arrive": {
+                    "timestamp": 1608930000,
+                    "date": "25.12.2020",
+                    "time": "22:00"
+                  },
+                  "departure": {
+                    "timestamp": 1608930120,
+                    "date": "25.12.2020",
+                    "time": "22:02"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.942793,
+                      51.766486
+                    ]
+                  }
+                },
+                {
+                  "id": "8006449",
+                  "name": "Willebadessen",
+                  "arrive": {
+                    "timestamp": 1608930660,
+                    "date": "25.12.2020",
+                    "time": "22:11"
+                  },
+                  "departure": {
+                    "timestamp": 1608930720,
+                    "date": "25.12.2020",
+                    "time": "22:12"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.012153,
+                      51.621571
+                    ]
+                  }
+                },
+                {
+                  "id": "8000196",
+                  "name": "Warburg(Westf)",
+                  "arrive": {
+                    "timestamp": 1608931380,
+                    "date": "25.12.2020",
+                    "time": "22:23"
+                  },
+                  "departure": {
+                    "timestamp": 1608931440,
+                    "date": "25.12.2020",
+                    "time": "22:24"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.163864,
+                      51.492953
+                    ]
+                  }
+                },
+                {
+                  "id": "8002933",
+                  "name": "Hofgeismar",
+                  "arrive": {
+                    "timestamp": 1608932280,
+                    "date": "25.12.2020",
+                    "time": "22:38"
+                  },
+                  "departure": {
+                    "timestamp": 1608932340,
+                    "date": "25.12.2020",
+                    "time": "22:39"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.395516,
+                      51.499138
+                    ]
+                  }
+                },
+                {
+                  "id": "8003200",
+                  "name": "Kassel-Wilhelmsh\u00f6he",
+                  "arrive": {
+                    "timestamp": 1608933420,
+                    "date": "25.12.2020",
+                    "time": "22:57"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.446845,
+                      51.312998
+                    ]
+                  }
+                }
+              ],
+              "poly": "iklzHq}sn@jB~DzJaChD@[mCrBq@pDYdJVdJ|@rOfC???XtGv@KxCt@{LrDrAxMzKjDrAjGN`GmB|CmCdC}DvCcJpA{KH}GUgK??????{G_gCD_QlAsPfBoKjCqJfp@{lBzYwhA??p`Dm{LrCmOtAyKrBu\\??xDmu@??jCeg@|C}Xf`Bs|I??jQgaA`DcOha@{vAtFcWjr@whFlFw\\??nLur@nAcM^}GdANeAOVkU{@{YoRwkCgBiP}DkSqCkJcDuI{DuHoEuG}EqF_GcF??wm@{e@oJ{KiIgNozGovO??iDuJkCoJ{nCyyKiFiUqBiKyAwK??wByTs@gL_Agp@??]_[}Go_GGqV??`@sf@pA}b@dCmb@zD{a@jDuXdEgXna@cxB??hmBc_K??bBeJhByK|AiNv@iNV_QMoL{@yPiA_LiCuOaCyJwF{QiaDchK??a_@_lAkJ{R_JcMoHqHwtDwcD??yQsPeJoL_I{NoG}PiCsJwBeKeBqKoA}KyAcU]aZPqLf@mLrAqPvAyKt|@elF`DaTt@oMkBQjBPPmTe@kLs@uGkFe\\aByO}BeN??_EqTcBeLi@yGYmL@uUe@kLmA}KqDgUIDoAiKc@{GSaQx@yPzF{`@fAuPAaQs@iLw@oGyBcKuEoMebAijB??iE{HwEaGmFkE_GmC_JuAaf@iAgGqA}FuCkFsEqGsJiDoIeCwJyBaPg@kLHaQz@gL`BsKhCsJjDkIfIqNrB}EdBmFxBaKrA}Kh@{PMqLc@{G_C{OoCmJ}H_U}B}J{@oGo@wG_@mLn@q^c@_QkA_LgGu[}Cs]}@oG{BaKaDyImMmTqDeImCoJeBsKkAsPaEyoAcAcLeAkG{DiNyFaLyEyFqKgIwCyCoEoG{BuE{CaJwBcKiA_LUwJVqh@??b@yLfBmK~AuFbDuInGaK@?A?@ArJcKnFiEdGmCfGcAhGAlGdA`QlIlGlB??lGb@~k@eBhGDbJpB~SzKvLlB??zLr@hJQhnGmc@`M`@`q@nJdJXfJMx_A}GpOwCfOgFtN}H`I_GvH_HxLkNxO{VfJeS|H{TzZmmAdEaNhDoI~HuN~G}IdF_FzR{O~EkFrEoG~DmHlDkIpQ_k@??fDyJnDeInI}MvXoZlFoEhI}E`G}B~IqBlGi@jUi@zLuBb`F}}ApI_EfKyI~I{LrJuR??zKuVdCcE|EuFfImFpYiMlIuE|CmCnCmD~FuKvCeJpDsSza@}{ClDuNfDoIlEwG`FiFxFcDpTaIlFiExE}FxDuHzC_JvBaKbGs`@pBgKdCqJpGuPzIeMn~AcnBjRwTDN??fFwGfEaHzBqExCaJnA_G|AuKxIsr@IEbJoq@`S_~At@gLrAe^bBgP`EgSlK_]fBmK`A_LV}P_@mLm@uGsCkOaLo`@??aNkf@yB_Ky@qGy@cLy@iUTmLdA}KnBgKbKqb@xAyK^yGNmLG_He@iLiBeP}CcOuQmf@aEeN??iDwSqFyi@yAwKiDwNcF}Ly_B_hCuCaD_DaCySiLmHwH{FyKgJsXsDcIuGeJaIiG??{^iPcIwFwE}F}DuHuCeJkAcGkA}K[mLD}G\\{GjD_b@n@iLC}P{@eLeCwO{UgqAal@_qBsBeKW{GV}G\\iCxAwFz@kBnCiDfLsG??vEoBdEQlFfBxCvCnFjL|^z}@rD`IhCrD|CjChD|ApDj@pDCpDs@hbAm]d}AiZbJ{B??xIgCrt@{XbcDuoAfJwBxWs@nGgAzFqCtKoH|KuFrMcK??nIcGjDkArDWfXHpD]hD{AlAeAjCuDx@mBzAuF\\eCTkCD}GY}IcEmj@LwPx@_LnEm\\zDu\\hBiKdC}IzSii@hEaG`DiCfDyAtE_A??pFB~FtArm@~_@lI`EbGrA`eApOrDxAzXxPbFfBvEV|C]pC}@hDwBxCgDjBcDhF_O??jEmMvBqEtEeGfE_DnHcC|Ee@xHNfGpApIfEnHlHxm@n_AnChD|CjCfDdBpHzA`FCrEu@hC_A|DiCbE{ErOgXjBgD??fEuHnUma@OY|HmNrEwGdF_F`J_Gb@W??JIhFkFdIkNbDqB|Bk@nDm@?B?`@dUy@@rA????hAI?AxCSjLh@xIhChIdFrQhPJH????|X`WlAaF??pG`GkAlE??lFjErCbD|BhEpAxDbCcCVAHlHlAlR\\vDMHLIfAzGlCjJ~BfFrEfGxEfDtDfAlEN`EcA`@lCYsB|As@CM"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 879",
+                "number": "879",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE  879",
+                  "num": "879",
+                  "matchId": "12",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "Kassel-Wilhelmsh\u00f6he",
+                "id": "8003200",
+                "other": {
+                  "pCls": 827
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    9.446845,
+                    51.312998
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Karlsruhe Hbf",
+                "id": "8000191",
+                "other": {
+                  "pCls": 831
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    8.401939,
+                    48.99353
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": -1333,
+                "human": "-22h -13 min.",
+                "humanSplit": {
+                  "hours": -22,
+                  "minutes": -13
+                }
+              },
+              "arrive": {
+                "timestamp": 1608857580,
+                "date": "25.12.2020",
+                "time": "01:53"
+              },
+              "departure": {
+                "timestamp": 1608934440,
+                "date": "25.12.2020",
+                "time": "23:14"
+              },
+              "waiting": {
+                "inMinutes": 18,
+                "human": "00h 18 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 18
+                }
+              },
+              "stops": [
+                {
+                  "id": "8003200",
+                  "name": "Kassel-Wilhelmsh\u00f6he",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608934440,
+                    "date": "25.12.2020",
+                    "time": "23:14"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.446845,
+                      51.312998
+                    ]
+                  }
+                },
+                {
+                  "id": "8000115",
+                  "name": "Fulda",
+                  "arrive": {
+                    "timestamp": 1608936300,
+                    "date": "25.12.2020",
+                    "time": "23:45"
+                  },
+                  "departure": {
+                    "timestamp": 1608936420,
+                    "date": "25.12.2020",
+                    "time": "23:47"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.684178,
+                      50.554794
+                    ]
+                  }
+                },
+                {
+                  "id": "8000150",
+                  "name": "Hanau Hbf",
+                  "arrive": {
+                    "timestamp": 1608852300,
+                    "date": "25.12.2020",
+                    "time": "00:25"
+                  },
+                  "departure": {
+                    "timestamp": 1608852420,
+                    "date": "25.12.2020",
+                    "time": "00:27"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.92921,
+                      50.120903
+                    ]
+                  }
+                },
+                {
+                  "id": "8000105",
+                  "name": "Frankfurt(Main)Hbf",
+                  "arrive": {
+                    "timestamp": 1608853440,
+                    "date": "25.12.2020",
+                    "time": "00:44"
+                  },
+                  "departure": {
+                    "timestamp": 1608853800,
+                    "date": "25.12.2020",
+                    "time": "00:50"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.663003,
+                      50.106817
+                    ]
+                  }
+                },
+                {
+                  "id": "8000244",
+                  "name": "Mannheim Hbf",
+                  "arrive": {
+                    "timestamp": 1608856020,
+                    "date": "25.12.2020",
+                    "time": "01:27"
+                  },
+                  "departure": {
+                    "timestamp": 1608856200,
+                    "date": "25.12.2020",
+                    "time": "01:30"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.469268,
+                      49.479181
+                    ]
+                  }
+                },
+                {
+                  "id": "8000191",
+                  "name": "Karlsruhe Hbf",
+                  "arrive": {
+                    "timestamp": 1608857580,
+                    "date": "25.12.2020",
+                    "time": "01:53"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.401939,
+                      48.99353
+                    ]
+                  }
+                }
+              ],
+              "poly": "gaexHyatx@BLdY{MvKkHNp@EOp}@mo@pIcEdGuAfJc@bJx@tr@`TAL@Mv^dL??vM~BlGLjGa@vLqCnV{K????btAao@xI{Cde@sMhToJjNyIx\\iXdNkJfi@kWvSyL|RiObXyV??bi@ch@zLgNnLeOdP}UnqBk}C??tbA_}AbKsQpe@_`AdKoQbPaVvUgY~VeVdXyRvSoLjTcJjz@_ZpZyGhUkCjUaAnUL~v@lFlUp@t`@_@fm@_C??h_@wA`[DlUlAxZzD~T~ExT|Gb_A``@pTxHlZ`HhUrC`[jA`[g@`fA}J??~}@yIxO}@lUW`[~@xOrAdUjDtgBf`@xZpD`[hAzO?xOg@vOmAdfDmb@??jk@gIffA_XdUcEfUuCxhFw]??`eBuLtO_Cfv@_OxO{AvOi@fJ?zOj@hUbC~T|Ex_@fL??~d@|MrOtCvO`BvOn@tRCrRgAtOuB~TiFzIqC~NgGx|BikA??fY{NjTaJxTiGdUsDvOkAnUY|gApE~ZYjUwBx_BuV??vsDsk@lOqDhOyEpYiMtSyL`S_OhRaQ|L{MzPmTzOiV~JsQlTkc@??nj@whA`KoQrKsP~KwObQ_TxQiRnRoPbSyNlNuI~SoKjTuIxTuGnOgDfUgDxUcC??~bB}PrRUvOzAlO~DdLfF`ZvP`u@rb@@CABn]fRnDx@pDFhGcAdDiBvCuCxMoQXp@~@oAPf@Qg@jJmMlD}FzDeEhFyC`GgAvHGdb@lA???Mle@lA@K@QlNz@hIvCzjAdw@BIBO~\\jUlr@pc@vI~CpIhA~GGhGu@j~@{RhG{@jGCdJt@|I|BzFrC~H~F~EjFnGpJrDxHhp@trB??pi@jcBbK`XnCtFlG~I`HtGhJjG??j]|SdDdChFzFfG`KrZjv@??pItSxFtKbZ~g@hIzJx\\~[dGbHdRpWtP~[r@mAbK`SrG`IdGjEj\\~NvG|CpFpD`HjIzBjEzCxIpBzJt@lGzBbThA~F|AlFnBzE`CbElMlOs@tBr@uBdlEb_FhEfEvFxCbCc@KrA~n@|QpDb@rDQlDgA~C{B~MwRzCmCdLqFnDu@rDMhGv@hDrAbDtB|EnFdGrK??fDvHrFjQfA`GjDn\\lCbJdEzGn_@ta@pDxHvAtFhArKJtGkBv~ADvGfAdPdBbKxAtFhB`FxDlHxExFnF~DvIzCjUdBnDl@hD|AdFxExDlH|AnF`AbGd@rGl@~]??r@f]lAnKvArFt^lgAxApFhBdKn@lGf@~Kx@h|@^rGjBbK`FnLbn@ljAtX~g@??rM~RbHfInHfHrPpL`LbGjL`F??|f@pSdIlFdH~HbE`HfDfIlCdJjB~JdC`Tb~@tjInB~JlCdJhDbIrEnH~Az@??O`@hEjEbzBphBzJpJdCxDlRt^hB`FvArF`BfKt@xKDbLg@lM??kBv[MlPJjCx@vKvAnInB`HlB|E`E`HpCbDpeArfAxGzI~GnL??~_@`r@rDvHjGpPbFzQ`FzVjBtOv@fPjCdj@dEla@QDth@bsF??hBfRdJ`}@tAzJvu@lkD??ndBf{H??`nA~uFnDjNdJbY??rzBpxGnO~f@hL~\\DCtEjLlBpDzN~PdCxDlBxEtArF|@fGZrG@tGw@xKwBtJmZrs@b@B??{B`CHNy@hBrAhB?@mDbH_A`DwAvEqChQiD~Kq@|D_@`Jf@vK?@??@DtBfK|Nh^QP|B~GjAzFn@lGN`Lq@zKqGf_@w@hGa@pGItGfBj`A`Cja@f@n]vBj}@??lCdgAM@??pBjy@JCfBtq@z@xK|AfKzBrJhb@d}AtQzk@KH?@x\\vfAjCbOj@lGb@|J??v@PvAje@x@dJPEQDfHtu@`Gxj@[JfCl[l@lIHvGQrGm@lGuBxJq]zvAsAjKg@~KB`LrBn`Ah@~~AtAxPvGxg@[JxAtItAtFpKtW@BxEbNtC`KlBbJlDhTzChMvBfMhBtGOJnA~DZ`AMN@A|AxEbAzEh@rH?hPg@nPeAvKsAxFqBjEyNzP????sDpFeF|GqN`PeByE?@{`@awA??z`@`wA?A?@|Xj_A??jEu@JjC????C~FShC{ApHzA~ADGrC`J~DdHlAfAfD~AdFPlGkBvAw@?B\\QlBw@xKoE`GuD|c@s\\Jh@??VdA??xOuMtPmLbGeBjGb@rFhDbE~GzAnF|G`_@hAq@rHv_@nC~IbE|GxClCbEdCvFlDjBlA?C?Bba@rVzvBbrA??rTxMhfE|hC??vjCl_B??v_@vUlHbHxuHh_KfKtIxF|C`GzB~IhBdJl@pLP??la@x@fKR~iDpC??hnCpB??loAZlGRhGx@dGdB|FhC|MfI??j^dTnwBxtA??fKhGvIbD`J~A~LV|LgAjnBoV??xQeDhL}EftAaaAfI_FpL}DpZwF??~qA{UfJY~LdAdO`F`iAxg@jKdIrj@xj@??j|Bn|BzNnP`PhVN[`RvYlCfDpFpDhG|@rDWdG{AzhBmj@??plBal@??lCy@????z`G{hBbb@qN??z\\yJ|IwBdJwApvA{@??|GC??xrCiAnj@O?K?Jzu@Edz@o@??zLbA|KjDxKzGtI|I??hFnH~x@tpApG`JtHlI??zGbHjFjErSvLnLtD~ThC??nJPhUiC~IkBpFsDlEiGrBsEh@yB^}B??vAyU~BmMpAkD@GdA{CzEqLWc@jG{Og@q@f@p@tTgl@pBuE`KcQbC_HBDB@nEgPbIsX|H_WdF}QnGuXt@f@[SHe@~DiOlAoECEBBtAcFzAoFxAmFxAmFZmAjDxCsAuAX_AiBgB??zDmQ|FfDnFtEpJm\\pGcJvBkEtJy]~AxA??jP}o@vCuIfFcLjGoJfHyH~HyFpI}DtLkCz]sBbJqA|I{Bhj@gQrOiCdJs@zO[jUl@rjAjK??p]~CzOj@`[@lUu@r`@_Dj}AqUhUeCjUmAzOSt`@t@vOlAtOtBpOzCvTlGtYrLbcAlg@|NfGhMdENoAtLvCrZpFvv@`JrO`C|TdFhVjIG^rQhIrXpPh|AfnAdNhJzj@|\\??d`@fUhY~M~Y~JjZbHfUxCb[lAxOMfKi@n[iD????fh@_Edc@iFhSItTdB@S@QpmDt_@HmBdGhCd]vD????pz@rIAd@~e@rFx{I|~A??xrEfy@??tbG`fA??`MxBlf@hJfOrEvF`DtHvGvGtIxDfHp^|z@lEbMtDtMzLtm@`Pxt@tDdWjFje@??xBdNdAm@"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 619",
+                "number": "619",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE  619",
+                  "num": "619",
+                  "matchId": "42",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "Karlsruhe Hbf",
+                "id": "8000191",
+                "other": {
+                  "pCls": 831
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    8.401939,
+                    48.99353
+                  ]
+                }
+              },
+              "destination": {
+                "name": "M\u00fcnchen Hbf",
+                "id": "8000261",
+                "other": {
+                  "pCls": 447
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    11.558744,
+                    48.140364
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 4,
+                "human": "00h 04 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 4
+                }
+              },
+              "arrive": {
+                "timestamp": 1608872580,
+                "date": "25.12.2020",
+                "time": "06:03"
+              },
+              "departure": {
+                "timestamp": 1608858660,
+                "date": "25.12.2020",
+                "time": "02:11"
+              },
+              "waiting": {
+                "inMinutes": 25,
+                "human": "00h 25 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 25
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000191",
+                  "name": "Karlsruhe Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608858660,
+                    "date": "25.12.2020",
+                    "time": "02:11"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.401939,
+                      48.99353
+                    ]
+                  }
+                },
+                {
+                  "id": "8000299",
+                  "name": "Pforzheim Hbf",
+                  "arrive": {
+                    "timestamp": 1608859860,
+                    "date": "25.12.2020",
+                    "time": "02:31"
+                  },
+                  "departure": {
+                    "timestamp": 1608859980,
+                    "date": "25.12.2020",
+                    "time": "02:33"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.702969,
+                      48.894064
+                    ]
+                  }
+                },
+                {
+                  "id": "8006053",
+                  "name": "Vaihingen(Enz)",
+                  "arrive": {
+                    "timestamp": 1608860760,
+                    "date": "25.12.2020",
+                    "time": "02:46"
+                  },
+                  "departure": {
+                    "timestamp": 1608860820,
+                    "date": "25.12.2020",
+                    "time": "02:47"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      8.959009,
+                      48.947271
+                    ]
+                  }
+                },
+                {
+                  "id": "8000235",
+                  "name": "Ludwigsburg",
+                  "arrive": {
+                    "timestamp": 1608861900,
+                    "date": "25.12.2020",
+                    "time": "03:05"
+                  },
+                  "departure": {
+                    "timestamp": 1608862020,
+                    "date": "25.12.2020",
+                    "time": "03:07"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.185115,
+                      48.892374
+                    ]
+                  }
+                },
+                {
+                  "id": "8000096",
+                  "name": "Stuttgart Hbf",
+                  "arrive": {
+                    "timestamp": 1608862800,
+                    "date": "25.12.2020",
+                    "time": "03:20"
+                  },
+                  "departure": {
+                    "timestamp": 1608863760,
+                    "date": "25.12.2020",
+                    "time": "03:36"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.182589,
+                      48.785052
+                    ]
+                  }
+                },
+                {
+                  "id": "8000302",
+                  "name": "Plochingen",
+                  "arrive": {
+                    "timestamp": 1608864660,
+                    "date": "25.12.2020",
+                    "time": "03:51"
+                  },
+                  "departure": {
+                    "timestamp": 1608864780,
+                    "date": "25.12.2020",
+                    "time": "03:53"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.411113,
+                      48.712869
+                    ]
+                  }
+                },
+                {
+                  "id": "8000170",
+                  "name": "Ulm Hbf",
+                  "arrive": {
+                    "timestamp": 1608867600,
+                    "date": "25.12.2020",
+                    "time": "04:40"
+                  },
+                  "departure": {
+                    "timestamp": 1608867720,
+                    "date": "25.12.2020",
+                    "time": "04:42"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      9.982422,
+                      48.399585
+                    ]
+                  }
+                },
+                {
+                  "id": "8000139",
+                  "name": "G\u00fcnzburg",
+                  "arrive": {
+                    "timestamp": 1608868560,
+                    "date": "25.12.2020",
+                    "time": "04:56"
+                  },
+                  "departure": {
+                    "timestamp": 1608868680,
+                    "date": "25.12.2020",
+                    "time": "04:58"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      10.27868,
+                      48.460389
+                    ]
+                  }
+                },
+                {
+                  "id": "8000013",
+                  "name": "Augsburg Hbf",
+                  "arrive": {
+                    "timestamp": 1608870600,
+                    "date": "25.12.2020",
+                    "time": "05:30"
+                  },
+                  "departure": {
+                    "timestamp": 1608870720,
+                    "date": "25.12.2020",
+                    "time": "05:32"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      10.885595,
+                      48.365247
+                    ]
+                  }
+                },
+                {
+                  "id": "8004158",
+                  "name": "M\u00fcnchen-Pasing",
+                  "arrive": {
+                    "timestamp": 1608871980,
+                    "date": "25.12.2020",
+                    "time": "05:53"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.461633,
+                      48.150036
+                    ]
+                  }
+                },
+                {
+                  "id": "8000261",
+                  "name": "M\u00fcnchen Hbf",
+                  "arrive": {
+                    "timestamp": 1608872580,
+                    "date": "25.12.2020",
+                    "time": "06:03"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.558744,
+                      48.140364
+                    ]
+                  }
+                }
+              ],
+              "poly": "q``jHc_hr@eAl@yBeNdAs@qMw{@iQux@sHqb@y@oKKaPd@sK`CwUxBuUdCgi@?yKUkGiBkPkBuI}Ii[??aQok@mDyHgDkF??sAaBtCoBaDwLaB}JsAqOWwKTaPt@qKzB_OtCsL|A_GZuAd@mC????`@sC_Ae@~@d@`BuOR}Oq@{T??iCgv@PE}B{q@??g@mO?wKf@wKnBiOMIrCmLbCcGlDyG`FqG??vF{E|GeDxb@yJBN??lBQ??????bMuCE_@rEkBdEiC`EaEFPX_@GMFLpE{G|MoXzC}E??~DoE~C}BfD}AdGuArDQjGd@nL~DnDt@lGHpDe@|F{Bt[sS??vy@wi@??|D}DbCwDjBaEnCoJ|@aGb@iGN}U??O}Za@kGwAcKgDaNeh@wdB{CmN_AkKQwKToG`AmI??dBgHfD}HtGwInHcHxKsG|a@iO|JuG??dVcQvF}Ctr@oS|FiC|EcFrDmHzBkJr@{G??vAgSpC{N??~Qqx@nCwItFkKxV}\\fGoJdDcIh^kgA??hN}[|AgFdCwNvAoFlBuEdCwDrHsGjeAot@|EcFjByE`A}FXkGLkY??@kB??LkTe@iG_A{Fim@ibCiHkTsI{RyJaQ_QqV??cQ{V}BcEaDiIgD_NcVwlAmGgY??uTi`AuJc\\aKs`@kDyHia@or@??}PcYc^ic@mEmGoFsKwJ}VuF{PuDmRkAiK}Dqh@]oB@?BCgBcKsJaa@yCaSyBwSi@Nq@wHu@Tt@UmCc[u@aGyFsXkAoH_AiK??c@cPNgrHUcn@??F{`@MqG{@mKmCsN????qDoRs@oKIqGLaGf@yFbAyFxCsIrh@uy@jQw[e@w@@@~CiG??bw@g|Ahc@a`A|sB_cEbQq_@bP{`@hYgv@tKc[pMmc@pIc]nH{]pGq^rDcWvKcz@??jLk}@xD_WtGm^vHw]|FoUlJk\\dHkT~[y}@tMmc@lIc]`FeVlGs^dJeo@nCqNrG}TdOo^??`Ny[xFeKpDaFvFiGdNuJdAc@kAoIFlCwDIyf@yIcFoCyJ}HoLmFxAiFxAiF{@g@_[{Ti_@iQA?TgAiDkB@Io@rAyFyD]|ADOwOyMgIeFcGmBiGa@qF^wFrBoTdS??nTeSvFsBpF_@hG`@bGlBfIdFvOxMEN\\}AxFxDn@sAAHhDjBUfAXeBpGxBxL`Cxp@zLbSvC??tr@bNpv@|MzGdCfEfC|CxCjFjISb@Rc@`PbTzEpD`JzEdGrAlGMdGeBrGkDFVnHmEnRuO`DgBjDy@lDI~Df@pCnAnNlKbHfBjDTvCSdEuAlBuAHX????EaBvOmTfFeFvJ}FhKmC`H_@dH\\ddAbNjEDtF{@hG_D|FsGpFyK|BmG`CsInIzG??BMqIwGx@}C}@}GVVlDaC^VtIw^rF_v@zHiqC|AgwB|@By@oDO_Zq@qLoAiC}CmBr@oF??`DcDbCsDvMsXpG_JvHoG`cAys@l@`Cm@aCt@m@Kc@xZqU~SaKhO{EhZaF????????pDaBzCyBzEsFxFaKrCqIhCuNfCk`@hCuW`CgSjDqS??lOyt@`VibArN}n@???A????hNqi@`CyNx@wO@oXPmGbLa}A????????V_IDuKiAki@LuK`@iGvAaK|BgJrKuUtDgJ???C??XVxBeIdAyFrAcKv@}KReKEoG{Bm`@NuKdAgKvBkJfD}HrMyRjLgNa@kAfMuMdEoGlFwKpJa\\tPko@~AyJt@oKFwKQmG_Dwh@qAqO_A{FwAkFyKoUuAoFs@cGSmGE_s@??Cmr@UuKiAsOkDqRyTmz@eAyFaAiKuD{{Cg@qKo@iGyEgZ??{Hig@eAiKiA{SS_Pv@kkAPuKt@yOpCoWjCuN|BgJbEgMdXar@vDsMzB{NnAwU??bEyuAHuKO_PiA}S{BkSeCwNwGoV??kCoQk@sKGoGFkGl@sKpBaOpAqFrCqIlk@uqArFwPxDyPoEuCnEtCnBeJ??xBiLh@gGLmEGuMg@iGk@aDsEgPeBuJm@iGUkGDwKhO{nC~BuWdIkp@??b^qoCfLwu@??zXiiBrEaYtB}J??lCiIrDmH|`@ok@??vm@c|@xGoIlHeHf_@e[??dSmP??n`BkeAtFuE`EeF??tF{KdJm\\|KuZfF{K`Ri[??pA_DvAkFzA}JhD}d@XsKImGkAeKwAiFwGqO_A{FMeCLmGZaCtAkF`C{DhAgAjDwApDGdGzA|KtDdDfBnC|CnHpN|C~BhDz@??vDQjDqA|WkRlD_ApD\\pItDdJ^bJjA`M^hLpElDdAxA@jDeApCyCbB_FtBwW`CcJzD_HfMkLrBmEtBkJv@iB`A{AnH_HjBuE|FoUfDyHdFoEdw@ye@d@jAnCmBW}ArMiKxFsCxIwCtOyBlDaAbDmBrCsC`C}DtCoI`Fc_@vBiJtBmEvEmF~FaCjGOnDt@pNrHnDp@lGQlDeAlF{DdEqGhDyI??|IuVhAuFn@eGNmGMmGqBwWWkGNuKn@cGfAwF|CgI`C{DzGgI??pLaNlK_IpIwDdZsIbDoBpC{CtDiHf_@_iAnMm^??dDwHlGcJhHoHxGaE??pHkC`JmAlGCpq@~ApDMbGkBfFkEzDaHtg@{oAbBaFlAsF`DcWjAwFdB}EdEqGzCeCfD}AjGs@zs@tB??dyAbE??xn@hBdJa@bGgBtFiDzEgF`CyDrBmElCyIzByN^iGvBsy@lAoOzA}JpEsQdRuh@tDiHrC{CvFyCnDm@lGNjDdAlFvDjc@dd@??z]`_@`CzDnBrE`HfT`C|DbFpEjDtApDf@lGIhGu@xFqCtLwM~CyBbGcBlGFbGlBzC~BlCfDrBjExAhFlCpQBT@?A?~ArM|AzFLK\\_@tErItCpCnBdAjFz@xN]vAj@vKi@hD}AtCwB`F{FdByCdGuO??MQTo@????xI}StAwEtAwJPuLu@gKmByIgGcPwEeJVc@wFcKkKsOmCsGcA{Es@aHoC{hBeAg]YgOy@sOkBcOuCgN{vDi~L??mFgSuAsJw@wK{HuoDiCql@??gB}S}c@iyD{A}JkDyMyp@yhB??yJgXgC}Iee@utByByN}FyeASmGBmGXkGtA}JdGcUnBsJj@cGTmGEmG[iGkAuIoKgi@RKCSf@Wg@V{Kim@oBuI}aAkjFcFeQ_]u|@kGcN{KkYHKHKiZiw@_CeJ}@_H??Y_FGyG`@oK~BmOvGy[lBoGrBoEfS}Z??vnBqvChIaKpJaKlMaLxLwI??lJuFxvDynB??tgCgrAhFiEnEaGtDkHtEwN??bXw~@nBoJl@cGP{OsEmpB?sKv@iKbAyFpCsIja@mw@??~Sga@??zMkWnEyLxCeNlAcK^gGLcTsBam@b@{d@v@uO|DsVj@cGPmGUsK{BeSq@mKBg~@LoFr@_H~BaJjB}DpCyDvEmDdEoAlGSdXtAbGfB~CzBfNnQlEbE`EjBhGr@pDUhF{Axo@kW~C{BrCyC|D}GfB{EfZkrAhLge@??jNso@~CuRzCgW`n@{yIrFm{@PuKEsK_@oKw@kKqC}RuQ}`AiAcKu@kK_@oU??~EmpDR}YVA??u@oXQ@iBuUiC{SeFqYgHaYeGcPsTqe@}IgRwFgKsdAu_B??a|CqyEoZad@??{\\gi@kDoGeD_ImCwIuBkJeBwKUFgRk`C}AuY?@T?JuK`@gGdCsNtEqLtGuIpFuD~FmBpRsAdXgErL}B|JuDJf@nJkGlh@mc@Pn@K]jRsO~DaCrQcOOc@|K}JzGqHjLsMxFoIxBgEpEkMnHqZYQvDsTnCwWp@kORiXOckBRee@?E????PeKx@_MRHcAI`@sOrCrBbD}J~F}JdDoDjDoCrC_BdEuA|IsAzvGur@ASxx@yIpOoCrNwD~OeGrQiJxO{KzMsLLZ`McN`P_U|NwV~Ry`@dGaM??~^cv@MS??jSuc@fE}LlG{T`F}U|BuNvCmW|Gax@dBeO`EqVhFwUhv@_wC??~e@kiBvl@gzB??xLye@`F_VzCaW|@qOh@wT|Ay~AT_i@vCivCf@ix@R@`CmhBhDwiDR@bDs_DEAM?|AwrA??|@}cAtEqhEN@jBycB??r@cZr@wO~Cih@`CoW[IpCeUbE_WxQy{@~FeUtJw[dKcYnMa[bT{e@PRztBgwE??poA_rC??rYso@bGhJEEfEmKbEgNhGsOj@uB|@cHc@Il@oAj@iBCCBBnBwIp@wGfCcXfJsd@??fBkIq@g@FD~Jk`@dCgR~@cW????`Byi@????Fce@eBEq@k@~CyMRmA@c@bAaR~AoSjAyUF@pC`@j@uKRDc@IDgAaDg@V}E_@G??xBcc@xAqPDBlACc@yTBcKd@DtCo~@P}MFAMF]oFDmWQC`DugA??LqEd@BSqNAkHf@kQ~BT^wL`BN"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "ICE 1203",
+                "number": "1203",
+                "cls": 1,
+                "oprX": {
+                  "name": "DB Fernverkehr AG",
+                  "icoX": {
+                    "res": "D",
+                    "txt": "DB Fernverkehr AG"
+                  }
+                },
+                "prodCtx": {
+                  "name": "ICE 1203",
+                  "num": "1203",
+                  "matchId": "24",
+                  "catOut": "ICE",
+                  "catOutS": "ICE",
+                  "catOutL": "Intercity-Express",
+                  "catIn": "ICE",
+                  "catCode": "0",
+                  "admin": "80____"
+                }
+              },
+              "origin": {
+                "name": "M\u00fcnchen Hbf",
+                "id": "8000261",
+                "other": {
+                  "pCls": 447
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    11.558744,
+                    48.140364
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 1,
+                "human": "00h 01 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 1
+                }
+              },
+              "arrive": {
+                "timestamp": 1608876600,
+                "date": "25.12.2020",
+                "time": "07:10"
+              },
+              "departure": {
+                "timestamp": 1608874080,
+                "date": "25.12.2020",
+                "time": "06:28"
+              },
+              "waiting": {
+                "inMinutes": 24,
+                "human": "00h 24 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 24
+                }
+              },
+              "stops": [
+                {
+                  "id": "8000261",
+                  "name": "M\u00fcnchen Hbf",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608874080,
+                    "date": "25.12.2020",
+                    "time": "06:28"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.558744,
+                      48.140364
+                    ]
+                  }
+                },
+                {
+                  "id": "8000262",
+                  "name": "M\u00fcnchen Ost",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608874800,
+                    "date": "25.12.2020",
+                    "time": "06:40"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      11.604993,
+                      48.127302
+                    ]
+                  }
+                },
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": {
+                    "timestamp": 1608876600,
+                    "date": "25.12.2020",
+                    "time": "07:10"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                }
+              ],
+              "poly": "ilydHcqpeAkE{BnEqX|@oDjBaFWYlB_Fv@gDb@sDr@uMxEkX??t@wF|CiM~@iHz@{DzBcG`D_GPVtG_NpAeFvAeJdAwDdBmDdKqP??jP{[r@oBz@{FJ_Hk@yE_BaFeEaICEuN}UuDgFKRMTuDuFMRLSmIwOmBoGs@qE??aDs\\c@{LYBR@t@yKYIS@_@_Q?gNr@_Q????@EpCXJeBpAPrAe^????zAsWbDk[~AyJjDiM|Ueo@vBgJrB_ONFhLy|@bMw|@vKe{@r@qF??????lEq^OEpj@ijE`@Nvj@yhEQIv^gqC??jr@yjFjH{r@ZJ`XqgCjCmN`Msg@QMpOem@pFwPdn@upA??????^h@|IuQnEuLxCcNvRmdAnCuIpNw\\bI{\\nCqInp@{tAxF_KlEeGbHwHpUuP??fRsN`X}QvCmCnE}FrDkHtCmIvIca@zAeFjBsE|B_E~GcIrnAumAdDiBjDeAvZ}EhDqA~EiD|CqD|B_EbMe^pBoEbCuDpCyCrFmDtQyHlZaThDyArN}D??tPoEtCqA~C}Bln@es@dKiIpIyDjz@wXlIgEtHoG~r@cx@zIcLtDiHfBwEbXu{@nFeKzMiR??`RuW`Pe`@pDmHzGeIdIwEhkCyj@~L{@|`@bB|ICpDc@bGeBhIwElHcHnGyIlFqKfE{L|C_NtA{JjIwz@??pFal@??~Cy[`AwFvAgFjBuEdEoGdFmEhDaBfGkAjG@pb@lKdJj@fJi@nqAoXbGgB`DqBpCyC|B_ExB_HpJm`@|GuXCC"
+            },
+            {
+              "product": {
+                "flixInfos": null,
+                "name": "RB 27302",
+                "number": "27302",
+                "cls": 8,
+                "oprX": {
+                  "name": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn",
+                  "icoX": {
+                    "res": "RB",
+                    "txt": "DB RegioNetz Verkehrs GmbH S\u00fcdostbayernbahn"
+                  }
+                },
+                "prodCtx": {
+                  "name": "RB 27302",
+                  "num": "27302",
+                  "matchId": "44",
+                  "catOut": "RB",
+                  "catOutS": "RB",
+                  "catOutL": "Regionalbahn",
+                  "catIn": "RB",
+                  "catCode": "3",
+                  "admin": "8013D_",
+                  "addName": "RB    44"
+                }
+              },
+              "origin": {
+                "name": "Rosenheim",
+                "id": "8000320",
+                "other": {
+                  "pCls": 47
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.119266,
+                    47.850012
+                  ]
+                }
+              },
+              "destination": {
+                "name": "Waldkraiburg-Kraiburg",
+                "id": "8006164",
+                "other": {
+                  "pCls": 40
+                },
+                "coordinate": {
+                  "type": "Point",
+                  "coordinates": [
+                    12.407685,
+                    48.202776
+                  ]
+                }
+              },
+              "duration": {
+                "inMinutes": 1,
+                "human": "00h 01 min.",
+                "humanSplit": {
+                  "hours": 0,
+                  "minutes": 1
+                }
+              },
+              "arrive": {
+                "timestamp": 1608880560,
+                "date": "25.12.2020",
+                "time": "08:16"
+              },
+              "departure": {
+                "timestamp": 1608878040,
+                "date": "25.12.2020",
+                "time": "07:34"
+              },
+              "waiting": null,
+              "stops": [
+                {
+                  "id": "8000320",
+                  "name": "Rosenheim",
+                  "arrive": null,
+                  "departure": {
+                    "timestamp": 1608878040,
+                    "date": "25.12.2020",
+                    "time": "07:34"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.119266,
+                      47.850012
+                    ]
+                  }
+                },
+                {
+                  "id": "8005173",
+                  "name": "Rosenheim Hochschule",
+                  "arrive": {
+                    "timestamp": 1608878160,
+                    "date": "25.12.2020",
+                    "time": "07:36"
+                  },
+                  "departure": {
+                    "timestamp": 1608878220,
+                    "date": "25.12.2020",
+                    "time": "07:37"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.104416,
+                      47.86693
+                    ]
+                  }
+                },
+                {
+                  "id": "8005327",
+                  "name": "Schechen",
+                  "arrive": {
+                    "timestamp": 1608878520,
+                    "date": "25.12.2020",
+                    "time": "07:42"
+                  },
+                  "departure": {
+                    "timestamp": 1608878580,
+                    "date": "25.12.2020",
+                    "time": "07:43"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.126646,
+                      47.926807
+                    ]
+                  }
+                },
+                {
+                  "id": "8005194",
+                  "name": "Rott(Inn)",
+                  "arrive": {
+                    "timestamp": 1608878940,
+                    "date": "25.12.2020",
+                    "time": "07:49"
+                  },
+                  "departure": {
+                    "timestamp": 1608878940,
+                    "date": "25.12.2020",
+                    "time": "07:49"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.136139,
+                      47.988149
+                    ]
+                  }
+                },
+                {
+                  "id": "8006220",
+                  "name": "Wasserburg(Inn)Bf",
+                  "arrive": {
+                    "timestamp": 1608879480,
+                    "date": "25.12.2020",
+                    "time": "07:58"
+                  },
+                  "departure": {
+                    "timestamp": 1608879480,
+                    "date": "25.12.2020",
+                    "time": "07:58"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.185202,
+                      48.061744
+                    ]
+                  }
+                },
+                {
+                  "id": "8002189",
+                  "name": "Gars(Inn)",
+                  "arrive": {
+                    "timestamp": 1608880140,
+                    "date": "25.12.2020",
+                    "time": "08:09"
+                  },
+                  "departure": {
+                    "timestamp": 1608880140,
+                    "date": "25.12.2020",
+                    "time": "08:09"
+                  },
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.298574,
+                      48.147537
+                    ]
+                  }
+                },
+                {
+                  "id": "8006164",
+                  "name": "Waldkraiburg-Kraiburg",
+                  "arrive": {
+                    "timestamp": 1608880560,
+                    "date": "25.12.2020",
+                    "time": "08:16"
+                  },
+                  "departure": null,
+                  "coordinate": {
+                    "type": "Point",
+                    "coordinates": [
+                      12.407685,
+                      48.202776
+                    ]
+                  }
+                }
+              ],
+              "poly": "qu`cHm`~hAYSoTj~@eDzHoC`D_DxBiDlAqe@xJgJXqD_@aGwA??guJ}iC??qo@_QgGoAeJ{@_MA}tB|FcMe@ihDsj@??kSkDuEyAcDeByHiGes@mp@mFsDmDsAoDo@sDOkGh@wYjKiG`AmG?yXsA??a`@xBiGq@uIgDkFcEu`BazAeHwHcGmJmu@a_BkEiGuEkDaEeBcOaE??uTqGqDg@kaB_AkGa@mD_A}DsBmE_Eq[mg@oa@cc@_IoFkc@sUk\\_W??mKeIeDkB{|@{Z{FmC_D{BwEmFaC{DeD}HyAgFcBuJy@gKMkGToLpEmo@b@mKEmGYgGwA{JoM}b@}CeIs`@cn@}AaD}AeF{AwJWiGt@m`@WqKs@_GmBoJgD{MmCuIoBqE_C{DwEoFsFoDwNwGqFyDiEcG_C}FcAcEy@}F]mKHsGxAa]??xBcc@XqKg@qtBu@iKuBmKuCeHqGgL??ohB{_DkFqKeTuf@??u\\qv@}B}DsC{CuF_Du|@}[sFgD{EkF}B}D_DeI_Ook@_IwTwE{Jc_@go@??"
+            }
+          ]
+        }
+      ],
+      "text": {
+        "headline": null,
+        "icons": [
+          "db",
+          "db",
+          "db",
+          "db",
+          "zug"
+        ],
+        "via": {
+          "ids": [
+            "8003200",
+            "8000191",
+            "8000261",
+            "8000320",
+            "8006164"
+          ],
+          "names": [
+            "Kassel-Wilhelmsh\u00f6he",
+            "Karlsruhe Hbf",
+            "M\u00fcnchen Hbf",
+            "Rosenheim",
+            "Waldkraiburg-Kraiburg"
+          ]
+        },
+        "products": "RE, ICE, ICE, ICE, RB"
+      },
+      "id": "dtc5fe63a17e301c"
+    }
+  ],
+  "prev": "eyJpdiI6Ijl1b2VnWkppR1hHTzdRVVQzQlF6aEE9PSIsInZhbHVlIjoia1QyMVNXM1BHU0dodkowVjZNREU5R0tLeExaSW5KNEhkdWtqSVNMWVFnVnlaUWQwM3cvWnoxWTlwUWRHbCtDMnBCenl6V0hzYUtCOXhpYkVkQUdjZ3BKaXV4dHZFSWdkYnl1b0Nwclhsa2ZGdlN4emNySXVhc2JHL04yRGxhaDNjOStEVW9YK0U5RUhKM202Nm5MSEdNV3NGNDg2RU1YVFcxRnplZzF2NmdPajAxblpwWHVkbjNqZXBXZEpaaVdxZHZVeG50dlFSeVZJb0hHL0I4MUhudz09IiwibWFjIjoiMTJkNGU1MWRkZjA5ZmQ0MzQzY2Q5ODYwODMxZjgwYzNlYmYwMDExNjg0NzQ0YjNjNDVhOTExY2Q1OTgxMTVmZSJ9",
+  "next": "eyJpdiI6InpMajgrWlFqTmJxS2U2UXNmRkx0Tnc9PSIsInZhbHVlIjoiOTRaN2dSeStiM1FuTk4vK2p1Y0NaVU5aTTdaQWloQTdQbTV0V1dQZm02c1dLbzJoSDVoMzAzSng4REg1VTQ1T2VKT1k5TE9BMVlaS2RKQ0lEWUR5RExDU09OOVFCY2hnKytFaThld25yYmJyRG9admxoU0hRUFZXdWROd2FaTGRYUXZibUpJak12S0dKa3ZPdENrNkppbWE1bTlwbVFZT0x0Z284b0VHVTZqeWFYcEZJTWJQekExcSs0MzRvdnZZb0k2Q0N5M0F2RlR4aGRSVnpyS0JWdz09IiwibWFjIjoiZGQ5Y2JlNWFhYjJiMWNhZDk3YTAyNTU3YTEzZDRkMjgwYTMyMDUxY2MwMjVjM2I3NzVkNTcyOTEyZjZlZDg2YiJ9",
+  "isCached": null,
+  "cacheKey": null
+}

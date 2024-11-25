@@ -1,0 +1,79 @@
+
+%elevation_medium{
+  box-shadow:0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+%card-border-radius_medium{
+  border-radius:$card-border-radius;
+}
+$card-padding:12px;
+
+%no-padding{
+  padding:0!important;
+}
+.scrollable{
+  overflow-y:scroll;
+}
+body{
+  background-color:white!important;
+}
+
+.card-shadow {
+  @extend %elevation_medium;
+}
+
+.w-80p{
+  width:80%!important;
+}
+
+@import "cards";
+@import "buttons";
+@import "features";
+//@import "aboveFold";
+@import "app-page";
+@import "progress";
+@import "ads";
+@import "icons";
+@import "connections";
+@import "timeline";
+@import "breadcrumb";
+//@import "result";
+//@import "stick";
+//@import "calendar";
+
+
+
+#app{
+  z-index: 5;
+  position: relative;
+  opacity:0;
+  min-height:250px;
+}
+
+table.hstTable{
+ tbody {
+   tr{
+     td{
+       padding-left:0;
+       padding-right:0;
+       &:first-child{
+         padding-left:12px;
+       }
+       &:last-child{
+         padding-right:12px;
+       }
+     }
+   }
+   tr {
+     &:nth-child(odd) {
+       //background-color: red;
+     }
+     &:nth-child(even) {
+       td{border-top:none;}
+       //background-color: blue;
+     }
+   }
+ }
+
+
+}
+

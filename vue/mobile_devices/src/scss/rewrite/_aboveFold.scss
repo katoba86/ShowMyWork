@@ -1,0 +1,253 @@
+
+
+.navbar-top{
+  box-shadow: -1px 0px 5px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 99;
+  background-color:var(--blue);
+  img{
+    height:25px;
+    display:block;
+  }
+}
+
+body #app{
+  opacity:1!important;
+}
+
+.main-content{
+
+ /* &:before{
+    background-image: url(/mobile/images/top.png);
+    background-size: 100%;
+    width: 100%;
+    left: 0;
+    opacity:1;
+    top:-87px;
+    height: 600px;
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+  } */
+}
+
+
+.dtc-header{
+
+  width:100vw;
+  &:before{
+    height: calc(100% + 9px);
+   /* background: linear-gradient(
+                    0deg
+            , #ffffff 5%,#f7f7f700 22%, rgba(58, 158, 181, 0.59) 79%);*/
+    background: linear-gradient(
+                    0deg
+            , #ffffff 5%, rgba(247, 247, 247, 0) 22%, rgba(255, 255, 255, 0.59) 79%);
+    display: block;
+    content: " ";
+    width: 100vw;
+    position: absolute;
+    top: -9px;
+    left: 0;
+  }
+  &:after{
+    top:0;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    position: absolute;
+    height:100%;
+    content: ' ';
+    display: block;
+    width: 100%;
+    //background-image: url(images/bg_top.webp);
+    z-index: -1;
+
+    left: 0;
+    background-repeat: repeat-x;
+    background-size:auto 150px;
+background-position: bottom center ;
+  }
+
+
+
+  @extend .pb-4 !optional;
+  width: 100%;
+  padding-right: 14px;
+  padding-left: 14px;
+  margin-right: auto;
+  margin-left: auto;
+ // @extend .mb-6;
+  position:relative;
+  .tabs{
+    list-style:none;
+    display:flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    position: relative;
+   justify-content: flex-start;
+    padding:0;
+    margin:0;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    li{
+
+
+      &.router-link-exact-active,.active{
+        background-color:var(--white);
+        border:2px solid lightgrey;
+      }
+
+
+      justify-content: flex-start;
+      border: 2px solid #fff;
+      padding: 2px 14px;
+      margin: 10px 12px 10px 0;
+      color:var(--dark);
+      border-radius: 1em;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: .3px;
+
+      a{
+        color:var(--dark);
+      }
+    }
+  }
+  .btnNear{
+
+    border-radius: 1em;
+    margin-top: 1em;
+    background-color: transparent;
+    border:2px solid #fcfcfc;
+    @extend %elevation_medium;
+   padding:8px;
+  }
+  .finish{
+    border: none;
+    border-radius: 1.5em;
+    margin-top: .25em;
+    background-color: var(--pink);
+
+    box-shadow: 0 0 0 4px #ffffffab;
+//    @extend %elevation_medium;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    padding-right:16px;
+    padding-left:16px;
+
+  }
+
+  #dateSelect{
+    position:absolute;
+    left:-1700px;
+  }
+  .topForm{
+    .inputWrapper{
+      transition: all .3s ease;
+      user-select: none;
+      label{
+        font-weight:600;
+      }
+      &.datetime{
+        label,.input,.icon {
+          user-select: none;
+        }
+
+      }
+      &.input-small {
+        label {
+          display: none;
+        }
+      }
+
+      &.is-invalid{
+        background-color:scale-color($color-danger,$lightness:95%);
+        label{
+          color:var(--danger);
+          font-weight:bold;
+        }
+
+      }
+
+
+      background-color:rgba(255,255,255,.95);
+      @extend %elevation_medium;
+      width:100%;
+      border-radius:1em;
+      margin-bottom:$card-padding;
+      padding:$card-padding $card-padding;
+      position: relative;
+      .error{
+        display:none;
+        color: #d95f5f;
+        font-size: .8em;
+        margin-top: 6px;
+      }
+
+      .icon{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+
+        float:right;
+        top:11px;
+        &.icon-big {
+          top: 27px;
+        }
+        right:13px;
+        position:absolute;
+        background-color: $color-text-light;
+        &.from{
+          mask: url('images/svg/baseline-trip_origin-24px.svg') no-repeat 70% 70%;
+          mask-size: cover;
+        }
+        &.place{
+          mask: url('images/svg/baseline-place-24px.svg') no-repeat 70% 70%;
+          mask-size: cover;
+        }
+        &.to{
+          mask: url('images/svg/baseline-place-24px.svg') no-repeat 70% 70%;
+          mask-size: cover;
+        }
+        &.date{
+          mask: url('images/svg/time.svg') no-repeat 70% 70%;
+          mask-size: cover;
+          right:6px;
+        }
+        &.user{
+          mask: url('images/svg/baseline-supervisor_account-24px.svg') no-repeat 70% 70%;
+          mask-size: cover;
+        }
+
+
+      }
+
+
+
+
+    }
+  }
+  .vue-js-switch .v-switch-core .v-switch-button{
+    background-color:#79b786!important;
+  }
+}
+.header-cta{
+
+
+
+  color: #323d47;
+  position:relative;
+  z-index:4;
+  padding:0 18px .5em 18px;
+  margin-bottom:$card-padding;
+  //margin-top:1.5em;
+  h1{
+    font-size:1.4rem;
+    color:inherit;
+  }
+  h2{
+    font-size:1rem;
+    color:inherit;
+  }
+}

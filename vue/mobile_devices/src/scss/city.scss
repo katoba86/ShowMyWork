@@ -1,0 +1,21 @@
+@import './plugin/bootstrap/functions';
+@import './plugin/bootstrap/mixins';
+@import './plugin/bootstrap/variables';
+@import './theme';
+@import './plugin/bootstrap/utilities/spacing';
+@import './plugin/bootstrap/buttons';
+
+.list-group-title{
+  padding-left:1em;
+  font-size:.8em;
+  font-weight:bold;
+}
+
+.col-4{
+  flex: 0 0 33.33%;
+  max-width: 100%;
+}
+.col-2{
+  flex: 0 0 100%/6;
+  max-width: 100%;
+}

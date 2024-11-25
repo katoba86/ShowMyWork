@@ -1,0 +1,210 @@
+.calendarFares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 749px) {
+  .calendarFares {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 750px) {
+  .calendarFares {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.fareClendarD {
+  position: relative;
+  text-align: center;
+}
+
+.fareClendarD:hover {
+  cursor: pointer;
+}
+
+.fareClendarD:hover .fareCalendarDay,
+.fareClendarD:hover .exactFare {
+  color: #ff001f;
+}
+
+@media (max-width: 749px) {
+  .fareClendarD {
+    border-right: 1px solid #bbbbbb;
+  }
+
+  .fareClendarD:last-child {
+    border-right: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .fareClendarD {
+    border-right: 1px solid #bbbbbb;
+    -ms-flex-preferred-size: 14%;
+    flex-basis: 14%;
+  }
+
+  .fareClendarD:nth-child(-n+7) {
+    border-bottom: 1px solid #bbbbbb;
+  }
+
+  .fareClendarD:nth-child(7n) {
+    border-right: none;
+  }
+}
+
+.fareCalendarDay {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+
+.exactFare {
+  color: #222;
+  font-size: 16px;
+}
+
+@media (max-width: 749px) {
+  .exactFare {
+    font-size: 18px;
+  }
+}
+
+.calendarLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.calendarLink:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 749px) {
+  .calendarLink {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.metrics-row {
+
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  text-align: center; }
+@media (max-width: 749px) {
+  .metrics-row {
+    border-bottom: 1px solid rgba(255,255,255, 0.21);
+    -ms-flex-preferred-size: calc(50% - 1px);
+    flex-basis: calc(50% - 1px);
+    padding: 10px 0; }
+  .metrics-row:nth-last-child(-n+2) {
+    border-bottom: none; }
+  .metrics-row:nth-child(even) {
+    border-left: 1px solid rgba(255,255,255, 0.21); } }
+@media (min-width: 750px) {
+  .metrics-row {
+    border-left: 1px solid rgba(255,255,255, 0.21);
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 15px; }
+  .metrics-row:first-child {
+    border-left: none; } }
+
+.metrics-Table {
+  width: 100%; }
+
+.trainMetrics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+@media (max-width: 749px) {
+  .trainMetrics {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+.metricName {
+  color: $text-dark;
+
+  letter-spacing: 1.6px;
+  text-transform: uppercase; }
+@media (max-width: 749px) {
+  .metricName {
+    font-size: 11px; } }
+@media (min-width: 750px) {
+  .metricName {
+    font-size: 14px; } }
+
+.metricValue {
+  margin: 0;
+  color: $color-primary;
+  letter-spacing: initial;
+  text-transform: lowercase; }
+@media (max-width: 749px) {
+  .metricValue {
+    font-size: 30px; } }
+@media (min-width: 750px) {
+  .metricValue {
+    font-size: 46px; } }
+
+.quickview {
+
+
+  font-size: 14px; }
+
+@media (max-width: 749px) {
+  .quickview-layout {
+    margin-bottom: 15px;
+    margin-top: 40px; } }
+
+.sectionTitle {
+  color: $color-primary;
+
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 0;
+
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase; }
+@media (min-width: 750px) {
+  .sectionTitle {
+    margin-bottom: 15px; } }
+
+.subtitle {
+  color: #ccc;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  margin-bottom: 45px;
+  text-align: center;
+  text-transform: uppercase; }
+@media (max-width: 749px) {
+  .subtitle {
+    font-size: 11px; } }
+@media (min-width: 750px) {
+  .subtitle {
+    font-size: 14px; } }
+

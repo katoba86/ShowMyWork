@@ -1,0 +1,37 @@
+// stylelint-disable declaration-no-important
+
+// Common values
+
+// Sass list not in variables since it's not intended for customization.
+// stylelint-disable-next-line scss/dollar-variable-default
+$positions: static, relative, absolute, fixed, sticky;
+
+@each $position in $positions {
+  .position-#{$position} { position: $position !important; }
+}
+
+// Shorthand
+
+.fixed-top {
+  position: fixed!important;
+  top: 0!important;
+  right: 0!important;
+  left: 0!important;
+  z-index: $zindex-fixed!important;
+}
+
+.fixed-bottom {
+  position: fixed!important;
+  right: 0!important;
+  bottom: 0!important;
+  left: 0!important;
+  z-index: $zindex-fixed!important;
+}
+
+.sticky-top {
+  @supports (position: sticky) {
+    position: sticky;
+    top: 0;
+    z-index: $zindex-sticky;
+  }
+}

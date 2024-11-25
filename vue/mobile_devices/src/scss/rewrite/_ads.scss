@@ -1,0 +1,78 @@
+#footerMobile{
+  margin:0 auto;
+  text-align: center;
+  padding:0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:  0 0 4px rgba(0,0,0,.5);
+  max-height:70px!important;
+  height:70px!important;
+  width:100%;
+  >.adunit,ins{
+    width:100%;
+    background-color:white;
+
+    text-align:center;
+  }
+}
+
+.page-content{
+  .adunit{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+
+
+.cardad{
+  >div,ins{
+    @extend .bg-white;
+   // @extend .card;
+  //  @extend .card-shadow;
+    text-align: center;
+  }
+  margin-left:8px;
+  margin-bottom:1em;
+}
+
+.dtcAd{
+  >div,ins{
+
+    margin: .5em 0;
+
+     //@extend .card;
+    //@extend .card-shadow;
+    text-align: center;
+  }
+}
+
+
+.adWrapper{
+
+
+  width:100%;
+  text-align: center;
+  &.rect{
+    height:300px;
+    margin:0 auto;
+    .adsbygoogle{
+      margin:0 auto;
+
+      display:inline-block;width:100%;height:250px;
+
+      @media(min-width: 336px) {
+        height:280px;
+      }
+
+
+
+
+
+    }
+
+  }
+
+
+}
