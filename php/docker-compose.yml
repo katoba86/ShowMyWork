@@ -21,7 +21,7 @@ services:
           MYSQL_ROOT_PASSWORD: g73zwt45
           MYSQL_DATABASE: multi
           MYSQL_USER: multi
-          MYSQL_PASSWORD: g73zwt45
+          MYSQL_PASSWORD: abcdefg
           MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       volumes:
           - database:/var/lib/mysql:delegated
