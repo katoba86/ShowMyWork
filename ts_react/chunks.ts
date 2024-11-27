@@ -1,16 +1,17 @@
 export enum CHUNK_METHOD {
-  CONTIGUOUS, PRIORITIZE_FIRST, PRIORITIZE_CENTER, PRIORITIZE_LAST
+  CONTIGUOUS, PRIORITIZE_FIRST, PRIORITIZE_CENTER, PRIORITIZE_LAST,
 }
 
 export const evenChunks = <T>(input: Array<T>, n = 1, method: CHUNK_METHOD = 0): T[][] => {
   const ret = Array(+n);
-  let i, j = 0;
+  let i = 0;
+  let j = 0;
 
   const overflow = input.length % n;
   const smallSliceLength = Math.floor(input.length / n);
 
   switch (method) {
-    default:
+
     case CHUNK_METHOD.CONTIGUOUS:
       for (i = 0; i < ret.length; i++) {
         const sliceEnd = Math.round((i + 1) * (input.length / n));
@@ -39,8 +40,8 @@ export const evenChunks = <T>(input: Array<T>, n = 1, method: CHUNK_METHOD = 0):
         j = sliceEnd;
       }
       break;
-
+    default:
   }
 
   return ret;
-}
+};
